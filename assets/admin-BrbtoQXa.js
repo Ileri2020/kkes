@@ -1,0 +1,1 @@
+import{j as i,m as a}from"./main-D_Fx8VSj.js";const n=()=>i.jsx(a.section,{initial:{opacity:0},animate:{opacity:1,transition:{delay:.5,duration:.6,ease:"easeIn"}},className:"w-[100vw] min-h-full overflow-clip",children:"admin"});export{n as default};
