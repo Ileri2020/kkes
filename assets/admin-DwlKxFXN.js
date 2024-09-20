@@ -1,1 +1,0 @@
-import{j as a,m as i}from"./main-C084CoRq.js";const e=()=>a.jsx(i.section,{initial:{opacity:0},animate:{opacity:1,transition:{delay:.5,duration:.6,ease:"easeIn"}},className:"w-[100vw] overflow-clip",children:"admin"});export{e as default};
