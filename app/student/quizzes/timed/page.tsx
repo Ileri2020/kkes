@@ -1,0 +1,3 @@
+import { Timer } from "lucide-react";
+import { StudentLayout, StudentSection, StudentEmpty } from "@/components/student/student-layout";
+export default function TimedQuizzes() { return <StudentLayout title="Timed quizzes"><StudentSection eyebrow="Timed practice" title="Timed quizzes" description="Train under a time limit with server-managed assessment rules."><section className="rounded-2xl border border-slate-200 bg-white p-6"><Timer className="text-orange-600"/><StudentEmpty title="No timed quizzes available" message="Timed quizzes will appear after your school publishes one."/></section></StudentSection></StudentLayout>; }

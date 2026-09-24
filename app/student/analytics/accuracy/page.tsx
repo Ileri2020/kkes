@@ -1,0 +1,3 @@
+import { Target } from "lucide-react";
+import { StudentLayout, StudentSection, StudentEmpty } from "@/components/student/student-layout";
+export default function StudentAccuracy() { return <StudentLayout title="Accuracy"><StudentSection eyebrow="Analytics detail" title="Accuracy analysis" description="Understand correct, incorrect, and unanswered responses over time."><div className="rounded-2xl border border-slate-200 bg-white p-6"><Target className="text-sky-600"/><h3 className="mt-5 font-bold text-[#102a43]">Accuracy trend</h3><StudentEmpty title="Not enough activity" message="Complete more questions to generate an accuracy analysis."/></div></StudentSection></StudentLayout>; }

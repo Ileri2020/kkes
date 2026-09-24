@@ -1,0 +1,29 @@
+{
+  "categories": [
+    "Health & Pharmacy", "Her Health", "His Health", "Gut Health", "Cough, Cold & Flu", 
+    "First Aid", "Eye Care", "Pain Relief", "Pharmacy Medication", "Skin Treatment", 
+    "Independent Living", "Allergy & Hayfever", "Malaria Medications", "Midnight Essentials", 
+    "Wellness", "Diet & Fitness", "Vitamins", "Sexual Pleasure", "Footcare", 
+    "Smoking Control", "Stress & Sleep", "Test Kit and Devices", "Covid19 Essentials", 
+    "Mother & Child", "Mother & Kids", "Pregnancy & Maternity", "Nappies & Wipes", 
+    "Washing & Bathing", "Feeding", "Baby & Child Health", "Kid’s Hair, Body & Beauty", 
+    "Hair", "Hair Health", "Shampoo", "Conditioner", "Hair Dye", "Hair Treatment", 
+    "Hair Styling", "Electric Hair Stylers", "Hair Accessories", "Skin", "Skin Care", 
+    "Suncare", "Face Masks", "Moisturizers", "Cleansing", "Body Care", "Skin Treatments", 
+    "Glam & Fabulous", "Toiletries", "Toiletries Wares", "Bathing Accessories", 
+    "Deodorants", "Dental", "Female Hair Removal", "Shaving For Men", "Incontinence", 
+    "Feminine Care", "Travel", "Mens", "Fragrance", "Gum"
+  ],
+  "brands": [
+    "Emzor", "GSK", "Pfizer", "Sanofi", "Dana", "May & Baker", "Fidson", "Swiss Pharma",
+    "Shalina", "Elbe", "Osworth", "Drugfield", "Roche", "Novartis", "AstraZeneca",
+    "Bayer", "Merck", "Johnson & Johnson", "Abbott", "Boehringer Ingelheim",
+    "Lilly", "Novo Nordisk", "Takeda", "Gilead", "Amgen", "Mylan", "Sandoz", "Teva"
+  ],
+  "ingredients": [
+    "Paracetamol", "Ibuprofen", "Zinc", "Vitamin C", "Magnesium", "Ketoconazole",
+    "Clobetasol", "Neomycin", "Amoxicillin", "Ciprofloxacin", "Artemether",
+    "Lumefantrine", "Metformin", "Amlodipine", "Omeprazole", "Loratadine",
+    "Cetirizine", "Diclofenac", "Prednisone", "Hydrocortisone", "Salbutamol"
+  ]
+}

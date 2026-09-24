@@ -1,0 +1,519 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("MONGODB_URL")
+}
+
+enum UserRole {
+  STUDENT
+  PARENT
+  TEACHER
+  STAFF
+  ADMIN
+  BURSAR
+  ALUMNI
+}
+
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  PENDING
+  SUSPENDED
+}
+
+enum MediaTypeName {
+  IMAGE
+  VIDEO
+  AUDIO
+  DOCUMENT
+  PDF
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  TRUE_FALSE
+  OBJECTIVE
+  SHORT_ANSWER
+  ESSAY
+}
+
+enum DifficultyLevel {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum TestType {
+  WAEC
+  JAMB
+  TEST
+  QUIZ
+  REVISION
+  ASSIGNMENT
+}
+
+enum TestStatus {
+  DRAFT
+  PUBLISHED
+  ACTIVE
+  ARCHIVED
+}
+
+enum SubmissionStatus {
+  DRAFT
+  SUBMITTED
+  GRADED
+  LATE
+}
+
+enum FeeStatus {
+  PENDING
+  PAID
+  OVERDUE
+}
+
+enum ComplaintCategory {
+  COMPLAIN
+  ADVICE
+  FEEDBACK
+}
+
+model User {
+  id                    String                 @id @default(auto()) @map("_id") @db.ObjectId
+  name                  String?
+  email                 String                 @unique
+  password              String?
+  avatarUrl             String?
+  phone                 String?
+  role                  UserRole               @default(STUDENT)
+  status                UserStatus             @default(ACTIVE)
+  schoolMemberships     SchoolUser[]
+  createdMedia          Media[]                @relation("UploadedMedia")
+  sentMessages          ChatMessage[]          @relation("SentMessages")
+  receivedMessages      ChatMessage[]          @relation("ReceivedMessages")
+  studyGroupMemberships StudyGroupMember[]
+  submissions           AssignmentSubmission[] @relation("StudentSubmissions")
+  complaints            Complaint[]
+  performanceMetrics    PerformanceMetric[]
+  rankingSnapshots      RankingSnapshot[]
+  dailyProgresses       DailyProgress[]
+  alumniProfiles        AlumniProfile[]
+  createdAt             DateTime               @default(now())
+  updatedAt             DateTime               @updatedAt
+}
+
+model School {
+  id                 String              @id @default(auto()) @map("_id") @db.ObjectId
+  name               String
+  slug               String              @unique
+  motto              String?
+  logoUrl            String?
+  websiteUrl         String?
+  members            SchoolUser[]
+  classes            SchoolClass[]
+  subjects           Subject[]
+  media              Media[]
+  tests              Test[]
+  assignments        Assignment[]
+  announcements      Announcement[]
+  fees               SchoolFee[]
+  complaints         Complaint[]
+  rankings           RankingSnapshot[]
+  performanceMetrics PerformanceMetric[]
+  alumni             AlumniProfile[]
+  studyGroups        StudyGroup[]
+  chatThreads        ChatThread[]
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+}
+
+model SchoolClass {
+  id          String       @id @default(auto()) @map("_id") @db.ObjectId
+  school      School       @relation(fields: [schoolId], references: [id])
+  schoolId    String       @db.ObjectId
+  name        String
+  level       String?
+  students    SchoolUser[] @relation("ClassMembers")
+  tests       Test[]
+  assignments Assignment[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  @@index([schoolId, name])
+}
+
+model SchoolUser {
+  id           String             @id @default(auto()) @map("_id") @db.ObjectId
+  user         User               @relation(fields: [userId], references: [id])
+  userId       String             @db.ObjectId
+  school       School             @relation(fields: [schoolId], references: [id])
+  schoolId     String             @db.ObjectId
+  role         UserRole
+  status       UserStatus         @default(ACTIVE)
+  classId      String?            @db.ObjectId
+  class        SchoolClass?       @relation("ClassMembers", fields: [classId], references: [id])
+  parentLinks  ParentStudentLink[] @relation("ParentLink")
+  studentLinks ParentStudentLink[] @relation("StudentLink")
+  attempts     AssessmentAttempt[] @relation("StudentAttempts")
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+
+  @@unique([schoolId, userId])
+  @@index([schoolId, role])
+}
+
+model ParentStudentLink {
+  id        String     @id @default(auto()) @map("_id") @db.ObjectId
+  parent    SchoolUser @relation("ParentLink", fields: [parentId], references: [id])
+  parentId  String     @db.ObjectId
+  student   SchoolUser @relation("StudentLink", fields: [studentId], references: [id])
+  studentId String     @db.ObjectId
+  createdAt DateTime   @default(now())
+
+  @@unique([parentId, studentId])
+}
+
+model Subject {
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  school    School    @relation(fields: [schoolId], references: [id])
+  schoolId  String    @db.ObjectId
+  name      String
+  code      String?
+  topics    Topic[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@unique([schoolId, name])
+}
+
+model Topic {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  subject     Subject   @relation(fields: [subjectId], references: [id])
+  subjectId   String    @db.ObjectId
+  name        String
+  description String?
+  questions   Question[]
+  tests       Test[]
+  media       Media[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@unique([subjectId, name])
+}
+
+model MediaType {
+  id          String        @id @default(auto()) @map("_id") @db.ObjectId
+  name        MediaTypeName @unique
+  description String?
+  media       Media[]
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+}
+
+model Media {
+  id           String     @id @default(auto()) @map("_id") @db.ObjectId
+  school       School     @relation(fields: [schoolId], references: [id])
+  schoolId     String     @db.ObjectId
+  title        String
+  description  String?
+  kind         MediaTypeName
+  mediaType    MediaType  @relation(fields: [mediaTypeId], references: [id])
+  mediaTypeId  String     @db.ObjectId
+  fileUrl      String
+  thumbnailUrl String?
+  topic        Topic?     @relation(fields: [topicId], references: [id])
+  topicId      String?    @db.ObjectId
+  uploadedBy   User       @relation("UploadedMedia", fields: [uploadedById], references: [id])
+  uploadedById String     @db.ObjectId
+  isPublic     Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+model Question {
+  id          String          @id @default(auto()) @map("_id") @db.ObjectId
+  topic       Topic           @relation(fields: [topicId], references: [id])
+  topicId     String          @db.ObjectId
+  type        QuestionType
+  difficulty  DifficultyLevel @default(MEDIUM)
+  prompt      String
+  explanation String?
+  imageUrl    String?
+  options     QuestionOption[]
+  testLinks   TestQuestion[]
+  answers     AttemptAnswer[]
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+}
+
+model QuestionOption {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  question   Question @relation(fields: [questionId], references: [id])
+  questionId String   @db.ObjectId
+  label      String
+  text       String
+  isCorrect  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([questionId])
+}
+
+model Test {
+  id              String            @id @default(auto()) @map("_id") @db.ObjectId
+  school          School            @relation(fields: [schoolId], references: [id])
+  schoolId        String            @db.ObjectId
+  topic           Topic?            @relation(fields: [topicId], references: [id])
+  topicId         String?           @db.ObjectId
+  class           SchoolClass?      @relation(fields: [classId], references: [id])
+  classId         String?           @db.ObjectId
+  title           String
+  slug            String?
+  type            TestType
+  status          TestStatus        @default(DRAFT)
+  durationMinutes Int?
+  totalMarks      Int               @default(0)
+  passMark        Int               @default(0)
+  startsAt        DateTime?
+  endsAt          DateTime?
+  isPublished     Boolean           @default(false)
+  questions       TestQuestion[]
+  attempts        AssessmentAttempt[] @relation("TestAttempts")
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  @@index([schoolId, status])
+}
+
+model TestQuestion {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  test       Test     @relation(fields: [testId], references: [id])
+  testId     String   @db.ObjectId
+  question   Question @relation(fields: [questionId], references: [id])
+  questionId String   @db.ObjectId
+  sequence   Int
+  points     Int      @default(1)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([testId, questionId])
+}
+
+model AssessmentAttempt {
+  id          String           @id @default(auto()) @map("_id") @db.ObjectId
+  test        Test             @relation("TestAttempts", fields: [testId], references: [id])
+  testId      String           @db.ObjectId
+  student     SchoolUser       @relation("StudentAttempts", fields: [studentId], references: [id])
+  studentId   String           @db.ObjectId
+  score       Int              @default(0)
+  totalScore  Int              @default(0)
+  startedAt   DateTime         @default(now())
+  submittedAt DateTime?
+  status      SubmissionStatus @default(DRAFT)
+  answers     AttemptAnswer[]
+
+  @@index([testId, studentId])
+}
+
+model AttemptAnswer {
+  id             String            @id @default(auto()) @map("_id") @db.ObjectId
+  attempt        AssessmentAttempt @relation(fields: [attemptId], references: [id])
+  attemptId      String            @db.ObjectId
+  question       Question          @relation(fields: [questionId], references: [id])
+  questionId     String            @db.ObjectId
+  selectedOption String?
+  textAnswer     String?
+  isCorrect      Boolean?
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  @@unique([attemptId, questionId])
+}
+
+model Assignment {
+  id          String                 @id @default(auto()) @map("_id") @db.ObjectId
+  school      School                 @relation(fields: [schoolId], references: [id])
+  schoolId    String                 @db.ObjectId
+  class       SchoolClass?           @relation(fields: [classId], references: [id])
+  classId     String?                @db.ObjectId
+  title       String
+  description String?
+  dueDate     DateTime?
+  createdBy   String                 @db.ObjectId
+  submissions AssignmentSubmission[]
+  createdAt   DateTime               @default(now())
+  updatedAt   DateTime               @updatedAt
+}
+
+model AssignmentSubmission {
+  id           String           @id @default(auto()) @map("_id") @db.ObjectId
+  assignment   Assignment       @relation(fields: [assignmentId], references: [id])
+  assignmentId String           @db.ObjectId
+  student      User             @relation("StudentSubmissions", fields: [studentId], references: [id])
+  studentId    String           @db.ObjectId
+  content      String?
+  fileUrl      String?
+  status       SubmissionStatus @default(SUBMITTED)
+  score        Int?
+  submittedAt  DateTime?
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+
+  @@unique([assignmentId, studentId])
+}
+
+model StudyGroup {
+  id          String             @id @default(auto()) @map("_id") @db.ObjectId
+  school      School             @relation(fields: [schoolId], references: [id])
+  schoolId    String             @db.ObjectId
+  name        String
+  description String?
+  createdBy   String             @db.ObjectId
+  members     StudyGroupMember[]
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+}
+
+model StudyGroupMember {
+  id        String      @id @default(auto()) @map("_id") @db.ObjectId
+  group     StudyGroup  @relation(fields: [groupId], references: [id])
+  groupId   String      @db.ObjectId
+  user      User        @relation(fields: [userId], references: [id])
+  userId    String      @db.ObjectId
+  role      String      @default("member")
+  joinedAt  DateTime    @default(now())
+
+  @@unique([groupId, userId])
+}
+
+model ChatThread {
+  id        String        @id @default(auto()) @map("_id") @db.ObjectId
+  school    School        @relation(fields: [schoolId], references: [id])
+  schoolId  String        @db.ObjectId
+  name      String?
+  messages  ChatMessage[]
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+}
+
+model ChatMessage {
+  id         String     @id @default(auto()) @map("_id") @db.ObjectId
+  thread     ChatThread @relation(fields: [threadId], references: [id])
+  threadId   String     @db.ObjectId
+  sender     User       @relation("SentMessages", fields: [senderId], references: [id])
+  senderId   String     @db.ObjectId
+  receiver   User?      @relation("ReceivedMessages", fields: [receiverId], references: [id])
+  receiverId String?    @db.ObjectId
+  content    String
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+}
+
+model Announcement {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  school    School   @relation(fields: [schoolId], references: [id])
+  schoolId  String   @db.ObjectId
+  title     String
+  body      String
+  createdBy String   @db.ObjectId
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model SchoolFee {
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  school    School    @relation(fields: [schoolId], references: [id])
+  schoolId  String    @db.ObjectId
+  studentId String    @db.ObjectId
+  title     String
+  amount    Float
+  status    FeeStatus @default(PENDING)
+  dueDate   DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Complaint {
+  id        String            @id @default(auto()) @map("_id") @db.ObjectId
+  school    School            @relation(fields: [schoolId], references: [id])
+  schoolId  String            @db.ObjectId
+  user      User              @relation(fields: [userId], references: [id])
+  userId    String            @db.ObjectId
+  category  ComplaintCategory @default(FEEDBACK)
+  title     String
+  message   String
+  status    String            @default("open")
+  createdAt DateTime          @default(now())
+  updatedAt DateTime          @updatedAt
+}
+
+model DailyProgress {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String   @db.ObjectId
+  solvedToday Int      @default(0)
+  quizzesDone Int      @default(0)
+  accuracy    Float    @default(0)
+  streak      Int      @default(0)
+  date        DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model PerformanceMetric {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  school      School   @relation(fields: [schoolId], references: [id])
+  schoolId    String   @db.ObjectId
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String   @db.ObjectId
+  subject     String
+  score       Float    @default(0)
+  average     Float    @default(0)
+  growthIndex Float    @default(0)
+  speedIndex  Float    @default(0)
+  coverage    Float    @default(0)
+  recordedAt  DateTime @default(now())
+}
+
+model RankingSnapshot {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  school    School   @relation(fields: [schoolId], references: [id])
+  schoolId  String   @db.ObjectId
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String   @db.ObjectId
+  role      UserRole
+  rank      Int
+  score     Float    @default(0)
+  label     String?
+  createdAt DateTime @default(now())
+}
+
+model AlumniProfile {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  school         School   @relation(fields: [schoolId], references: [id])
+  schoolId       String   @db.ObjectId
+  user           User     @relation(fields: [userId], references: [id])
+  userId         String   @db.ObjectId
+  graduationYear Int?
+  achievement    String?
+  bio            String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model AuditLog {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  model     String
+  operation String
+  userId    String
+  recordId  String
+  changes   Json?
+  timestamp DateTime @default(now())
+
+  @@index([model, recordId])
+  @@index([userId, timestamp])
+  @@index([timestamp])
+}

@@ -1,0 +1,218 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("MONGODB_URL")
+  // relationMode = "prisma"
+}
+
+model Ministry {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  name      String
+  admins    String[]
+  about     String?
+  logoUrl   String
+  // billboards   Json[]  //@relation("StoreBillBoard")
+  // categories   Json[]   //@relation("StoreToCategory")
+  // sizes        Json[]       //@relation("StoreToSize")
+  // colors       Json[]      //@relation("StoreToColor")
+  // products     Json[]    //@relation("StoreToProduct")
+  // orders       Json[]      //@relation("StoreToOrder") 
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Billboard {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  ministryId   String   @db.ObjectId @default("684f74ca135dd6d0efeab37d")
+  departmentId String   @db.ObjectId
+  userId       String   @db.ObjectId
+  label        String
+  content      String
+  imageUrl     String
+  // likesId      String[]
+  // commentId    String[]
+  categories   Json[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@index([departmentId])
+}
+
+enum ContentCategoryType {
+  VIDEO
+  AUDIO
+  DOCS
+}
+
+model ContentCategory {
+  id         String              @id @default(auto()) @map("_id") @db.ObjectId
+  ministryId String              @db.ObjectId @default("684f74ca135dd6d0efeab37d")
+  // store        String        @db.ObjectId //@relation("StoreToCategory", fields: [storeId], references: [id])
+  // billboardId  String       @db.ObjectId
+  // billboard    Json    //@relation(fields: [billboardId], references: [id])
+  category   ContentCategoryType
+  // name         String
+  createdAt  DateTime            @default(now())
+  updatedAt  DateTime            @updatedAt
+
+  @@index([ministryId])
+  @@index([category])
+}
+
+model User {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  email        String   @unique
+  password     String
+  name         String?
+  username         String?
+  sex           String?
+  contact         String?
+  avatarUrl    String?    @default("https://res.cloudinary.com/dc5khnuiu/image/upload/v1752627019/uxokaq0djttd7gsslwj9.png")//@db.ObjectId  //reference a post object image id
+  department String?   //@db.ObjectId
+  role         String   @default("user") // e.g., user, admin, moderator
+  ministryId String   @db.ObjectId @default("684f74ca135dd6d0efeab37d")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // comments Comment[]
+  // likes    Likes[]
+}
+
+model Department {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  ministryId  String   @db.ObjectId // Reference to Ministry
+  name        String
+  imgUrl      String?
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Comment {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  ministryId String?   @db.ObjectId @default("684f74ca135dd6d0efeab37d")
+  contentId  String   @db.ObjectId
+  userId     String   @db.ObjectId
+  username     String
+  comment  String?
+  isArchived Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  reply      Boolean  @default(false)
+  // replyId   String       @db.ObjectId
+}
+
+//for image, audio and video
+model Post {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  ministryId  String   @db.ObjectId @default("684f74ca135dd6d0efeab37d")
+  title       String
+  description String?
+  for       String?        @default("post")  //event, project, testimony, service, preching
+  url    String // URL to the image hosted somewhere
+  type String
+  userId     String   @db.ObjectId
+  duration    String?  @default("nill") // e.g., "5:30" (MM:SS)
+  // plays        Int      @default(0)
+  // thumbnailUrl String?   
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // @@index([productId])
+}
+
+
+
+model Like {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  ministryId String?   @db.ObjectId @default("684f74ca135dd6d0efeab37d")
+  contentId  String   @db.ObjectId
+  userId     String   @db.ObjectId
+  // isArchived   Boolean      @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+
+
+model Book {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  ministryId String?   @db.ObjectId @default("684f74ca135dd6d0efeab37d")
+  title      String
+  author     String?
+  coverUrl   String?
+  fileUrl    String // PDF or EPUB link
+  downloads  Int      @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Bible {
+  id  String @id @default(auto()) @map("_id") @db.ObjectId
+  verse String
+  page String
+}
+
+//  $ prisma [command]
+
+//     Commands
+
+//                 init   Set up Prisma for your app
+//             generate   Generate artifacts (e.g. Prisma Client)
+//                   db   Manage your database schema and lifecycle
+//              migrate   Migrate your database
+//               studio   Browse your data with Prisma Studio
+//             validate   Validate your Prisma schema
+//               format   Format your Prisma schema
+//              version   Displays Prisma version info
+//                debug   Displays Prisma debug info
+//                  mcp   Starts an MCP server to use with AI development tools
+
+//     Flags
+
+//          --preview-feature   Run Preview Prisma commands
+//          --help, -h          Show additional information about a command
+
+// ┌──────────────────────────────────────────────────────────────────────────────────────┐
+// │  Optimize performance through connection pooling and caching with Prisma Accelerate  │
+// │  and capture real-time events from your database with Prisma Pulse.                  │
+// │  Learn more at https://pris.ly/cli/pdp                                               │
+// └──────────────────────────────────────────────────────────────────────────────────────┘
+
+//     Examples
+
+//       Set up a new Prisma project
+//       $ npx prisma init
+
+//       Generate artifacts (e.g. Prisma Client)
+//       $ prisma generate
+
+//       Browse your data
+//       $ prisma studio
+
+//       Create migrations from your Prisma schema, apply them to the database, generate artifacts (e.g. Prisma Client)
+//       $ prisma migrate dev
+
+//       Pull the schema from an existing database, updating the Prisma schema
+//       $ prisma db pull
+
+//       Push the Prisma schema state to the database
+//       $ prisma db push
+
+//       Validate your Prisma schema
+//       $ prisma validate
+
+//       Format your Prisma schema
+//       $ prisma format
+
+//       Display Prisma version info
+//       $ prisma version
+
+//       Display Prisma debug info
+//       $ prisma debug

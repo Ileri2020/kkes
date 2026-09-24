@@ -1,0 +1,3 @@
+import { Gauge } from "lucide-react";
+import { StudentLayout, StudentSection, StudentEmpty } from "@/components/student/student-layout";
+export default function StudentSpeed() { return <StudentLayout title="Speed"><StudentSection eyebrow="Analytics detail" title="Question speed" description="Review average, fastest, and slowest response times from your attempts."><div className="rounded-2xl border border-slate-200 bg-white p-6"><Gauge className="text-violet-600"/><h3 className="mt-5 font-bold text-[#102a43]">Response time</h3><StudentEmpty title="No speed data yet" message="Speed analysis will appear after questions have recorded response times."/></div></StudentSection></StudentLayout>; }

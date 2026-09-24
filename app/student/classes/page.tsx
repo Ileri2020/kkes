@@ -1,0 +1,3 @@
+import { Users } from "lucide-react";
+import { StudentLayout, StudentSection, StudentEmpty } from "@/components/student/student-layout";
+export default function StudentClasses() { return <StudentLayout title="Classes"><StudentSection eyebrow="School community" title="My classes" description="See the classes attached to your active school membership."><section className="rounded-2xl border border-slate-200 bg-white p-6"><Users className="text-sky-600"/><StudentEmpty title="No class linked" message="Your class appears here after the school assigns one to your membership."/></section></StudentSection></StudentLayout>; }

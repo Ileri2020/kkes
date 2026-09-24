@@ -1,0 +1,118 @@
+Privacy Policy
+Effective Date:
+ [Insert Date]
+Welcome to 
+Healthclique Limited
+ (“we,” “our,” or “us”). Your privacy is extremely important to us, and we are committed to protecting your personal data in accordance with applicable laws and best practices, including the 
+Nigeria Data Protection Act (NDPA) 2023
+, the 
+General Data Protection Regulation (GDPR)
+, and other relevant international data protection frameworks.
+This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website, mobile applications, and related services (collectively, the “Platform”).
+1. Information We Collect
+We may collect and process the following categories of personal data:
+a. Personal Identification Information
+Full name
+Phone number
+Email address
+Delivery address
+Date of birth (where necessary)
+b. Health & Prescription Data
+Prescription details and uploaded documents
+Medication history (where applicable)
+Relevant health-related information necessary to fulfill your orders
+c. Transaction & Payment Information
+Billing details
+Payment method information (processed via secure third-party payment providers)
+d. Technical & Usage Data
+IP address
+Browser type and device information
+Platform usage data and cookies
+2. How We Use Your Information
+We process your data for the following lawful purposes:
+To 
+process and fulfill prescriptions and medicine orders
+To 
+verify prescriptions and ensure regulatory compliance
+To 
+facilitate secure payments and transactions
+To 
+coordinate deliveries through logistics partners
+To 
+communicate with you regarding orders, updates, and support
+To 
+improve our platform, services, and user experience
+To 
+comply with legal and regulatory obligations
+Where required under GDPR or NDPA, we rely on lawful bases such as 
+consent
+, 
+contractual necessity
+, 
+legal obligation
+, and 
+legitimate interest
+.
+3. Sharing of Personal Data
+To provide our services effectively, we may share your data with carefully selected third parties, including:
+Regulatory authorities and government agencies
+ (where legally required)
+Licensed pharmacies and healthcare professionals
+Logistics and delivery partners
+Payment processors and financial service providers
+Technology service providers and cloud infrastructure partners
+While we perform due diligence and work only with reputable partners, 
+Healthclique Limited does not control and is not responsible for the independent privacy practices, policies, or actions of these third parties
+. We encourage users to review the privacy policies of any third-party services they interact with.
+4. International Data Transfers
+Your data may be transferred to and processed in countries outside Nigeria. Where this occurs, we ensure appropriate safeguards are in place, including:
+Data transfer agreements compliant with GDPR standards
+Use of secure and reputable cloud service providers
+Ensuring adequate levels of data protection in recipient jurisdictions
+5. Data Retention
+We retain your personal data only for as long as necessary to:
+Fulfill the purposes outlined in this policy
+Comply with legal, regulatory, and professional obligations
+Resolve disputes and enforce agreements
+Health-related data may be retained for longer periods where required by applicable healthcare regulations.
+6. Data Security
+We implement appropriate 
+technical and organizational measures
+ to protect your data, including:
+Encryption of sensitive information
+Secure servers and access controls
+Regular system monitoring and updates
+Despite our efforts, no system can be guaranteed to be completely secure. However, we continuously strive to protect your information against unauthorized access, loss, or misuse.
+7. Your Rights
+Depending on your jurisdiction, you may have the following rights:
+Right to access
+ your personal data
+Right to correct
+ inaccurate or incomplete data
+Right to erasure
+ (“right to be forgotten”)
+Right to restrict processing
+Right to data portability
+Right to object
+ to certain processing activities
+Right to withdraw consent
+ at any time
+To exercise your rights, please contact us using the details below.
+8. Cookies and Tracking Technologies
+We use cookies and similar technologies to:
+Enhance user experience
+Analyze platform usage
+Improve service delivery
+You can control cookie preferences through your browser settings.
+9. Third-Party Links
+Our Platform may contain links to third-party websites or services. We are not responsible for the privacy practices or content of such external platforms.
+10. Children’s Privacy
+Our services are not intended for individuals under the age of 18 without parental or guardian supervision. We do not knowingly collect personal data from children without appropriate consent.
+11. Updates to This Privacy Policy
+We may update this Privacy Policy from time to time to reflect changes in legal, regulatory, or operational requirements. Updates will be posted on this page with a revised “Effective Date.”
+12. Contact Us
+If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact:
+Visit our contact page
+By using our Platform, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and use of your information as described herein.
+Healthclique Limited
+ – Committed to protecting your privacy while delivering safe, reliable, and innovative healthcare solutions.

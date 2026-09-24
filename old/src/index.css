@@ -1,0 +1,269 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 264 100% 50%;
+    --accent-secondary: 47 98% 50%;
+    --accent-tertiary : 150 100% 50%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 47 98% 50%;
+    --accent-secondary: 264 100% 50%;
+    --accent-tertiary : 150 100% 50%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@font-face {
+  font-family: dance;
+  src: url("./fonts/dancing/DancingScript-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: roboto_mono;
+  src: url("./fonts/Roboto_Mono/static/AnyConv.com__RobotoMono-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: roboto;
+  src: url("./fonts/Roboto/AnyConv.com__Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+.text-outline {
+  -webkit-text-stroke: 1px hsl(var(--accent));
+}
+
+
+.text-outline-secondary {
+  -webkit-text-stroke: 1px hsl(var(--accent-secondary));
+}
+
+.text-outline-tertiary {
+  -webkit-text-stroke: 1px hsl(var(--accent-tertiary));
+}
+
+
+.glass{
+  background: rgba(255, 255, 255, 0.31);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-outline{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.glass-green{
+  background: rgba(0, 255, 80, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.4px);
+  -webkit-backdrop-filter: blur(11.4px);
+  border: 1px solid rgba(0, 255, 80, 0.4);
+}
+
+.glow-green{
+  -webkit-box-shadow:0px 0px 72px 22px rgba(45,255,196,0.55);
+  -moz-box-shadow: 0px 0px 72px 22px rgba(45,255,196,0.55);
+  box-shadow: 0px 0px 72px 22px rgba(45,255,196,0.55);
+}
+
+.glow-text{
+  text-shadow: rgba(255,162,0,0.77) 0px 0px 39px;
+}
+
+.gradient-text{
+  background: linear-gradient(90deg, hsl(var(--accent)), hsl(var(--primary)));
+  /*font-family: Poppins;*/
+  /*text-transform: uppercase;*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animated-bg-gradient{
+  background: linear-gradient(45deg, rgba(217, 217, 217, 0.327), hsl(var(--background)), rgb(217, 217, 217, 0.327), hsl(var(--background)));
+  /*background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);*/
+  background-size: 300%;
+  opacity: 2;
+  animation: color 12s ease-in-out infinite;
+}
+
+@keyframes color
+{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+.circle{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+.s-div{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #007bff;
+  animation: move 2s infinite;
+}
+
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateX(100px) translateY(100px);
+  }
+  100% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+}
+
+.parallax-section {
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.parallax-section.bg-scroll {
+  transform: translateY(-20%);
+}
+
+.ani-shadow{
+  content: " ";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+  background-size: 400%;
+  width: calc(100% + 5px);
+  height: calc(100% + 5px);
+  z-index: -1;
+  animation: bganimate 20s linear infinite;
+}
+
+.ani-shadow::after {
+  filter: blur(20px);
+}
+
+@keyframes bganimate {
+  0%{
+    background-position: 0% 0%;
+  }
+  50%{
+    background-position: 400% 0%;
+  }
+  100%{
+    background-position: 0% 0%;
+  }
+}
+
+.grad-trans{
+  background: linear-gradient(to right, hsl(var(--secondary)) 0%, rgba(0, 0, 0, 0) 70% 100%);
+}
+
+.bg-blur{
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.leaf-bg{
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+/* br{
+  display: block;
+  margin-top: 2rem;
+} */
+
+.hscreen{
+  height: calc(100vh - 60px);
+}
+
+.flex-2{
+  flex: 1;
+}

@@ -1,0 +1,3 @@
+import { BarChart3 } from "lucide-react";
+import { StudentLayout, StudentSection, StudentEmpty } from "@/components/student/student-layout";
+export default function StudentPerformance() { return <StudentLayout title="Performance"><StudentSection eyebrow="Analytics detail" title="Performance by subject" description="Compare your performance across the subjects linked to your school account."><div className="rounded-2xl border border-slate-200 bg-white p-6"><BarChart3 className="text-sky-600"/><h3 className="mt-5 font-bold text-[#102a43]">Subject comparison</h3><StudentEmpty title="No subject performance yet" message="Subject comparison will appear after your first recorded attempt."/></div></StudentSection></StudentLayout>; }

@@ -1,0 +1,3 @@
+import { TrendingUp } from "lucide-react";
+import { StudentLayout, StudentSection, StudentEmpty } from "@/components/student/student-layout";
+export default function StudentGrowth() { return <StudentLayout title="Growth"><StudentSection eyebrow="Analytics detail" title="Growth over time" description="Track how consistency, coverage, and performance contribute to your growth index."><div className="rounded-2xl border border-slate-200 bg-white p-6"><TrendingUp className="text-emerald-600"/><h3 className="mt-5 font-bold text-[#102a43]">Growth index history</h3><StudentEmpty title="Growth data is not available" message="Complete more learning activity before a growth trend can be calculated."/></div></StudentSection></StudentLayout>; }

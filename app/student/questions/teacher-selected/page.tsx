@@ -1,0 +1,2 @@
+import { StudentLayout, StudentSection, StudentEmpty } from "@/components/student/student-layout";
+export default function TeacherSelectedQuestions() { return <StudentLayout title="Teacher selected"><StudentSection eyebrow="Assigned practice" title="Teacher selected questions" description="Questions assigned specifically to you by your teachers."><StudentEmpty title="No teacher selections" message="Teacher-selected question sets will appear here when assigned." href="/student/questions/random" action="Open random practice"/></StudentSection></StudentLayout>; }
