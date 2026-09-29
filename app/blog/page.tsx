@@ -6,12 +6,7 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 
 const Blog = () => {
   return (
-    <motion.section
-      initial = {{ opacity: 0 }}
-      animate = {{
-        opacity : 1,
-        transition : { delay: 0.5, duration: 0.6, ease: "easeIn"}
-      }}
+    <section
       className="w-[100vw] min-h-full overflow-clip"
     >
       <Tabs defaultValue="posts" className="flex flex-col lg:flex-row gap-[60px] mt-5">
@@ -32,7 +27,7 @@ const Blog = () => {
               </TabsContent>
             </ScrollArea>
         </Tabs>
-    </motion.section>
+    </section>
   )
 }
 

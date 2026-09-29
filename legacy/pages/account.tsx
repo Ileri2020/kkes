@@ -5,12 +5,7 @@ import { Button } from "@/components/ui/button"
 
 const Account = () => {
   return (
-    <motion.section
-      initial = {{ opacity: 0 }}
-      animate = {{
-        opacity : 1,
-        transition : { delay: 0.5, duration: 0.6, ease: "easeIn"}
-      }}
+    <section
       className="w-[100vw] min-h-full overflow-clip"
     >
       <div className="w-full h-full flex flex-col items-center">
@@ -65,7 +60,7 @@ const Account = () => {
         </div>
         <div><Button>Logout</Button></div>
       </div>
-    </motion.section>
+    </section>
   )
 }
 

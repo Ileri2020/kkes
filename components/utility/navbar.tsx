@@ -10,14 +10,14 @@ import { VscAccount } from "react-icons/vsc";
 
 const Navbar = () : JSX.Element => {
   return (
-    <div className="w-[100vw] overflow-clip flex flex-col m-0 p-0 font-roboto_mono">
+    <div className="w-[100vw] overflow-clip flex flex-col m-0 p-0 font-roboto_mono shadow-lg shadow-accent">
       <header className="w-[100%] py-1 bg-background sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center h-[50px] overflow-clip">
             <div className="lg:hidden">
               <Sidenav />
             </div>
             <Link href="/" className="/flex-1 /md:flex-none hidden max-h-[43px] md:max-h-[50px] overflow-clip md:flex justify-center items-center py-5">
-                <img src="/legacy/assets/logo.png" alt="" className="w-[50px]"/>
+                <img src="/logo.png" alt="Kith and Kin International College logo" className="w-[50px]"/>
             </Link>
             
             <Link href="/account" className="flex md:hidden overflow-clip justify-center items-center py-5">

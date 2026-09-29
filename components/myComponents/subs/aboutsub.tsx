@@ -76,7 +76,7 @@ export const Facilities = () => {
             return(
                 <div className='w-full mb-10' key= {index}>
                   <div className='p-2 text-xl text-accent font-semibold'>{facility.name}</div>
-                  <div><img src={facility.img.src} alt="" className='w-full rounded-sm' /></div>
+                  <div><img src={facility.img} alt={facility.name} className='w-full rounded-sm' /></div>
                   <div className='bg-secondary pb-2'>
                     <div className='mx-2'>{facility.description}</div>
                   </div>

@@ -17,6 +17,7 @@ const Landing = () => {
                     <div className='leaf-bg bg-accent dark:bg-accent/95 px-10 md:px-14 py-2 translate-x-2 translate-y-1  text-accent-secondary font-roboto_mono text-center font-extrabold'>
                       <div className=' text-3xl lg:text-4xl'>Kith and Kin </div>
                       <div className='text-white text-2xl'>International College</div>
+                      <div className='mt-1 text-sm font-semibold italic text-white'>Be Resourceful</div>
                     </div>
                   </div>
                 </div>

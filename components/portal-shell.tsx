@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAppContext } from "@/hooks/useAppContext";
+import { PortalLinks } from "@/data/links";
+import { PORTAL_AUTH_ENABLED } from "@/lib/portal-access";
 import {
   BarChart3,
   BookOpen,
@@ -133,7 +135,7 @@ export function PortalGate({ portal, children }: { portal: string; children: Rea
     return <AccessDenied message="This portal does not exist." />;
   }
 
-  if (!allowed) {
+  if (PORTAL_AUTH_ENABLED && !allowed) {
     return (
       <AccessDenied
         message={userRole ? `Your ${userRole} account cannot access the ${normalizedPortal} portal.` : "Sign in with an authorised school account to continue."}
@@ -169,7 +171,7 @@ export function PortalPage({ portal, section = "Dashboard" }: { portal: string; 
   return (
     <main className="min-h-[calc(100vh-58px)] bg-background">
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-6 sm:px-6 lg:grid-cols-[230px_1fr] lg:px-8">
-        <aside className="border border-border bg-card p-4 lg:sticky lg:top-20 lg:h-fit">
+        <aside className="border border-border bg-card p-4 lg:sticky lg:top-20 lg:max-h-[calc(100vh-5rem)] lg:overflow-y-auto">
           <div className="mb-6 border-b border-border pb-5">
             <p className="text-xs uppercase tracking-[0.2em] text-accent">Kith & Kin</p>
             <p className="mt-2 text-lg font-semibold">{labels[role]}</p>
@@ -186,6 +188,19 @@ export function PortalPage({ portal, section = "Dashboard" }: { portal: string; 
               );
             })}
           </nav>
+          <div className="mt-6 border-t border-border pt-4">
+            <p className="mb-2 px-3 text-xs uppercase tracking-[0.15em] text-muted-foreground">School portals</p>
+            <nav className="grid gap-1">
+              {PortalLinks.map(({ name, path }) => {
+                const active = pathname === path || pathname.startsWith(`${path}/`);
+                return (
+                  <Link key={path} href={path} className={`px-3 py-2 text-sm transition-colors ${active ? "text-accent" : "text-muted-foreground hover:text-foreground"}`}>
+                    {name}
+                  </Link>
+                );
+              })}
+            </nav>
+          </div>
         </aside>
         <section className="min-w-0">
           <div className="mb-8 border-b border-border pb-6">

@@ -1,5 +1,6 @@
 import { auth } from "@/auth";
 import { redirect } from "next/navigation";
+import { PORTAL_AUTH_ENABLED } from "@/lib/portal-access";
 
 export const PERMISSIONS = {
   STUDENT: ["student:read", "practice:use", "messages:use", "complaints:create"],
@@ -30,6 +31,8 @@ export async function requireAuth() {
 }
 
 export async function requireRole(allowedRoles: Role | Role[]) {
+  if (!PORTAL_AUTH_ENABLED) return auth();
+
   const session = await requireAuth();
   const allowed = Array.isArray(allowedRoles) ? allowedRoles : [allowedRoles];
   const role = normalizeRole(session.user.role);

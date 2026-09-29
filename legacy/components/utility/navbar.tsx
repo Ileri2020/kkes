@@ -17,7 +17,7 @@ const Navbar = () : JSX.Element => {
               <Sidenav />
             </div>
             <Link href="/" className="/flex-1 /md:flex-none hidden max-h-[43px] md:max-h-[50px] overflow-clip md:flex justify-center items-center py-5">
-                <img src="/legacy/assets/logo.png" alt="" className="w-[50px]"/>
+                <img src="/logo.png" alt="Kith and Kin International College logo" className="w-[50px]"/>
             </Link>
             
             <Link href="/account" className="flex md:hidden overflow-clip justify-center items-center py-5">

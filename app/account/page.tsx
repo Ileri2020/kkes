@@ -1,15 +1,6 @@
-import { motion } from "framer-motion"
-import { BiPencil } from "react-icons/bi"
-import { Button } from "@/components/ui/button"
-
 const Account = () => {
   return (
-    <motion.section
-      initial = {{ opacity: 0 }}
-      animate = {{
-        opacity : 1,
-        transition : { delay: 0.5, duration: 0.6, ease: "easeIn"}
-      }}
+    <section
       className="w-[100vw] min-h-full overflow-clip"
     >
       <div className="w-full h-full flex flex-col items-center">
@@ -22,7 +13,7 @@ const Account = () => {
                 <div className="text-sm text-foreground/70">Name</div>
                 <div className="text-lg font-semibold">Tobi Bola</div>
               </div>
-              <div className="text-3xl text-accent"><BiPencil /></div>
+              <div className="text-3xl text-accent" aria-hidden="true">✎</div>
             </div>
           </div>
           <div className="w-full px-3">
@@ -62,9 +53,9 @@ const Account = () => {
             </div>
           </div>
         </div>
-        <div><Button>Logout</Button></div>
+        <div><button type="button" className="rounded-md bg-accent/80 px-4 py-2 text-sm font-medium text-primary-foreground">Logout</button></div>
       </div>
-    </motion.section>
+    </section>
   )
 }
 

@@ -15,6 +15,11 @@ export default {Links : [
       path: "/",
     },
     {
+      icon: <AiOutlineShop className="text-xl" />,
+      name: "Bookshop",
+      path: "/bookshop",
+    },
+    {
       icon: <BiPhone className="text-xl" />,
       name: "About", //mission, vission, facilities, etc
       path: "/about",
@@ -23,11 +28,6 @@ export default {Links : [
       icon: "blogs",//Pieces of writing with pics by student accounts
       name: "Blog", //also contains posts per account on the group for public view
       path: "/blog",
-    },
-    {
-      icon: <BiPhone className="text-xl" />,
-      name: "Study", //contains study materials per student accounts -students only
-      path: "/study",
     },
     {
       icon: <BiPhone className="text-xl" />,
@@ -56,3 +56,13 @@ export default {Links : [
     },
   ]
 }
+
+export const PortalLinks = [
+  { name: "Student portal", path: "/student" },
+  { name: "Teacher portal", path: "/teacher" },
+  { name: "Staff portal", path: "/staff" },
+  { name: "Parent portal", path: "/parent" },
+  { name: "Bursar portal", path: "/bursar" },
+  { name: "Alumni", path: "/alumni" },
+  { name: "Admin portal", path: "/admin" },
+] as const

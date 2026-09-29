@@ -6,12 +6,7 @@ import ContactForm from "@/components/utility/contactForm"
 
 const Contact = () => {
   return (
-    <motion.section
-      initial = {{ opacity: 0 }}
-      animate = {{
-        opacity : 1,
-        transition : { delay: 0.5, duration: 0.6, ease: "easeIn"}
-      }}
+    <section
       className="w-[100vw] overflow-clip py-6"
     >
       <div className="container mx-auto">
@@ -44,7 +39,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   )
 }
 

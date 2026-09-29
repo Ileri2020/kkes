@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Aboutsub, Vision, Facilities, Anthem } from "@/components/myComponents/subs/aboutsub"
@@ -5,12 +7,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <motion.section
-      initial = {{ opacity: 0 }}
-      animate = {{
-        opacity : 1,
-        transition : { delay: 0.5, duration: 0.6, ease: "easeIn"}
-      }}
+    <section
       className="w-[100vw] min-h-full overflow-clip"
     >
       <Tabs defaultValue="about" className="flex flex-col lg:flex-row gap-[60px] mt-5">
@@ -37,7 +34,7 @@ const About = () => {
               </TabsContent>
             </div>
         </Tabs>
-    </motion.section>
+    </section>
   )
 }
 
