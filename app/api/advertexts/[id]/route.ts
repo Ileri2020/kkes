@@ -17,7 +17,7 @@ export async function PUT(
 
     const { text, order, active } = await req.json();
 
-    const updated = await prisma.advertext.update({
+    const updated = await (prisma as any).advertext.update({
       where: { id },
       data: { text, order, active },
     });
@@ -40,7 +40,7 @@ export async function DELETE(
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    await prisma.advertext.delete({
+    await (prisma as any).advertext.delete({
       where: { id },
     });
 

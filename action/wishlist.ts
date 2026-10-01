@@ -14,7 +14,7 @@ export async function toggleWishlist(productId: string) {
 
     const userId = session.user.id;
 
-    const existing = await prisma.wishlist.findUnique({
+    const existing = await (prisma as any).wishlist.findUnique({
         where: {
             userId_productId: {
                 userId,
@@ -24,7 +24,7 @@ export async function toggleWishlist(productId: string) {
     });
 
     if (existing) {
-        await prisma.wishlist.delete({
+        await (prisma as any).wishlist.delete({
             where: {
                 id: existing.id,
             },
@@ -32,7 +32,7 @@ export async function toggleWishlist(productId: string) {
         revalidatePath("/");
         return { added: false };
     } else {
-        await prisma.wishlist.create({
+        await (prisma as any).wishlist.create({
             data: {
                 userId,
                 productId,
@@ -49,7 +49,7 @@ export async function checkWishlisStatus(productId: string) {
         return false;
     }
     const userId = session.user.id;
-    const existing = await prisma.wishlist.findUnique({
+    const existing = await (prisma as any).wishlist.findUnique({
         where: {
             userId_productId: {
                 userId,
@@ -66,9 +66,9 @@ export async function getUserWishlist() {
         return [];
     }
     const userId = session.user.id;
-    const items = await prisma.wishlist.findMany({
+    const items = await (prisma as any).wishlist.findMany({
         where: { userId },
         select: { productId: true }
     });
-    return items.map(i => i.productId);
+    return items.map((i: any) => i.productId);
 }

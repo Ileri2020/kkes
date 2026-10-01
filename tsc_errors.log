@@ -1,0 +1,15 @@
+﻿action/wishlist.ts(17,35): error TS2339: Property 'wishlist' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+action/wishlist.ts(27,22): error TS2339: Property 'wishlist' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+action/wishlist.ts(35,22): error TS2339: Property 'wishlist' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+action/wishlist.ts(52,35): error TS2339: Property 'wishlist' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+action/wishlist.ts(69,32): error TS2339: Property 'wishlist' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+app/api/advertexts/[id]/route.ts(20,34): error TS2339: Property 'advertext' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+app/api/advertexts/[id]/route.ts(43,18): error TS2339: Property 'advertext' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+prisma/seed_categories.ts(25,20): error TS2339: Property 'category' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+scripts/add-product.ts(38,35): error TS2339: Property 'category' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+scripts/add-product.ts(50,32): error TS2339: Property 'brand' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+scripts/add-product.ts(65,34): error TS2339: Property 'product' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+scripts/add-product.ts(85,33): error TS2339: Property 'vendor' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+scripts/add-product.ts(95,40): error TS2339: Property 'productVendor' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.
+scripts/check-users.ts(6,16): error TS2353: Object literal may only specify known properties, and 'addresses' does not exist in type 'UserInclude<DefaultArgs>'.
+scripts/fix-price.ts(7,34): error TS2339: Property 'product' does not exist on type 'PrismaClient<PrismaClientOptions, never, DefaultArgs>'.

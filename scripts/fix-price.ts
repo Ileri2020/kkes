@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 (async () => {
   try {
-    const updated = await prisma.product.update({
+    const updated = await (prisma as any).product.update({
       where: { id: '6a023f344298cee377cfede9' },
       data: { price: 7700 }
     });

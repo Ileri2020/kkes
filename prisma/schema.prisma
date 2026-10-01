@@ -234,19 +234,34 @@ model Media {
 }
 
 model Question {
-  id          String          @id @default(auto()) @map("_id") @db.ObjectId
-  topic       Topic           @relation(fields: [topicId], references: [id])
-  topicId     String          @db.ObjectId
-  type        QuestionType
-  difficulty  DifficultyLevel @default(MEDIUM)
-  prompt      String
-  explanation String?
-  imageUrl    String?
-  options     QuestionOption[]
-  testLinks   TestQuestion[]
-  answers     AttemptAnswer[]
-  createdAt   DateTime        @default(now())
-  updatedAt   DateTime        @updatedAt
+  id             String          @id @default(auto()) @map("_id") @db.ObjectId
+  year           Int?
+  questionNumber Int?
+  examType       String?         // "jamb", "waec", "neco", etc.
+  subject        String?
+  topicName      String?
+  topic          Topic?          @relation(fields: [topicId], references: [id])
+  topicId        String?         @db.ObjectId
+  type           QuestionType    @default(MULTIPLE_CHOICE)
+  difficulty     DifficultyLevel @default(MEDIUM)
+  prompt         String
+  explanation    String?
+  note           String?
+  passage       String?
+  context       String?
+  needsRescan    Boolean         @default(false)
+  imageUrl       String?
+  option1        String?
+  option2        String?
+  option3        String?
+  option4        String?
+  option5        String?
+  answer         String?
+  options        QuestionOption[]
+  testLinks      TestQuestion[]
+  answers        AttemptAnswer[]
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
 }
 
 model QuestionOption {

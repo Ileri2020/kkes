@@ -35,7 +35,7 @@ async function addProduct() {
 
     // 1. Create/Get Category
     console.log('📦 Creating/fetching category: Antibiotic');
-    const category = await prisma.category.upsert({
+    const category = await (prisma as any).category.upsert({
       where: { name: 'Antibiotic' },
       update: {},
       create: {
@@ -47,7 +47,7 @@ async function addProduct() {
 
     // 2. Create/Get Brand
     console.log('🏭 Creating/fetching brand: Sandoz');
-    const brand = await prisma.brand.upsert({
+    const brand = await (prisma as any).brand.upsert({
       where: { name: 'Sandoz' },
       update: {},
       create: {
@@ -62,7 +62,7 @@ async function addProduct() {
 
     // 4. Create Product
     console.log('📝 Creating product: Amoksiklav 457/5mL');
-    const product = await prisma.product.create({
+    const product = await (prisma as any).product.create({
       data: {
         name: 'Amoksiklav 457/5mL',
         description: 'Amoxycillin + Clavulanic Acid - Antibiotic combination',
@@ -82,7 +82,7 @@ async function addProduct() {
     // 5. Create Vendor entry for cost price
     console.log('🤝 Setting up vendor/cost information');
     
-    const vendor = await prisma.vendor.upsert({
+    const vendor = await (prisma as any).vendor.upsert({
       where: { name: 'Sandoz Direct' },
       update: {},
       create: {
@@ -92,7 +92,7 @@ async function addProduct() {
     });
 
     // Create ProductVendor with cost price
-    const productVendor = await prisma.productVendor.upsert({
+    const productVendor = await (prisma as any).productVendor.upsert({
       where: {
         productId_vendorId: {
           productId: product.id,
