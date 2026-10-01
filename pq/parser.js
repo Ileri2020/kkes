@@ -366,6 +366,18 @@ function parsePageText(text, context) {
       continue;
     }
 
+    if (context.subject === "Mathematics"
+      && current?.options.length
+      && /^\d{1,2}\)$/.test(line)
+      && /(?:\(|[-+*/])\s*$/.test(current.options.at(-1))) {
+      const lastIndex = current.options.length - 1;
+      const lastOption = `${current.options[lastIndex]} ${line}`;
+      current.options[lastIndex] = lastOption;
+      const label = lastOption.match(/^([A-E])\./)?.[1];
+      if (label) current[`option${label.charCodeAt(0) - 64}`] = lastOption;
+      continue;
+    }
+
     let numberMatch = line.match(QUESTION_START);
     if (!numberMatch && /^\d{1,3}[\.\):]+$/.test(line) && lineIndex + 1 < lines.length) {
       const num = line.match(/^(\d{1,3})/)[1];
@@ -435,7 +447,8 @@ function parsePageText(text, context) {
 
     // Split multiple choices on one line into separate options
     const optionLine = normalizeOptionSpacing(line);
-    const optionMatches = [...optionLine.matchAll(OPTION_START)];
+      const optionMatches = [...optionLine.matchAll(OPTION_START)]
+        .filter((match) => !subjectProfile.requirePunctuatedOptionLabels || Boolean(match[2]));
     if (optionMatches.length) {
       const firstOptionAt = optionMatches[0].index ?? 0;
       const leadingText = optionLine.slice(0, firstOptionAt).trim();

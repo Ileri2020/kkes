@@ -3022,19 +3022,39 @@
     "topic": "Commerce",
     "passage": null,
     "context": null,
-    "option1": "A. for a period of 30 days, cash discount is for a period of 3 months",
-    "option2": "B. given by",
-    "option3": "C. a reduction in the cataloque price of an article, cash discount is",
-    "option4": "D. a reduction in value of sales, cash discount is",
+    "option1": "A. for a period of 30 days, cash discount is for a period of",
+    "option2": null,
+    "option3": null,
+    "option4": null,
     "options": [
-      "A. for a period of 30 days, cash discount is for a period of 3 months",
-      "B. given by",
-      "C. a reduction in the cataloque price of an article, cash discount is",
-      "D. a reduction in value of sales, cash discount is"
+      "A. for a period of 30 days, cash discount is for a period of"
     ],
     "answer": null,
-    "note": null,
-    "needsRescan": false
+    "note": "Needs rescan: malformed option set below the required four-choice minimum (1 parsed).",
+    "needsRescan": true
+  },
+  {
+    "year": 1997,
+    "questionNumber": 3,
+    "question": "months",
+    "image": null,
+    "type": "jamb",
+    "subject": "Commerce",
+    "topic": "Commerce",
+    "passage": null,
+    "context": null,
+    "option1": null,
+    "option2": "B. given by a wholesaler, cash discount is given by a bank",
+    "option3": "C. a reduction in the cataloque price of an article, cash discount is a reduction in the invoice value",
+    "option4": "D. a reduction in value of sales, cash discount is a reduction in price of goods.",
+    "options": [
+      "B. given by a wholesaler, cash discount is given by a bank",
+      "C. a reduction in the cataloque price of an article, cash discount is a reduction in the invoice value",
+      "D. a reduction in value of sales, cash discount is a reduction in price of goods."
+    ],
+    "answer": null,
+    "note": "Needs rescan: malformed option set below the required four-choice minimum (3 parsed).",
+    "needsRescan": true
   },
   {
     "year": 1997,

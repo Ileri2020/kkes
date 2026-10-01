@@ -183,6 +183,66 @@ async function testScraper() {
     || chemistryElectronConfiguration.needsRescan) {
     throw new Error(`Chemistry orbital notation was mistaken for a skipped question and detached its choices: ${JSON.stringify(chemistryElectronConfiguration)}`);
   }
+  const mathematicsEquationContinuation = parsePageText([
+    "4. Solve the following equations",
+    "4x - 3 = 3x + y = 2y + 5x - 12",
+    "A. x = 5, y = 2 B. x = 2, y = 5 C. x = -2, y = -5",
+    "D. x = 5, y = -2 E. x = -5, y = -2",
+    "5. If x = 1 is a root of the equation",
+  ].join("\n"), {
+    subject: "Mathematics", examType: "jamb", topic: "Mathematics", page: 2,
+    year: 1983, yearRange: null, lastQuestionNumber: 3,
+  }).questions[0];
+  if (mathematicsEquationContinuation.questionNumber !== 4
+    || !mathematicsEquationContinuation.question.includes("4x - 3")
+    || mathematicsEquationContinuation.options.length !== 5
+    || mathematicsEquationContinuation.needsRescan) {
+    throw new Error(`Mathematics equation line was mistaken for a new question and detached its choices: ${JSON.stringify(mathematicsEquationContinuation)}`);
+  }
+  const mathematicsComparisonContinuation = parsePageText([
+    "9. If a number is written in standard form, find A and B.",
+    "1 £ A < 10, where A is the coefficient.",
+    "A. A = 9, B = 6 B. A = 6.38, B = -9 C. A = 6.38, B = 9 D. A = 6.38, B = -1 E. A = 6.38, B = 1",
+    "10. The next question asks about factors.",
+  ].join("\n"), {
+    subject: "Mathematics", examType: "jamb", topic: "Mathematics", page: 2,
+    year: 1983, yearRange: null, lastQuestionNumber: 8,
+  }).questions[0];
+  if (mathematicsComparisonContinuation.questionNumber !== 9
+    || !mathematicsComparisonContinuation.question.includes("1 £ A < 10")
+    || mathematicsComparisonContinuation.options.length !== 5) {
+    throw new Error(`Mathematics numeric constraint was treated as a skipped question: ${JSON.stringify(mathematicsComparisonContinuation)}`);
+  }
+  const mathematicsPolynomialContinuation = parsePageText([
+    "10. If x + 2 and x - 1 are factors of the expression lx +",
+    "2kx2 + 24, find the values of l and k",
+    "A. l = -6, k = -9 B. l = -2, k = 1 C. l = -2, k = -1",
+    "D. l = 0, k = 1 E. l = 6, k = 0",
+    "11. Make T the subject of the equation",
+  ].join("\n"), {
+    subject: "Mathematics", examType: "jamb", topic: "Mathematics", page: 2,
+    year: 1983, yearRange: null, lastQuestionNumber: 9,
+  }).questions[0];
+  if (mathematicsPolynomialContinuation.questionNumber !== 10
+    || !mathematicsPolynomialContinuation.question.includes("2kx2 + 24")
+    || mathematicsPolynomialContinuation.options.length !== 5) {
+    throw new Error(`Mathematics polynomial term was mistaken for a new question: ${JSON.stringify(mathematicsPolynomialContinuation)}`);
+  }
+  const mathematicsWrappedFractionOptions = parsePageText([
+    "15. Simplify the following expression.",
+    "A. x/(x - 3)(x + 7) B. (x + 3)(x + 7)/x C. x/(x - 3)(x -",
+    "7)",
+    "D. x/(x + 3)(x + 7) E. x/(x + 4)(x + 7)",
+    "16. Next question.",
+  ].join("\n"), {
+    subject: "Mathematics", examType: "jamb", topic: "Mathematics", page: 2,
+    year: 1983, yearRange: null, lastQuestionNumber: 14,
+  }).questions[0];
+  if (mathematicsWrappedFractionOptions.questionNumber !== 15
+    || mathematicsWrappedFractionOptions.options.length !== 5
+    || !mathematicsWrappedFractionOptions.options[2].includes("(x - 7)")) {
+    throw new Error(`Mathematics denominator continuation was mistaken for a question boundary: ${JSON.stringify(mathematicsWrappedFractionOptions)}`);
+  }
   const pageOneQuestion = parsePageText([
     "1. Choices continue onto the following page.",
     "A. first B. second",

@@ -33,7 +33,7 @@ const GROUPED_QUESTION_INSTRUCTION = /^(?:to|and)\s+\d{1,3}\s+(?:are|is|were|wil
 const SUBJECT_RESCAN_PROFILES = {
   English: { joinLineWrappedWords: true, groupedQuestions: true, ignoreBareAnswerRows: true, preserveNumberedListItems: true, preferCompleteOptionCandidate: true, recoverOutOfOrderOptions: true, normalizeAccentedOptionLabels: true, normalizeBracketedOptionLabels: true, recoverWrappedOptionLabels: true, repairRepeatedOptionLabels: true, recoverQuotedOptionLabels: true, recoverFusedOptionLabels: true },
   Literature: { joinLineWrappedWords: true, groupedQuestions: true, ignoreBareAnswerRows: true, preserveNumberedListItems: true, preferCompleteOptionCandidate: true, recoverInlineQuestionStarts: true, recoverOutOfOrderOptions: true, normalizeAccentedOptionLabels: true, normalizeBracketedOptionLabels: true, recoverWrappedOptionLabels: true, repairRepeatedOptionLabels: true, recoverQuotedOptionLabels: true, recoverFusedOptionLabels: true },
-  Mathematics: { joinLineWrappedWords: true, groupedQuestions: false, ignoreBareAnswerRows: true, preserveNumberedListItems: true, preferCompleteOptionCandidate: true, recoverEqualsDelimitedOptions: true, recoverOutOfOrderOptions: true, normalizeAccentedOptionLabels: false, normalizeBracketedOptionLabels: false, recoverWrappedOptionLabels: true, recoverColonDashOptions: true, recoverFusedOptionLabels: true },
+  Mathematics: { joinLineWrappedWords: true, groupedQuestions: false, ignoreBareAnswerRows: true, preserveNumberedListItems: true, preferCompleteOptionCandidate: true, requirePunctuatedOptionLabels: true, recoverEqualsDelimitedOptions: true, recoverOutOfOrderOptions: true, normalizeAccentedOptionLabels: false, normalizeBracketedOptionLabels: false, recoverWrappedOptionLabels: true, recoverColonDashOptions: true, recoverFusedOptionLabels: true },
   Physics: { joinLineWrappedWords: true, groupedQuestions: false, ignoreBareAnswerRows: true, preserveNumberedListItems: true, preferCompleteOptionCandidate: true, recoverEqualsDelimitedOptions: true, recoverOutOfOrderOptions: true, normalizeAccentedOptionLabels: false, normalizeBracketedOptionLabels: false, recoverWrappedOptionLabels: true, recoverColonDashOptions: true, recoverFusedOptionLabels: true },
   Chemistry: { joinLineWrappedWords: true, groupedQuestions: false, ignoreBareAnswerRows: true, preserveNumberedListItems: true, preferCompleteOptionCandidate: true, recoverOutOfOrderOptions: true, normalizeAccentedOptionLabels: true, normalizeBracketedOptionLabels: false, recoverWrappedOptionLabels: true, repairRepeatedOptionLabels: true, recoverColonDashOptions: true, recoverQuotedOptionLabels: true, recoverFusedOptionLabels: true },
   Biology: { joinLineWrappedWords: true, groupedQuestions: false, ignoreBareAnswerRows: true, preserveNumberedListItems: true, preferCompleteOptionCandidate: true, recoverOutOfOrderOptions: true, normalizeAccentedOptionLabels: false, normalizeBracketedOptionLabels: false, recoverWrappedOptionLabels: true, repairRepeatedOptionLabels: true, recoverQuotedOptionLabels: true, recoverFusedOptionLabels: true },
@@ -103,6 +103,11 @@ function isValidQuestionStart(line, match, subject) {
   const number = Number(match[1]);
   // Decimal values (for example, 3.06 g) and zero-prefixed data are not question headings.
   if (number < 1 || number > MAX_QUESTION_NUMBER || /^\d{1,3}\s*\.\s*\d/.test(line) || /^\d{1,3}\s+\d/.test(line)) return false;
+  // Mathematics OCR often places equation terms and constraints at line start;
+  // e.g. "4x - 3 = ...", "2kx2 + 24", or "1 £ A < 10".
+  if (subject === "Mathematics" && (/^\d{1,3}\s*[a-z]{1,3}(?=\s*(?:[+\-=*/^–—−]|\d))/i.test(line)
+    || /^\d{1,3}\s*[£$]\s*[A-Za-z0-9]/.test(line)
+    || /^\d{1,2}\)\s*[A-E]\s*[.)]/i.test(line))) return false;
   // Chemistry electron configurations (for example, 3s2 3p2) often begin
   // with a digit and are otherwise mistaken for an OCR-damaged question label.
   if (subject === "Chemistry" && /^\d{1,2}\s*[spdf]\s*\d/i.test(line)) return false;

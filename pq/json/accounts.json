@@ -1655,19 +1655,19 @@
     "topic": "Accounts",
     "passage": null,
     "context": null,
+    "option1": "A. N3,731,250.00",
+    "option2": "B. N2,487,500.00",
+    "option3": "C. N 1,268,750.00",
+    "option4": "D. N1,020,000.00 Use the information below to answer question The following is",
     "options": [
       "A. N3,731,250.00",
       "B. N2,487,500.00",
       "C. N 1,268,750.00",
-      "D. N1,020,000.00 Use the information below to"
+      "D. N1,020,000.00 Use the information below to answer question The following is"
     ],
     "answer": null,
     "note": null,
-    "needsRescan": false,
-    "option1": "A. N3,731,250.00",
-    "option2": "B. N2,487,500.00",
-    "option3": "C. N 1,268,750.00",
-    "option4": "D. N1,020,000.00 Use the information below to"
+    "needsRescan": false
   },
   {
     "year": 1995,
@@ -1678,7 +1678,7 @@
     "subject": "Accounts",
     "topic": "Accounts",
     "passage": null,
-    "context": null,
+    "context": "18 and 19",
     "option1": "A. N 29,800",
     "option2": "B. N 29,500",
     "option3": "C. N 29,400",
@@ -6844,8 +6844,8 @@
   },
   {
     "year": 2000,
-    "questionNumber": 1,
-    "question": "Earnings per share 30k 111. Par value of each share N1.20 1V. Market price per share N1.50",
+    "questionNumber": 111,
+    "question": "Par value of each share N1.20 1V. Market price per share N1.50",
     "image": null,
     "type": "jamb",
     "subject": "Accounts",
@@ -7114,12 +7114,12 @@
     "option1": "A. Public Accounts Committee",
     "option2": "B. Public Audit",
     "option3": "C. Internal Audit Committee",
-    "option4": "D. External Audit Committee.",
+    "option4": "D. External Audit Committee. 45. 1. Meet growth and diversification needs.",
     "options": [
       "A. Public Accounts Committee",
       "B. Public Audit",
       "C. Internal Audit Committee",
-      "D. External Audit Committee."
+      "D. External Audit Committee. 45. 1. Meet growth and diversification needs."
     ],
     "answer": null,
     "note": null,
@@ -7127,27 +7127,8 @@
   },
   {
     "year": 2000,
-    "questionNumber": 45,
-    "question": "1. Meet growth and diversification needs.",
-    "image": null,
-    "type": "jamb",
-    "subject": "Accounts",
-    "topic": "Accounts",
-    "passage": null,
-    "context": null,
-    "option1": null,
-    "option2": null,
-    "option3": null,
-    "option4": null,
-    "options": [],
-    "answer": null,
-    "note": null,
-    "needsRescan": true
-  },
-  {
-    "year": 2000,
     "questionNumber": 11,
-    "question": "Reach out to particular customers or markets 111. Comply with some regulatory directives.",
+    "question": "Reach out to particular customers or markets",
     "image": null,
     "type": "jamb",
     "subject": "Accounts",
@@ -7165,6 +7146,25 @@
   },
   {
     "year": 2000,
+    "questionNumber": 111,
+    "question": "Comply with some regulatory directives.",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": null,
+    "option2": null,
+    "option3": null,
+    "option4": null,
+    "options": [],
+    "answer": null,
+    "note": null,
+    "needsRescan": true
+  },
+  {
+    "year": 2001,
     "questionNumber": 1,
     "question": "V. Increase employees’ income Which of the reasons above do consider in estalishing branches.",
     "image": null,
@@ -7188,7 +7188,7 @@
     "needsRescan": false
   },
   {
-    "year": 2000,
+    "year": 2001,
     "questionNumber": 46,
     "question": "The channel through which all government borrowing and domestic lending transactions pass is called",
     "image": null,
@@ -7212,9 +7212,28 @@
     "needsRescan": false
   },
   {
-    "year": 2000,
+    "year": 2001,
     "questionNumber": 47,
-    "question": "Given: Dept A Dept B Floor space 400m2 60m2 Machine 1200 1400 Turnover N36million N64 million Labour hoours 1000 1400 A joint cost N72 million incurred by the two depart ments was apportioned N30 million to",
+    "question": "Given: Dept A Dept B Floor space 400m2",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": null,
+    "option2": null,
+    "option3": null,
+    "option4": null,
+    "options": [],
+    "answer": null,
+    "note": "Needs rescan: malformed option set below the required four-choice minimum (0 parsed).",
+    "needsRescan": true
+  },
+  {
+    "year": 2001,
+    "questionNumber": 60,
+    "question": "m2 Machine 1200 1400 Turnover N36million N64 million Labour hoours 1000 1400 A joint cost N72 million incurred by the two depart ments was apportioned N30 million to",
     "image": null,
     "type": "jamb",
     "subject": "Accounts",
@@ -7236,7 +7255,7 @@
     "needsRescan": false
   },
   {
-    "year": 2000,
+    "year": 2001,
     "questionNumber": 48,
     "question": "Recurrent expenditure are expenses for the period not exceeding.",
     "image": null,
@@ -7260,7 +7279,7 @@
     "needsRescan": false
   },
   {
-    "year": 2000,
+    "year": 2001,
     "questionNumber": 49,
     "question": "A major benefit derived from the reconciliation of branch and head office books is to",
     "image": null,
@@ -7284,9 +7303,28 @@
     "needsRescan": false
   },
   {
-    "year": 2000,
+    "year": 2001,
     "questionNumber": 50,
-    "question": "Haial Limited with three departments has a total of N7,2000,000 as the net debtors for the year ended 31/12/ 97. The company’s policy provides for 15% bad debt annually. Whcih of the following represents the total balance of debtors before adjustments?",
+    "question": "Haial Limited with three departments has a total of N7,2000,000 as the net debtors for the year ended 31/12/",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": null,
+    "option2": null,
+    "option3": null,
+    "option4": null,
+    "options": [],
+    "answer": null,
+    "note": "Needs rescan: malformed option set below the required four-choice minimum (0 parsed).",
+    "needsRescan": true
+  },
+  {
+    "year": 2001,
+    "questionNumber": 97,
+    "question": "The company’s policy provides for 15% bad debt annually. Whcih of the following represents the total balance of debtors before adjustments?",
     "image": null,
     "type": "jamb",
     "subject": "Accounts",
@@ -7308,7 +7346,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 1,
     "question": "The current growth in the volume of trading and financial dealings in Nigeria is helped by",
     "image": null,
@@ -7332,7 +7370,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 2,
     "question": "Cost accounting entails provision of information",
     "image": null,
@@ -7356,7 +7394,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 3,
     "question": "The main objective of accounting report is to provide information about",
     "image": null,
@@ -7380,7 +7418,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 4,
     "question": "If liabilities amounted to N12,045, other assets N36,800 and equity N26,896, the cash at hand would be",
     "image": null,
@@ -7404,7 +7442,7 @@
     "option4": "D. N2,114. Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 5,
     "question": "What is the cash balance?",
     "image": null,
@@ -7428,7 +7466,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 6,
     "question": "Determine the total of the trial balance.",
     "image": null,
@@ -7452,7 +7490,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 7,
     "question": "The accuracy of journalizing is checked by",
     "image": null,
@@ -7476,7 +7514,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 8,
     "question": "Hauwa Ltd bought 10 bags of rice for N500 each. The company was given 5% and 12% trade and cash dis- counts respectively. What will be recorded as discount received in the company’s book?",
     "image": null,
@@ -7500,7 +7538,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 9,
     "question": "A cash book had opening balance of N15,200, closing balance N18,400 and total cash received during the period N36,000. What was the amount of cash paid out during the same period?",
     "image": null,
@@ -7524,7 +7562,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 10,
     "question": "In a petty cash book, the closing balance was N235, imprest N1250, while the stationery expenses were N655. how much was paid for other general expenses?",
     "image": null,
@@ -7548,7 +7586,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 11,
     "question": "When a bill is negotiated to a abank, it is said to be",
     "image": null,
@@ -7572,7 +7610,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 12,
     "question": "Given that the balance as per cash book after necessary adjustments was N4,315, unpresented cheques were N1,688 and the bank statement balance was N4,791, what was the balance of the uncredited cheques?",
     "image": null,
@@ -7596,7 +7634,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 13,
     "question": "If a property developing company sells a completed building to an interested third party, this sale can be treated in the books of the company as",
     "image": null,
@@ -7620,7 +7658,7 @@
     "option4": "D. Miscellaneous Receipt. Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 14,
     "question": "What was the value of fixed assets at the beginning of the year?",
     "image": null,
@@ -7644,7 +7682,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 15,
     "question": "The depreciation expense charged for the year is",
     "image": null,
@@ -7668,7 +7706,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 16,
     "question": "A reduction in the catalogue price of an article given by a wholesaler to a retailer is called a",
     "image": null,
@@ -7692,7 +7730,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 17,
     "question": "What is the stock valuation method used?",
     "image": null,
@@ -7716,7 +7754,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 18,
     "question": "The value of x is",
     "image": null,
@@ -7740,7 +7778,7 @@
     "option4": "D. N6.00 Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 19,
     "question": "Calculate the sales ledger balance .",
     "image": null,
@@ -7764,7 +7802,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 20,
     "question": "What is the purchases ledger balance?",
     "image": null,
@@ -7788,7 +7826,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 21,
     "question": "For an incomplete record to provide necessary informa- tion, it must be converted to",
     "image": null,
@@ -7812,7 +7850,7 @@
     "option4": "D. Single entry. Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 22,
     "question": "Determine the total fixed asset from the opening bal- ance sheet",
     "image": null,
@@ -7836,7 +7874,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 23,
     "question": "What is the capital from the opening balance sheet?",
     "image": null,
@@ -7860,7 +7898,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 24,
     "question": "Given: N Direct material 2,500 Direct labour 5,500 Direct expenses 1,000 Overhead expenses 1,500 From the data above, compute the prime cost",
     "image": null,
@@ -7884,7 +7922,7 @@
     "option4": "D. N6,000 Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 25,
     "question": "What is the bar profits?",
     "image": null,
@@ -7908,7 +7946,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 26,
     "question": "How much is owed to supplier?",
     "image": null,
@@ -7932,7 +7970,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 27,
     "question": "Lubricating oil and spare parts of machinery are examples of",
     "image": null,
@@ -7956,7 +7994,7 @@
     "option4": "D. Direct expenses Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 28,
     "question": "The N6,000 subscription received is",
     "image": null,
@@ -7980,7 +8018,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 29,
     "question": "What is the subscription to be charged to income and expenditure account?",
     "image": null,
@@ -8004,7 +8042,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 30,
     "question": "A club received rent N10,000 and donation N30,000. It paid N6,000 for entertainment and is still owing N16,000. The balance of the receipts and payment account is",
     "image": null,
@@ -8028,7 +8066,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 31,
     "question": "Given N Club training profit 12,000 Members’ subscription 15,000 Profit on sale of fixed assets 2,500 Loss on sale of investment 1,000 Wages 16,500 Other expenses 10,000 Determine the club’s excess of income over expenditure",
     "image": null,
@@ -8052,7 +8090,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 32,
     "question": "The excess of income over expenditure is usually trans- ferred to the",
     "image": null,
@@ -8076,7 +8114,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 33,
     "question": "Partner’s salaries and drawing are usually posted to the",
     "image": null,
@@ -8100,7 +8138,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 34,
     "question": "marmuhu and Yusuf are in partnership sharing profits and losses in the ratio 2 : 1. On 31/3/2000, the partner- ship decided to admit Idris who is to take ¼ of future profits without changing the ratio of Murhunu and Yusuf. What is the new profit-sharing ratio of Marhunu and Yusuf?",
     "image": null,
@@ -8124,7 +8162,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 35,
     "question": "If a partner pays a premium of N500 for 1/5 share of profit, then the total value of goodwill is",
     "image": null,
@@ -8148,7 +8186,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 36,
     "question": "On the dissolution of a partnership business, the net book value of the assets is transferred to",
     "image": null,
@@ -8172,7 +8210,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 37,
     "question": "Baba Ltd acquired the business of Bello Ltd and caused the separate existence of the latter company to termi- nate. This situation is best described as",
     "image": null,
@@ -8196,7 +8234,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 38,
     "question": "Where a company acquires controlling shares of an- other and the consideration is paid in cash, the entries in the books of the purchases are debit",
     "image": null,
@@ -8220,7 +8258,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 39,
     "question": "Given Capital 200,000 Total assets 210,000 Liabilities 10,000 210,000 210,000 If the business is purchase at a price including a good- will of N20,000, what must have been the purchase price?",
     "image": null,
@@ -8244,7 +8282,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 40,
     "question": "The main difference between the ordinary and prefer- ence shareholders is that",
     "image": null,
@@ -8268,7 +8306,7 @@
     "option4": "D. The former have rights while the latter do not Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 41,
     "question": "Determine the net current assets.",
     "image": null,
@@ -8292,7 +8330,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 42,
     "question": "Calculate the shareholder’s fund.",
     "image": null,
@@ -8316,7 +8354,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 43,
     "question": "The law that currently regulates the registration of com- panies in Nigeria is the",
     "image": null,
@@ -8340,7 +8378,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 44,
     "question": "X and Y are two departments that are to share 50% of all joint costs equally and the balance in the ratio 2 : 1. If a um of N150,000 is incurred jointly, what will the portion attributable to X?",
     "image": null,
@@ -8364,7 +8402,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 45,
     "question": "Department F transferred some goods to department G at a selling price. The goods were not sold at the end of the accounting period. Which account is affected at the time of preparing a combined balance sheet?",
     "image": null,
@@ -8388,7 +8426,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 46,
     "question": "The correct entry to reflect the receipt of cash sent by a branch to a head office is",
     "image": null,
@@ -8412,7 +8450,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 47,
     "question": "To account for expenses paid by head office on behalf of the branch, the branch should",
     "image": null,
@@ -8436,7 +8474,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 48,
     "question": "The officer responsible for ascertaining whether all pub- lic expenditure and appropriation are in line with ap- proved guidelines is the",
     "image": null,
@@ -8460,7 +8498,7 @@
     "option4": "D. Permanent Secretary Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 49,
     "question": "Assuming all the investments realized N4m, what will be the ending fun balance?",
     "image": null,
@@ -8484,7 +8522,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 50,
     "question": "If only 1/3 of the investment is sold for N2m and N5m realized from the accounts receivable, what will be the balance of the fund?",
     "image": null,
@@ -8508,7 +8546,7 @@
     "option4": "D. N16m Principles of Account 1999 - Type A1. In preparing the final account, the bad debt account is closed by a transfer to the"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 2,
     "question": "Given N Stock (1/4/94) 800 Purchases of flour 2,450 Sales 4,745 Wages of bakery staff 675 Carriage outwards 50 Salary of administrative staff 225 Stock (31/3/95) 940 Capital 1,540 Determine the cost of goods sold.",
     "image": null,
@@ -8532,7 +8570,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 3,
     "question": "In a petty cash book the imprest is N1,380 Expenses: N Stationery 350 Cleaning material 335 General expenses 265 How much was received to maintain the imprest at the end of the month?",
     "image": null,
@@ -8556,7 +8594,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 4,
     "question": "Income statement for the year ended June 30, 2001 N N Office rent 20,000 Revenue 820,000 NEPA (light) 15,000 Salary of staff 120,000 Miscellaneous Expenses ? Net income ? . . Miscellaneous expenses is 10% of revenue. Calculate the net income",
     "image": null,
@@ -8580,7 +8618,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 5,
     "question": "An entry in a subsidiary book which does not form part of the double entry system is a",
     "image": null,
@@ -8604,7 +8642,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 6,
     "question": "In an incomplete record, the preparation of the bank reconciliation ensured that",
     "image": null,
@@ -8628,7 +8666,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 7,
     "question": "I. Fixtures account II. Machinery account III. Wages account IV. Rent account. Which of the above are nominal account?",
     "image": null,
@@ -8652,7 +8690,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 8,
     "question": "NAFARA & SONS Balance Sheet items as at 31st De- cember, 9187 N Capital 74,480 Creditors 15,875 Prepaid expenses 580 Motor vehicles 34,750 Furniture 35,850 Accrued expenses 645 Stock 8,100 Cash balances 9,911 Debtors 1,809 Compute the value of current assets.",
     "image": null,
@@ -8676,7 +8714,7 @@
     "option4": "D. N19,820 Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 9,
     "question": "The value of capital invested by own owners is",
     "image": null,
@@ -8700,7 +8738,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 10,
     "question": "The liabilities of Udo Co. Ltd is",
     "image": null,
@@ -8724,7 +8762,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 11,
     "question": "The normal accounting entry to record the dishonour of a cheque by a businessman is to",
     "image": null,
@@ -8748,7 +8786,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 12,
     "question": "What is the net working capital?",
     "image": null,
@@ -8772,7 +8810,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 13,
     "question": "Determine the value of the trade investment.",
     "image": null,
@@ -8796,7 +8834,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 14,
     "question": "The concise statement used to explain entries in the general journal is known as",
     "image": null,
@@ -8820,7 +8858,7 @@
     "option4": "D. Commentary Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 15,
     "question": "If the total expenses is N20,845, what will be the net profit for the company during the month?",
     "image": null,
@@ -8844,7 +8882,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 16,
     "question": "The closing stock for this company is",
     "image": null,
@@ -8868,7 +8906,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 17,
     "question": "In a departmental accounting system, which of the fol- lowing expenses will most likely be apportioned on the basis of turnover?",
     "image": null,
@@ -8892,7 +8930,7 @@
     "option4": "D. Returns outwards. Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 18,
     "question": "Determine the prime cost",
     "image": null,
@@ -8916,7 +8954,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 19,
     "question": "The cost of goods manufactured is",
     "image": null,
@@ -8940,7 +8978,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 20,
     "question": "I. Orientation II. Entity III. Legal status IV. Finance Which of the characteristics above distinguishes a profit-making from a not-for-profit-making organization?",
     "image": null,
@@ -8964,7 +9002,7 @@
     "option4": "D. I and II Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 21,
     "question": "What is the gross profit carried to the profit and loss account?",
     "image": null,
@@ -8988,7 +9026,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 22,
     "question": "Calculate the cost of goods credited to the head office trading account.",
     "image": null,
@@ -9012,7 +9050,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 23,
     "question": "Nasara manufacturing Plc has three direct labour em- ployees that work 40 hours each a week for 50 weeks a year. Factory overhead costs of N60,000 is distributed on the basis of direct labour hours. Compute the over- head rate.",
     "image": null,
@@ -9036,7 +9074,7 @@
     "option4": "D. N15 per hour Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 24,
     "question": "What is the closing cash balance?",
     "image": null,
@@ -9060,7 +9098,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 25,
     "question": "Compute the subscriptions received",
     "image": null,
@@ -9084,7 +9122,7 @@
     "option4": "D. N20,000 Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 26,
     "question": "Department P’s share of discount received is",
     "image": null,
@@ -9108,7 +9146,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 27,
     "question": "What is department Q’s share of discount allowed?",
     "image": null,
@@ -9132,7 +9170,7 @@
     "option4": "D. N1,200 Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 28,
     "question": "What is the amount to be written off as other expenses?",
     "image": null,
@@ -9156,7 +9194,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 29,
     "question": "Determine the club’s excess of income over expenditure",
     "image": null,
@@ -9180,7 +9218,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 30,
     "question": "The gross profit on manufactured goods is the differ- ence between the cost of goods manufactured and the",
     "image": null,
@@ -9204,7 +9242,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 31,
     "question": "given that 1/3 of the N6,000 stock held by a branch is purchased from outsider. If goods are invoiced to branch at 25% on cost, the provision for unrealized profit is",
     "image": null,
@@ -9228,7 +9266,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 32,
     "question": "A.S.D. Club Balance Sheet [Extract] N N Accumulated fund 6,000 Motor van 4,000 Add surplus income 1,000 Stock 3,500 7,000 Debtors for subscriptions 1,000 Creditors for supplies 1,000 Bank 1,500 Subscription in advance 2,000 . 10,000 35,000 The working capital of the club is",
     "image": null,
@@ -9252,7 +9290,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 33,
     "question": "Costs that vary in proportion to the level of production in a manufacturing environment are known as",
     "image": null,
@@ -9276,7 +9314,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 34,
     "question": "A company operating a chain of retail provision stores invoices goods to the branches at cost plus a mark-up of 25% on selling price?",
     "image": null,
@@ -9300,7 +9338,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 35,
     "question": "Given: N Cash purchases 25,000 Trade creditors 45,000 Opening balance of trade creditors 35,000 Calculate the purchases for the period",
     "image": null,
@@ -9324,7 +9362,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 36,
     "question": "Which method of pricing can be used satisfactorily in either a rising or falling price situation?",
     "image": null,
@@ -9348,7 +9386,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 37,
     "question": "Given N Capital at start 3,250 Capital at close 6,250 Additional capital during the period 1,000 Calculate the profit or loss",
     "image": null,
@@ -9372,7 +9410,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 38,
     "question": "In a control account, discount received is found on the",
     "image": null,
@@ -9396,7 +9434,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 39,
     "question": "In an incomplete record system, a trading account can- not be prepaid until the",
     "image": null,
@@ -9420,7 +9458,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 40,
     "question": "The closing stock on March 11th by LIFO valuation is",
     "image": null,
@@ -9444,7 +9482,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 41,
     "question": "The value of closing stock as at February 14th by simple average method is",
     "image": null,
@@ -9468,7 +9506,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 42,
     "question": "Given an incomplete record without sufficient informa- tion to determine profit, the necessary thing to do it to",
     "image": null,
@@ -9480,43 +9518,19 @@
     "option1": "A. Draw up the statement of affairs.",
     "option2": "B. Draw up",
     "option3": "C. Compare the journal entries with the cash book .",
-    "option4": "D. Cross-check the cash book for further information.",
+    "option4": "D. Cross-check the cash book for further information. 4.3 Control accounts help to verify the arithmetic accuracy of the postings from the",
     "options": [
       "A. Draw up the statement of affairs.",
       "B. Draw up",
       "C. Compare the journal entries with the cash book .",
-      "D. Cross-check the cash book for further information."
+      "D. Cross-check the cash book for further information. 4.3 Control accounts help to verify the arithmetic accuracy of the postings from the"
     ],
     "answer": null,
     "note": null,
     "needsRescan": false
   },
   {
-    "year": 2001,
-    "questionNumber": 4,
-    "question": "3 Control accounts help to verify the arithmetic accuracy of the postings from the",
-    "image": null,
-    "type": "jamb",
-    "subject": "Accounts",
-    "topic": "Accounts",
-    "passage": null,
-    "context": null,
-    "option1": "A. Subsidiary books into the trial balance",
-    "option2": "B. Ledgers into the trial balance",
-    "option3": "C. Journals into the ledgers",
-    "option4": "D. Subsidiary books into the ledgers.",
-    "options": [
-      "A. Subsidiary books into the trial balance",
-      "B. Ledgers into the trial balance",
-      "C. Journals into the ledgers",
-      "D. Subsidiary books into the ledgers."
-    ],
-    "answer": null,
-    "note": null,
-    "needsRescan": false
-  },
-  {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 44,
     "question": "Keeping records under the single entry system has the advantage of",
     "image": null,
@@ -9540,7 +9554,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 45,
     "question": "Given: N Sales 195,200 Stock 1st January 34,000 Purchases 126,000 Sales returns 1,200 Purchases returns 2,000 If the gross profit is N66,000, what is the value of stock at 31st December?",
     "image": null,
@@ -9564,7 +9578,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 46,
     "question": "Given: N(m) Balance at 31 December 14,744 Treasury Bills issued Jan – Dec 7,124 Revenue for the year 6,387 Expenditure 8,767 What is the opening balance on the consolidated rev- enue fund account?",
     "image": null,
@@ -9588,7 +9602,7 @@
     "option4": "D. N11,000m Use the information below to"
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 47,
     "question": "Abba’s capital balance at the end of the year will be",
     "image": null,
@@ -9612,7 +9626,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 48,
     "question": "Current account balance of Kaka at the end of the year will be",
     "image": null,
@@ -9636,7 +9650,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 49,
     "question": "Upon the dissolution of a partnership, the Partnership Act provides that the amount realized should be",
     "image": null,
@@ -9660,7 +9674,7 @@
     "needsRescan": false
   },
   {
-    "year": 2001,
+    "year": 2002,
     "questionNumber": 50,
     "question": "In the public sector, the method of accounting that re- ports revenues and expenditures in the period in which they are received and paid is called",
     "image": null,
@@ -11192,30 +11206,6 @@
   },
   {
     "year": 2004,
-    "questionNumber": 17,
-    "question": "- 20 May 25 - 60 May 31 20 @ N2.90 -",
-    "image": null,
-    "type": "jamb",
-    "subject": "Accounts",
-    "topic": "Accounts",
-    "passage": null,
-    "context": null,
-    "options": [
-      "A. N22,966",
-      "B. N22,15",
-      "C. N21,834",
-      "D. N21,054"
-    ],
-    "answer": null,
-    "note": null,
-    "needsRescan": false,
-    "option1": "A. N22,966",
-    "option2": "B. N22,15",
-    "option3": "C. N21,834",
-    "option4": "D. N21,054"
-  },
-  {
-    "year": 2004,
     "questionNumber": 14,
     "question": "What is the value of raw materials issued on May 17th based ion the LIFO method?",
     "image": null,
@@ -12415,7 +12405,127 @@
     "option4": "D. eficits"
   },
   {
-    "year": 2000,
+    "year": 2001,
+    "questionNumber": 2,
+    "question": "Cost accounting entails provision of information",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. For investment purpose",
+    "option2": "B. For decision making",
+    "option3": "C. To shareholders",
+    "option4": "D. To stockholders",
+    "options": [
+      "A. For investment purpose",
+      "B. For decision making",
+      "C. To shareholders",
+      "D. To stockholders"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 3,
+    "question": "The main objective of accounting report is to provide information about",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. A company’s shareholding",
+    "option2": "B. An entity’s management",
+    "option3": "C. The efficacy of assets",
+    "option4": "D. A company’s economic resources.",
+    "options": [
+      "A. A company’s shareholding",
+      "B. An entity’s management",
+      "C. The efficacy of assets",
+      "D. A company’s economic resources."
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 4,
+    "question": "If liabilities amounted to N12,045, other assets N36,800 and equity N26,896, the cash at hand would be",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "options": [
+      "A. N2,241",
+      "B. N2,214",
+      "C. N2,141",
+      "D. N2,114. Use the information below to"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false,
+    "option1": "A. N2,241",
+    "option2": "B. N2,214",
+    "option3": "C. N2,141",
+    "option4": "D. N2,114. Use the information below to"
+  },
+  {
+    "year": 2001,
+    "questionNumber": 5,
+    "question": "What is the cash balance?",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. N12,095",
+    "option2": "B. N12,590",
+    "option3": "C. N12,905",
+    "option4": "D. N12,950",
+    "options": [
+      "A. N12,095",
+      "B. N12,590",
+      "C. N12,905",
+      "D. N12,950"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 6,
+    "question": "Determine the total of the trial balance.",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. N335,050",
+    "option2": "B. N333,050",
+    "option3": "C. N323,050",
+    "option4": "D. N230,550",
+    "options": [
+      "A. N335,050",
+      "B. N333,050",
+      "C. N323,050",
+      "D. N230,550"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
     "questionNumber": 7,
     "question": "The accuracy of journalizing is checked by",
     "image": null,
@@ -12437,5 +12547,197 @@
     "answer": null,
     "note": null,
     "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 8,
+    "question": "Hauwa Ltd bought 10 bags of rice for N500 each. The company was given 5% and 12% trade and cash dis- counts respectively. What will be recorded as discount received in the company’s book?",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. N250",
+    "option2": "B. N570",
+    "option3": "C. N600",
+    "option4": "D. N850",
+    "options": [
+      "A. N250",
+      "B. N570",
+      "C. N600",
+      "D. N850"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 9,
+    "question": "A cash book had opening balance of N15,200, closing balance N18,400 and total cash received during the period N36,000. What was the amount of cash paid out during the same period?",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. N17,800",
+    "option2": "B. N19,600",
+    "option3": "C. N29,200",
+    "option4": "D. N32,800",
+    "options": [
+      "A. N17,800",
+      "B. N19,600",
+      "C. N29,200",
+      "D. N32,800"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 10,
+    "question": "In a petty cash book, the closing balance was N235, imprest N1250, while the stationery expenses were N655. how much was paid for other general expenses?",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. N360",
+    "option2": "B. N355",
+    "option3": "C. N350",
+    "option4": "D. N305.",
+    "options": [
+      "A. N360",
+      "B. N355",
+      "C. N350",
+      "D. N305."
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 12,
+    "question": "Given that the balance as per cash book after necessary adjustments was N4,315, unpresented cheques were N1,688 and the bank statement balance was N4,791, what was the balance of the uncredited cheques?",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. N1,223",
+    "option2": "B. N1,212",
+    "option3": "C. N1,202",
+    "option4": "D. N1,115",
+    "options": [
+      "A. N1,223",
+      "B. N1,212",
+      "C. N1,202",
+      "D. N1,115"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 13,
+    "question": "If a property developing company sells a completed building to an interested third party, this sale can be treated in the books of the company as",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "options": [
+      "A. Capital receipt",
+      "B. Revenue receipt",
+      "C. Windfall receipt",
+      "D. Miscellaneous Receipt. Use the information below to"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false,
+    "option1": "A. Capital receipt",
+    "option2": "B. Revenue receipt",
+    "option3": "C. Windfall receipt",
+    "option4": "D. Miscellaneous Receipt. Use the information below to"
+  },
+  {
+    "year": 2001,
+    "questionNumber": 14,
+    "question": "What was the value of fixed assets at the beginning of the year?",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. N2,900,000",
+    "option2": "B. N3,800,000",
+    "option3": "C. N3,900,000",
+    "option4": "D. N4,000,000",
+    "options": [
+      "A. N2,900,000",
+      "B. N3,800,000",
+      "C. N3,900,000",
+      "D. N4,000,000"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 15,
+    "question": "The depreciation expense charged for the year is",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "option1": "A. N450,000",
+    "option2": "B. N250,000",
+    "option3": "C. N150,000",
+    "option4": "D. N100,000",
+    "options": [
+      "A. N450,000",
+      "B. N250,000",
+      "C. N150,000",
+      "D. N100,000"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2001,
+    "questionNumber": 16,
+    "question": "A reduction in the catalogue price of an article given by a wholesaler to a retailer is called a",
+    "image": null,
+    "type": "jamb",
+    "subject": "Accounts",
+    "topic": "Accounts",
+    "passage": null,
+    "context": null,
+    "options": [
+      "A. Bad debt",
+      "B. Trade discount",
+      "C. Premium",
+      "D. Cash discount. Use the information below to"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false,
+    "option1": "A. Bad debt",
+    "option2": "B. Trade discount",
+    "option3": "C. Premium",
+    "option4": "D. Cash discount. Use the information below to"
   }
 ]

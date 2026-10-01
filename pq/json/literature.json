@@ -2404,7 +2404,7 @@
   {
     "year": 2011,
     "questionNumber": 16,
-    "question": "17. B 17",
+    "question": "17",
     "image": null,
     "type": "jamb",
     "subject": "Literature",
@@ -2483,19 +2483,43 @@
     "topic": "Literature",
     "passage": null,
     "context": null,
+    "option1": "A. laboratory assistant",
+    "option2": "B. pharmacist",
+    "option3": "C. nurse",
+    "option4": "D. medical doctor Use the quotation below to answer questions",
     "options": [
       "A. laboratory assistant",
       "B. pharmacist",
       "C. nurse",
-      "D. medical doctor Use the quotation below to"
+      "D. medical doctor Use the quotation below to answer questions"
+    ],
+    "answer": null,
+    "note": null,
+    "needsRescan": false
+  },
+  {
+    "year": 2011,
+    "questionNumber": 1,
+    "question": "and",
+    "image": null,
+    "type": "jamb",
+    "subject": "Literature",
+    "topic": "Literature",
+    "passage": null,
+    "context": null,
+    "options": [
+      "A. Type Green",
+      "B. Type Purple",
+      "C. Type Red",
+      "D. Type Yellow Question 2 to 5 are based on J"
     ],
     "answer": null,
     "note": null,
     "needsRescan": false,
-    "option1": "A. laboratory assistant",
-    "option2": "B. pharmacist",
-    "option3": "C. nurse",
-    "option4": "D. medical doctor Use the quotation below to"
+    "option1": "A. Type Green",
+    "option2": "B. Type Purple",
+    "option3": "C. Type Red",
+    "option4": "D. Type Yellow Question 2 to 5 are based on J"
   },
   {
     "year": 2011,
@@ -7247,7 +7271,7 @@
   {
     "year": 2016,
     "questionNumber": 10,
-    "question": "11. A 43",
+    "question": "43",
     "image": null,
     "type": "jamb",
     "subject": "Literature",
