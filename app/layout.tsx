@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-roboto_mono antialiased">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Providers>
             <AppContextProvider>
               <Navbar />

@@ -2,8 +2,10 @@ const fs = require("node:fs");
 const path = require("node:path");
 const os = require("node:os");
 const { PDFParse } = require("pdf-parse");
+const sharp = require("sharp");
 const { extractSubjectOptions } = require("./parser");
 const { findYearRange, namedYearFromHeader, yearFromHeader, splitStoredOptions, rescanIncompleteQuestions, reloadSubjectQuestions, rescanIncompleteQuestionsAcrossPages, rescanMissingQuestionNumbers, getIncompleteOptionSamples, getQuestionGapSamples, isAnswerKeyLine, parsePageText, detectFileMetadata, validateQuestionNumberCoverage, formatPageNumbers, getIncompleteOptionPageSummary, getQuestionNumberPageSummary, parseArgs, writeSubjectJsonFiles } = require("./scrape_pq");
+const { generateQuestionImages, normalizeQuestionImage, questionImageFilename, findQuestionStarts, buildQuestionCropRegions, findPdfImageRegions, matchQuestionImages } = require("./media");
 
 async function testScraper() {
   console.log("=== PQ scraper verification ===");
@@ -57,13 +59,93 @@ async function testScraper() {
     || earlyGapDiagnostic.unresolved[0]?.searchedSourcePages.join(",") !== "9") {
     throw new Error(`Unresolved-number diagnostics did not retain the inspected source page: ${JSON.stringify(earlyGapDiagnostic.unresolved)}`);
   }
-  if (!defaults.skipImageUpload || defaults.uploadImages) throw new Error("Image uploads should be skipped by default.");
+  if (!defaults.skipImageUpload || defaults.uploadImages || defaults.importDb) throw new Error("Default scraper mode must skip Cloudinary and database access.");
   const uploadsEnabled = parseArgs(["--upload-images"]);
   if (!uploadsEnabled.uploadImages || uploadsEnabled.skipImageUpload) throw new Error("--upload-images should enable Cloudinary uploads.");
   const skipOverridesUpload = parseArgs(["--upload-images", "--skip-image-upload"]);
   if (skipOverridesUpload.uploadImages) throw new Error("--skip-image-upload should take precedence over --upload-images.");
   if (!parseArgs(["-db"]).importDb) throw new Error("-db should select local JSON database import mode.");
   if (parseArgs(["-db", "--input=existing.json"]).inputFile !== "existing.json") throw new Error("-db should accept the path to a previously saved JSON file.");
+  if (questionImageFilename({ year: 2024, questionNumber: 8 }) !== "2024_8.png") throw new Error("Question image filenames should use year_questionNumber.");
+  if (normalizeQuestionImage("https://cloudinary.example/image.png").cloudinaryUrl !== "https://cloudinary.example/image.png") throw new Error("Legacy image URL strings should normalize to Cloudinary metadata.");
+  const mockViewport = { height: 100, convertToViewportPoint: (x, y) => [x, 100 - y] };
+  const starts = findQuestionStarts({ items: [
+    { str: "1", transform: [10, 0, 0, 10, 40, 90] },
+    { str: "7", transform: [10, 0, 0, 10, 46, 90] },
+    { str: ".", transform: [10, 0, 0, 10, 52, 90] },
+    { str: "9.", transform: [10, 0, 0, 10, 40, 50] },
+    { str: "10.", transform: [10, 0, 0, 10, 350, 70] },
+  ] }, mockViewport);
+  const regions = buildQuestionCropRegions(600, 100, starts, [{ questionNumber: 17 }, { questionNumber: 9 }, { questionNumber: 10 }], 0);
+  if (starts.length !== 3 || starts[0].questionNumber !== 17 || regions.length !== 3
+    || regions[0].height !== 40 || regions[0].width >= 600) {
+    throw new Error(`Question number positions did not yield a per-question crop: ${JSON.stringify({ starts, regions })}`);
+  }
+  const mockImageRegions = [
+    { name: "figure-asset", left: 50, top: 15, width: 80, height: 15, areaRatio: 0.02 },
+    { name: "full-page-scan", left: 0, top: 0, width: 600, height: 100, areaRatio: 1 },
+  ];
+  const matchedFigures = matchQuestionImages(regions, mockImageRegions, [{ questionNumber: 17 }, { questionNumber: 9 }, { questionNumber: 10 }]);
+  if (matchedFigures.length !== 1 || matchedFigures[0].sourceImages[0] !== "figure-asset"
+    || matchedFigures[0].width !== 80 || matchedFigures[0].height !== 15) {
+    throw new Error(`Image matching should return the full embedded figure asset and reject full-page scans: ${JSON.stringify(matchedFigures)}`);
+  }
+  const mockPdfjs = { OPS: { save: 1, restore: 2, transform: 3, paintImageXObject: 4 }, Util: { transform: (left, right) => [
+    left[0] * right[0] + left[2] * right[1],
+    left[1] * right[0] + left[3] * right[1],
+    left[0] * right[2] + left[2] * right[3],
+    left[1] * right[2] + left[3] * right[3],
+    left[0] * right[4] + left[2] * right[5] + left[4],
+    left[1] * right[4] + left[3] * right[5] + left[5],
+  ] } };
+  const operatorImages = findPdfImageRegions({ fnArray: [1, 3, 4, 2], argsArray: [null, [80, 0, 0, 15, 50, 70], ["diagram"], null] }, mockPdfjs, {
+    width: 600,
+    height: 100,
+    convertToViewportPoint: (x, y) => [x, 100 - y],
+  });
+  if (operatorImages.length !== 1 || operatorImages[0].name !== "diagram"
+    || operatorImages[0].width !== 80 || operatorImages[0].height !== 15) {
+    throw new Error(`PDF image object transform did not resolve to its full displayed bounds: ${JSON.stringify(operatorImages)}`);
+  }
+  const imageOutputDir = fs.mkdtempSync(path.join(os.tmpdir(), "pq-question-images-"));
+  try {
+    const pageImage = await sharp({ create: { width: 600, height: 100, channels: 3, background: "white" } }).png().toBuffer();
+    const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
+    const imageQuestions = [
+      { year: 2024, questionNumber: 8, _sourcePage: 2, _needsImage: true, image: { localUrl: null, cloudinaryUrl: null } },
+      { year: 2024, questionNumber: 9, _sourcePage: 2, _needsImage: true, image: { localUrl: null, cloudinaryUrl: null } },
+    ];
+    const imageResult = await generateQuestionImages({
+      getScreenshot: async () => ({ pages: [{ data: pageImage }] }),
+    }, imageQuestions, "Biology-2024.pdf", {
+      imageDirectory: imageOutputDir,
+      pdfDocument: {
+        getPage: async () => ({
+          rotate: 0,
+          getViewport: () => ({ width: 600, height: 100, convertToViewportPoint: (x, y) => [x, 100 - y] }),
+          getOperatorList: async () => ({
+            fnArray: [pdfjs.OPS.save, pdfjs.OPS.transform, pdfjs.OPS.paintImageXObject, pdfjs.OPS.restore],
+            argsArray: [null, [40, 0, 0, 30, 40, 60], ["figure-8"], null],
+          }),
+          getTextContent: async () => ({ items: [
+            { str: "8.", transform: [10, 0, 0, 10, 40, 90] },
+            { str: "9.", transform: [10, 0, 0, 10, 40, 50] },
+          ] }),
+        }),
+      },
+    });
+    const croppedMetadata = await sharp(path.join(imageOutputDir, "biology-2024", "2024_8.png")).metadata();
+    if (imageResult.generated !== 2
+      || !fs.existsSync(path.join(imageOutputDir, "biology-2024", "2024_8.png"))
+      || croppedMetadata.height >= 100
+      || croppedMetadata.width >= 600
+      || imageQuestions[0].image.localUrl !== "/api/pq/images/biology-2024/2024_8.png"
+      || imageQuestions[0].image.cloudinaryUrl !== null) {
+      throw new Error(`Per-question local crop generation or image URL metadata failed: ${JSON.stringify({ imageResult, croppedMetadata, image: imageQuestions[0].image })}`);
+    }
+  } finally {
+    fs.rmSync(imageOutputDir, { recursive: true, force: true });
+  }
   const subjectOutputDir = fs.mkdtempSync(path.join(os.tmpdir(), "pq-subject-json-"));
   try {
     const writtenSubjectFiles = writeSubjectJsonFiles([

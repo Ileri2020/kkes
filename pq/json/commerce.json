@@ -3,7 +3,10 @@
     "year": 1994,
     "questionNumber": 1,
     "question": "Commerce is defined as the study of how",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -27,7 +30,10 @@
     "year": 1994,
     "questionNumber": 2,
     "question": "The type of activity which turns processed raw materials into consumer and industrial goods is described as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -51,7 +57,10 @@
     "year": 1994,
     "questionNumber": 3,
     "question": "The production process that combines two or more raw materials into one end product is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -75,7 +84,10 @@
     "year": 1994,
     "questionNumber": 4,
     "question": "A demonstration of social responsibility by a business is the payment of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -99,7 +111,10 @@
     "year": 1994,
     "questionNumber": 5,
     "question": "A distinguishing characteristic of a limited liability company is that it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -123,7 +138,10 @@
     "year": 1994,
     "questionNumber": 6,
     "question": "Which of the following takes place when firms producing at different stages in the same industry combine?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -147,7 +165,10 @@
     "year": 1994,
     "questionNumber": 7,
     "question": "Which of the following groups is paid first when a firm liquidates?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -171,7 +192,10 @@
     "year": 1994,
     "questionNumber": 8,
     "question": "Compulsory dissolution of a business can arise from",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -195,7 +219,10 @@
     "year": 1994,
     "questionNumber": 9,
     "question": "Use the data below to answer questions 9 and 10. MBV Enterprises Balance Sheet as at 31st December, 1992 Liabilities N Assets N N Capital Fixed Assets Balance as at Fittings 9,200 Jan. 1,1992 60,000 Vehicles 7, 500 16,700 Add Net Profit 5,250 65, 250 Less Drawings 6, 600 58,650 Current Assets Stock in hand 8,800 Debtors 15,500 Current Liabilities Cash at Bank 21,000 Creditors 9,730 Cash in hand 6,380 51,680 68,380 68,380",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -214,7 +241,10 @@
     "year": 1994,
     "questionNumber": 9,
     "question": "What is the circulating capital of the sole proprietor?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -238,7 +268,10 @@
     "year": 1994,
     "questionNumber": 10,
     "question": "What is the working capital as at December 31, 1992?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -262,7 +295,10 @@
     "year": 1994,
     "questionNumber": 11,
     "question": "A company earned a total revenue of N108 million with a total cost of N91 million in 1991. If it paid 45% tax on its gross profit for that year, determine its net profit.",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -286,7 +322,10 @@
     "year": 1994,
     "questionNumber": 12,
     "question": "What are fixtures and fittings in a balance sheet?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -310,7 +349,10 @@
     "year": 1994,
     "questionNumber": 13,
     "question": "Government impose import duties for the following reasons EXCEPT",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -334,7 +376,10 @@
     "year": 1994,
     "questionNumber": 14,
     "question": "Sole enterprise may flourish best in",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -358,7 +403,10 @@
     "year": 1994,
     "questionNumber": 15,
     "question": "The use of coin-operated machines to sell goods is a form of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -382,7 +430,10 @@
     "year": 1994,
     "questionNumber": 16,
     "question": "What is the major function of the wholesaler?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -406,7 +457,10 @@
     "year": 1994,
     "questionNumber": 17,
     "question": "The rate at which a country’s exports exchange for its imports is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -430,7 +484,10 @@
     "year": 1994,
     "questionNumber": 18,
     "question": "The different between the total payments for imports and the receipts from exports within a given period is referred to as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -454,7 +511,10 @@
     "year": 1994,
     "questionNumber": 19,
     "question": "A pro forma invoice is NOT required when",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -478,7 +538,10 @@
     "year": 1994,
     "questionNumber": 20,
     "question": "Which of the following statements is TRUE about sea transport?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -502,7 +565,10 @@
     "year": 1994,
     "questionNumber": 21,
     "question": "The postal organization which preceded in Nigerian Postal Service is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -526,7 +592,10 @@
     "year": 1994,
     "questionNumber": 22,
     "question": "Goods discharged from ships on which import duties have not been paid are kept in the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -550,7 +619,10 @@
     "year": 1994,
     "questionNumber": 23,
     "question": "A sole proprietor insured his goods worth N200,000 for half the value.There was a fire incident in which goods valued at N80, 000 were destroyed. The value of compensation expected from the insurer is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -574,7 +646,10 @@
     "year": 1994,
     "questionNumber": 24,
     "question": "One of the effects of the devaluation of the Naira is that the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -598,7 +673,10 @@
     "year": 1994,
     "questionNumber": 25,
     "question": "Drawing two parallel lines across a cheque means that is has to be paid into the account of the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -622,7 +700,10 @@
     "year": 1994,
     "questionNumber": 26,
     "question": "The financial institution established to boost Nigeria’s trade with the rest of the world is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -646,7 +727,10 @@
     "year": 1994,
     "questionNumber": 27,
     "question": "Which of the following is both direct and indirect credit enterprises?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -670,7 +754,10 @@
     "year": 1994,
     "questionNumber": 28,
     "question": "The business in the stock exchange is characterized essentially by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -694,7 +781,10 @@
     "year": 1994,
     "questionNumber": 29,
     "question": "The Second-Tier Securities Market is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -718,7 +808,10 @@
     "year": 1994,
     "questionNumber": 30,
     "question": "The elements of the marketing mix are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -742,7 +835,10 @@
     "year": 1994,
     "questionNumber": 31,
     "question": "Which of the following items has the shortest effect on the consumer?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -766,7 +862,10 @@
     "year": 1994,
     "questionNumber": 32,
     "question": "Which of the following is a form of sales promotion?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -790,7 +889,10 @@
     "year": 1994,
     "questionNumber": 33,
     "question": "One advantage of personal selling over all other elements of promotion is that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -814,7 +916,10 @@
     "year": 1994,
     "questionNumber": 34,
     "question": "Which of the following must be present in an agency by agreement?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -838,7 +943,10 @@
     "year": 1994,
     "questionNumber": 35,
     "question": "An agreement to sell is distinguishable from a sale because in the former, the transfer of goods is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -862,7 +970,10 @@
     "year": 1994,
     "questionNumber": 36,
     "question": "Mr. Amusa says to Mr Bello ‘I will sell you this hat for N30’. And Mr Bello replied ‘I will pay N29’. The contract is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -886,7 +997,10 @@
     "year": 1994,
     "questionNumber": 37,
     "question": "Nationalization of an industry means that its ownership becomes that of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -910,7 +1024,10 @@
     "year": 1994,
     "questionNumber": 38,
     "question": "The Comprehensive Import Supervision Scheme was set up by the federal government in order to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -934,7 +1051,10 @@
     "year": 1994,
     "questionNumber": 39,
     "question": "Which of the following has powers to order withdrawal of a particular food item from circulation?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -958,7 +1078,10 @@
     "year": 1994,
     "questionNumber": 40,
     "question": "Which of the following maxims negates the principle of collective bargaining?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -982,7 +1105,10 @@
     "year": 1994,
     "questionNumber": 41,
     "question": "NACCIMA stands for",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1006,7 +1132,10 @@
     "year": 1994,
     "questionNumber": 42,
     "question": "For the establisment of a powerful consumers’ association in Nigeria to exist, there must be",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1030,7 +1159,10 @@
     "year": 1994,
     "questionNumber": 43,
     "question": "Which of the following is the most important business resources?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1054,7 +1186,10 @@
     "year": 1994,
     "questionNumber": 44,
     "question": "The harmonious relationship among the various units in an organization is ensured through",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1078,7 +1213,10 @@
     "year": 1994,
     "questionNumber": 45,
     "question": "The principle of span of control stipulats that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1102,7 +1240,10 @@
     "year": 1994,
     "questionNumber": 46,
     "question": "Which of the following makes other functions of business its appendages?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1126,7 +1267,10 @@
     "year": 1994,
     "questionNumber": 47,
     "question": "The use of computers in modern banking industry is a reflection of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1150,7 +1294,10 @@
     "year": 1994,
     "questionNumber": 48,
     "question": "When an oil exploring and mining company builds a health centre in one of the communities where it operates, such a company is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1174,7 +1321,10 @@
     "year": 1994,
     "questionNumber": 49,
     "question": "The West African Clearing House became legally operational on",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1198,7 +1348,10 @@
     "year": 1994,
     "questionNumber": 50,
     "question": "The Lake Chad Basin Commission was founded to enable member states.",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1222,7 +1375,10 @@
     "year": 1995,
     "questionNumber": 1,
     "question": "What are the factors with which commercial undertak ings can be distinguished? I Size of the undertakings.II Profits generated. III Forms of ownership.IV Location of the undertak ings.",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1246,7 +1402,10 @@
     "year": 1995,
     "questionNumber": 2,
     "question": "The development of commercial activities in Nigeria was facilitated largely by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1270,7 +1429,10 @@
     "year": 1995,
     "questionNumber": 14,
     "question": "Factoring is a trade debt term used when the agent buys all the trade debts of the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1294,7 +1456,10 @@
     "year": 1995,
     "questionNumber": 15,
     "question": "The financial index which compares current assets directly with current liabilities is known as current",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1318,7 +1483,10 @@
     "year": 1995,
     "questionNumber": 16,
     "question": "Rights issue means the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1342,7 +1510,10 @@
     "year": 1995,
     "questionNumber": 17,
     "question": "Profit that is expressed as a percentage of the cost of goods sold is referred to as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1366,7 +1537,10 @@
     "year": 1995,
     "questionNumber": 18,
     "question": "Given: N Opening stock 40,000 Purchases 115,000 Closing stock 60,000 Sales 250,000 What is the cost of goods sold?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1390,7 +1564,10 @@
     "year": 1995,
     "questionNumber": 19,
     "question": "In the channel of distribution, which of the following sets is entirely made up of middlemen?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1414,7 +1591,10 @@
     "year": 1995,
     "questionNumber": 20,
     "question": "Goods imported into a country for the purpose of re- exporting attracts a rebate known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1438,7 +1618,10 @@
     "year": 1995,
     "questionNumber": 21,
     "question": "Most foreign trade transactions are paid for through the use of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1462,7 +1645,10 @@
     "year": 1995,
     "questionNumber": 22,
     "question": "RRF as a scheme introduced by the Central Bank of Nigeria means",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1486,7 +1672,10 @@
     "year": 1995,
     "questionNumber": 23,
     "question": "Which of the following gives the correct order in which the listed documents are used?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1508,7 +1697,10 @@
     "year": 1995,
     "questionNumber": 3,
     "question": "In which of the following sets of occupations can an industrial worker be found?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1532,7 +1724,10 @@
     "year": 1995,
     "questionNumber": 4,
     "question": "Construction activities include the building of houses and roads as well as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1556,7 +1751,10 @@
     "year": 1995,
     "questionNumber": 5,
     "question": "If a partnership deed is silent on how profits are to be shared, partners share profits",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1580,7 +1778,10 @@
     "year": 1995,
     "questionNumber": 6,
     "question": "Which of the following information is contained in the Articles of Association of a limited liability company?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1604,7 +1805,10 @@
     "year": 1995,
     "questionNumber": 7,
     "question": "The merger of two companies producing the same type of products is an example of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1628,7 +1832,10 @@
     "year": 1995,
     "questionNumber": 8,
     "question": "One of the implications of the incorporation of a company is that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1652,7 +1859,10 @@
     "year": 1995,
     "questionNumber": 9,
     "question": "The main advantage of a sole trader is the freedom to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1676,7 +1886,10 @@
     "year": 1995,
     "questionNumber": 10,
     "question": "In the case of voluntary liquidation of a business, the receiver is appointed by the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1700,7 +1913,10 @@
     "year": 1995,
     "questionNumber": 11,
     "question": "When a company uses more of loans than equity to finance its business, the company is said to be",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1724,7 +1940,10 @@
     "year": 1995,
     "questionNumber": 12,
     "question": "The nominal value of a share as specified in the Memoradium of Association and the share certificate is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1748,7 +1967,10 @@
     "year": 1995,
     "questionNumber": 13,
     "question": "A public limited company can raise long-term loans through",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1772,7 +1994,10 @@
     "year": 1995,
     "questionNumber": 24,
     "question": "Freight note is a document",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1796,7 +2021,10 @@
     "year": 1995,
     "questionNumber": 25,
     "question": "An invoice of N600 is marked 5% 1 month, 212% 3 months’ and ‘1% 5 months’. If a customer pays in the second month of purchase, how much will he remit to the seller?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1820,7 +2048,10 @@
     "year": 1995,
     "questionNumber": 26,
     "question": "Spot market goods are those which are available for",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1844,7 +2075,10 @@
     "year": 1995,
     "questionNumber": 27,
     "question": "The main advantage of road transport is that it is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1868,7 +2102,10 @@
     "year": 1995,
     "questionNumber": 28,
     "question": "The practice by which an insurance company accepts a very large riskand later shares it with other insurance companies are called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1892,7 +2129,10 @@
     "year": 1995,
     "questionNumber": 29,
     "question": "The insurance policy which provides full cover against all risks at sea is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1916,7 +2156,10 @@
     "year": 1995,
     "questionNumber": 30,
     "question": "Berne Union is also known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1940,7 +2183,10 @@
     "year": 1995,
     "questionNumber": 31,
     "question": "Which of the following sets of items was used for exchange in Nigeria before money was introduced?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1964,7 +2210,10 @@
     "year": 1995,
     "questionNumber": 32,
     "question": "A major liability of a commercial bank arises from",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -1988,7 +2237,10 @@
     "year": 1995,
     "questionNumber": 33,
     "question": "A bank statement is a document",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2012,7 +2264,10 @@
     "year": 1995,
     "questionNumber": 34,
     "question": "Which of the following is NOT a function of the stock exchange market?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2036,7 +2291,10 @@
     "year": 1995,
     "questionNumber": 35,
     "question": "The marketing approach by which a firm caries out a detailed analysis of itself, the consumers and its competitors is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2060,7 +2318,10 @@
     "year": 1995,
     "questionNumber": 36,
     "question": "The breaking down of a market into separate and identifiable elements each with its own special product requirements is known as market",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2084,7 +2345,10 @@
     "year": 1995,
     "questionNumber": 37,
     "question": "Taking a new product to a particular part of a country to test the reaction of consumers to the product is referred to as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2108,7 +2372,10 @@
     "year": 1995,
     "questionNumber": 38,
     "question": "A manufacturer can make his product distinguishable from those of other competitors by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2132,7 +2399,10 @@
     "year": 1995,
     "questionNumber": 39,
     "question": "Which of the following are forms of sales promotion?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2156,7 +2426,10 @@
     "year": 1995,
     "questionNumber": 40,
     "question": "A disadvantage of personal selling is that it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2180,7 +2453,10 @@
     "year": 1995,
     "questionNumber": 41,
     "question": "Chinyere agreed to make a dress for Halima with September 20, 1995 as the delivery date. If the dress was not ready on that date, Halima could",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2204,7 +2480,10 @@
     "year": 1995,
     "questionNumber": 42,
     "question": "Consumer sovereignty means that the consumer is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2228,7 +2507,10 @@
     "year": 1995,
     "questionNumber": 43,
     "question": "When an industry or company is nationalized, the state becomes",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2252,7 +2534,10 @@
     "year": 1995,
     "questionNumber": 44,
     "question": "The Federal Government made efforts at rendering public enterprises more efficient and profit-oriented through the process of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2276,7 +2561,10 @@
     "year": 1995,
     "questionNumber": 45,
     "question": "Which of the following organizations represents those who engage labour in Nigeria?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2300,7 +2588,10 @@
     "year": 1995,
     "questionNumber": 46,
     "question": "The practice of assessing employees for payment or advancement according to their observed achievement is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2324,7 +2615,10 @@
     "year": 1995,
     "questionNumber": 47,
     "question": "Motivation is an essential element in management because it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2346,7 +2640,10 @@
     "year": 1997,
     "questionNumber": 1,
     "question": "Which of the following are the components of commerce? I Trading and advertising II Warehousing and transportation III Packaging and branding IV Insurance and banking.",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2370,7 +2667,10 @@
     "year": 1997,
     "questionNumber": 2,
     "question": "A royal charter was granted to the Royal Niger Company to do business in Nigeria in",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2394,7 +2694,10 @@
     "year": 1997,
     "questionNumber": 3,
     "question": "Transportation, retailing and wholesaling industries rely heavily on",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2418,7 +2721,10 @@
     "year": 1997,
     "questionNumber": 4,
     "question": "An example of indirect service is rendered by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2442,7 +2748,10 @@
     "year": 1997,
     "questionNumber": 5,
     "question": "The objectives of a business are determined by the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2466,7 +2775,10 @@
     "year": 1997,
     "questionNumber": 6,
     "question": "Partnerships are most suitable where",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2490,7 +2802,10 @@
     "year": 1997,
     "questionNumber": 7,
     "question": "The businessman that may end up not discharging his social responsibility is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2514,7 +2829,10 @@
     "year": 1997,
     "questionNumber": 8,
     "question": "The business with the best objectives is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2538,7 +2856,10 @@
     "year": 1997,
     "questionNumber": 9,
     "question": "The business organization in which shareholders have equal votes is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2562,7 +2883,10 @@
     "year": 1997,
     "questionNumber": 10,
     "question": "The major objective of corporate mergers is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2586,7 +2910,10 @@
     "year": 1997,
     "questionNumber": 11,
     "question": "When it becomes necessary to liquidate a company, the first step to be taken is the appointment of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2610,7 +2937,10 @@
     "year": 1997,
     "questionNumber": 12,
     "question": "In which of the following circumstances is a court order",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2632,7 +2962,10 @@
     "year": 1997,
     "questionNumber": 48,
     "question": "The direct authority of a superior over his surbordinate is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2656,7 +2989,10 @@
     "year": 1997,
     "questionNumber": 49,
     "question": "A firm’s organisational structure would change if",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2680,7 +3016,10 @@
     "year": 1997,
     "questionNumber": 50,
     "question": "The secretariat of the Niger Basin Commission is located at",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2704,7 +3043,10 @@
     "year": 1997,
     "questionNumber": 13,
     "question": "One type of investment that has a variable income is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2728,7 +3070,10 @@
     "year": 1997,
     "questionNumber": 14,
     "question": "A term which indicate that a share is temporarily suspended is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2752,7 +3097,10 @@
     "year": 1997,
     "questionNumber": 15,
     "question": "Leasing is the right to use assets for an agreed period in return for",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2776,7 +3124,10 @@
     "year": 1997,
     "questionNumber": 16,
     "question": "The form of business financing which involves pledging of a specific asset is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2800,7 +3151,10 @@
     "year": 1997,
     "questionNumber": 17,
     "question": "The total amount that a company is allowed to raise according to its memoradum of association is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2824,7 +3178,10 @@
     "year": 1997,
     "questionNumber": 18,
     "question": "A public limited liability company having a nominal capital made up of 200 000 ordinary shares of 50k each decided to issue 50% of it to the public What is the authorized capital?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2848,7 +3205,10 @@
     "year": 1997,
     "questionNumber": 19,
     "question": "The turnover of a firm may be affected by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2872,7 +3232,10 @@
     "year": 1997,
     "questionNumber": 20,
     "question": "The cost of transporting goods to customers is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2896,7 +3259,10 @@
     "year": 1997,
     "questionNumber": 21,
     "question": "The main aim of selling directly to consumers by manufacturers is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2920,7 +3286,10 @@
     "year": 1997,
     "questionNumber": 22,
     "question": "In foreign trade, document of title is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2944,7 +3313,10 @@
     "year": 1997,
     "questionNumber": 23,
     "question": "Excise duties are paid on goods that are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2968,7 +3340,10 @@
     "year": 1997,
     "questionNumber": 24,
     "question": "Stevedores as a term in foreign trade means men who",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -2992,7 +3367,10 @@
     "year": 1997,
     "questionNumber": 25,
     "question": "A close indent is an instruction to an agent to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3016,7 +3394,10 @@
     "year": 1997,
     "questionNumber": 26,
     "question": "The basic distinction between cash discount and trade discount is that while trade discount is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3037,7 +3418,10 @@
     "year": 1997,
     "questionNumber": 3,
     "question": "months",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3060,7 +3444,10 @@
     "year": 1997,
     "questionNumber": 27,
     "question": "The cost that arises from failure to load or unload a ship at the port within a stipulated period is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3084,7 +3471,10 @@
     "year": 1997,
     "questionNumber": 28,
     "question": "The mode of transportation that is noted for ontime dependability and low cost per unit on goods carried is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3108,7 +3498,10 @@
     "year": 1997,
     "questionNumber": 29,
     "question": "A person who undertakes any risk in insurance business is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3132,7 +3525,10 @@
     "year": 1997,
     "questionNumber": 30,
     "question": "The main purpose of insurance is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3156,7 +3552,10 @@
     "year": 1997,
     "questionNumber": 31,
     "question": "Bank giro is a system where",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3180,7 +3579,10 @@
     "year": 1997,
     "questionNumber": 32,
     "question": "Commercial banks are referred to as departmental stores of banking because they",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3204,7 +3606,10 @@
     "year": 1997,
     "questionNumber": 33,
     "question": "A market where new shares are traded is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3228,7 +3633,10 @@
     "year": 1997,
     "questionNumber": 34,
     "question": "When a firm speaks of stock appreciation, it refers to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3252,7 +3660,10 @@
     "year": 1997,
     "questionNumber": 35,
     "question": "The process of creating more market for a product is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3276,7 +3687,10 @@
     "year": 1997,
     "questionNumber": 36,
     "question": "When a vendor supplies newspapers from house to house and across the streets, the element of marketing mix involved is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3300,7 +3714,10 @@
     "year": 1997,
     "questionNumber": 37,
     "question": "The main advantage of using cinema as an advertising medium is that it is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3324,7 +3741,10 @@
     "year": 1997,
     "questionNumber": 38,
     "question": "When old customers stick to the old place to buy goods and services, it is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3348,7 +3768,10 @@
     "year": 1997,
     "questionNumber": 39,
     "question": "The most important piece of legislation governing business and commercial activities in Nigeria currently is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3372,7 +3795,10 @@
     "year": 1997,
     "questionNumber": 40,
     "question": "One of the criteria for differentiating consumer markets from industrial ones is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3396,7 +3822,10 @@
     "year": 1997,
     "questionNumber": 41,
     "question": "The over-riding objective of the food and drug act in Nigeria is to prevent the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3420,7 +3849,10 @@
     "year": 1997,
     "questionNumber": 42,
     "question": "The activities of consumers association in Nigeria have not been effective because",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3444,7 +3876,10 @@
     "year": 1997,
     "questionNumber": 43,
     "question": "The least of the advantages of indigenization is that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3468,7 +3903,10 @@
     "year": 1997,
     "questionNumber": 44,
     "question": "The main objective of a trade association can best be described as promoting and protecting",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3492,7 +3930,10 @@
     "year": 1997,
     "questionNumber": 45,
     "question": "The management function of evaluating whether objectives are being achieved is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3516,7 +3957,10 @@
     "year": 1997,
     "questionNumber": 46,
     "question": "In a business organization, the annual operation plan or budget is a form of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3540,7 +3984,10 @@
     "year": 1997,
     "questionNumber": 47,
     "question": "A key advantage of delegation is that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3564,7 +4011,10 @@
     "year": 1997,
     "questionNumber": 48,
     "question": "Social responsibility of business requires enterprises to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3588,7 +4038,10 @@
     "year": 1997,
     "questionNumber": 49,
     "question": "The existing system of governance and the administrative sub-divisions of a country which affect the operations of business in the country is described as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3612,7 +4065,10 @@
     "year": 1997,
     "questionNumber": 50,
     "question": "Sudden technological changes can have the effect of making",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3636,7 +4092,10 @@
     "year": 1998,
     "questionNumber": 1,
     "question": "Which of the following contributed least to the evolution of commercial activities in Nigeria?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3660,7 +4119,10 @@
     "year": 1998,
     "questionNumber": 2,
     "question": "One of the factors which critically determines the choice of occupation is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3684,7 +4146,10 @@
     "year": 1998,
     "questionNumber": 3,
     "question": "Extractive industries may also be denominated as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3708,7 +4173,10 @@
     "year": 1998,
     "questionNumber": 4,
     "question": "The primary objective of a business organization is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3732,7 +4200,10 @@
     "year": 1998,
     "questionNumber": 5,
     "question": "Services which are of absolute monopoly can best be provided by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3756,7 +4227,10 @@
     "year": 1998,
     "questionNumber": 6,
     "question": "One advantage the co-operative society has over the ordinary company is that the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3780,7 +4254,10 @@
     "year": 1998,
     "questionNumber": 7,
     "question": "It can be deduced from the above that Obi AgriculturalVentures is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3804,7 +4281,10 @@
     "year": 1998,
     "questionNumber": 8,
     "question": "Which of the statements below is true of Mr Abayomi?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3828,7 +4308,10 @@
     "year": 1998,
     "questionNumber": 9,
     "question": "A source of capital to private limited companies is shares issued to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3852,7 +4335,10 @@
     "year": 1998,
     "questionNumber": 10,
     "question": "Which of the following is an example of a conglomerate?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3876,7 +4362,10 @@
     "year": 1998,
     "questionNumber": 11,
     "question": "Which of the following statements is true of preferred stockholders?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3900,7 +4389,10 @@
     "year": 1998,
     "questionNumber": 12,
     "question": "A provision in the charter of a company which gives holders of common stock the first option to purchase additional issues of the firms’ common stock is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3924,7 +4416,10 @@
     "year": 1998,
     "questionNumber": 13,
     "question": "What is the current ratio?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3948,7 +4443,10 @@
     "year": 1998,
     "questionNumber": 14,
     "question": "What is the acid ratio?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3972,7 +4470,10 @@
     "year": 1998,
     "questionNumber": 15,
     "question": "The form of capital which is easily transferred into the form desired is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -3996,7 +4497,10 @@
     "year": 1998,
     "questionNumber": 16,
     "question": "If a firm’s turnover is N15,000 and the cost of goods sold is N10,000, what is the percentage of gross profit on sales?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4020,7 +4524,10 @@
     "year": 1998,
     "questionNumber": 17,
     "question": "A machine which enables sales without the physical presence of a sales attendant is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4044,7 +4551,10 @@
     "year": 1998,
     "questionNumber": 18,
     "question": "What document is required when a country imposes and valorem import duties on goods?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4068,7 +4578,10 @@
     "year": 1998,
     "questionNumber": 19,
     "question": "Entrepot trade is said to have taken place when goods are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4092,7 +4605,10 @@
     "year": 1998,
     "questionNumber": 20,
     "question": "When a price is quoted at F.O.B.it means that the price",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4116,7 +4632,10 @@
     "year": 1998,
     "questionNumber": 21,
     "question": "Emeka ordered goods for his retail shop. The manufacturer sells the goods at retail price of N500 but would give it to Emeka at N400. What kind of discount did he get?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4140,7 +4659,10 @@
     "year": 1998,
     "questionNumber": 22,
     "question": "Nigerian Postal Services (NIPOST) facilitates commerce in all the following ways except through",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4164,7 +4686,10 @@
     "year": 1998,
     "questionNumber": 23,
     "question": "The document with which a manufacturing enterprise releases stock of raw materials to the factory for production is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4188,7 +4713,10 @@
     "year": 1998,
     "questionNumber": 24,
     "question": "The two main categories under which marine losses fall into are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4212,7 +4740,10 @@
     "year": 1998,
     "questionNumber": 25,
     "question": "Insurance companies operate on the principle of indemnity. This means that an insured person or firm collects",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4236,7 +4767,10 @@
     "year": 1998,
     "questionNumber": 26,
     "question": "The most important difference between community banks and peoples’ bank is that the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4260,7 +4794,10 @@
     "year": 1998,
     "questionNumber": 27,
     "question": "The assets, liabilities and general management of a distressed bank may be taken over by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4284,7 +4821,10 @@
     "year": 1998,
     "questionNumber": 28,
     "question": "The type of securities that the stock exchange deals with are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4308,7 +4848,10 @@
     "year": 1998,
     "questionNumber": 29,
     "question": "I. Companies must be registered as private limited liability companies II. Companies must have less than 100 shareholders. III. No shareholder may have more than 75% of issued share capital. What of the above are reqirements for admission into the second-tier securities market?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4332,7 +4875,10 @@
     "year": 1998,
     "questionNumber": 30,
     "question": "An underlying principles in the marketing of goods is that firms should",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4356,7 +4902,10 @@
     "year": 1998,
     "questionNumber": 31,
     "question": "Product X was introduced into the market at N4.00 with its cost of production at N3.90 while competing products are selling at N4.50. What pricing policy are producers of X adopting?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4380,7 +4929,10 @@
     "year": 1998,
     "questionNumber": 32,
     "question": "The oral presentation in a conversation with one or more prospective buyers for all purpose of making sales is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4404,7 +4956,10 @@
     "year": 1998,
     "questionNumber": 33,
     "question": "Personnel activities that promote the general image of an organisation are part of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4428,7 +4983,10 @@
     "year": 1998,
     "questionNumber": 34,
     "question": "An agent must not make any secret profits in the performance of his duties but can only be rewarded by his principal through",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4452,7 +5010,10 @@
     "year": 1998,
     "questionNumber": 35,
     "question": "Sabo and Gambo entered into a contract for the sale of two baskets of tomatoes belonging to Gambo before the date pf delivery and without any default by Gambo, the tomatoes were stolen.This is an example of termination of contract by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4476,7 +5037,10 @@
     "year": 1998,
     "questionNumber": 36,
     "question": "A minor is not permitted to enter into a valid contract because he",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4500,7 +5064,10 @@
     "year": 1998,
     "questionNumber": 37,
     "question": "A person who is cheated in a business transaction can seek legal remedy",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4524,7 +5091,10 @@
     "year": 1998,
     "questionNumber": 38,
     "question": "The most essential element of a product is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4548,7 +5118,10 @@
     "year": 1998,
     "questionNumber": 39,
     "question": "Which of the following is a disadvantage of nationalization?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4572,7 +5145,10 @@
     "year": 1998,
     "questionNumber": 40,
     "question": "An example of a consumer protection agency is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4596,7 +5172,10 @@
     "year": 1998,
     "questionNumber": 41,
     "question": "The body that organizes, promotes and participates in local and foreign trade fairs is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4620,7 +5199,10 @@
     "year": 1998,
     "questionNumber": 6,
     "question": "The primary motive behind an individual engaging in production is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4644,7 +5226,10 @@
     "year": 1998,
     "questionNumber": 7,
     "question": "Musa obtains wool from his sheep, spins and transforms it into cloth which he sells to consumers. This is a form of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4668,7 +5253,10 @@
     "year": 1998,
     "questionNumber": 8,
     "question": "A company has an authorized capital of 40 million at N1 per share, out of which 32 million shares have been issued and fully paid-up.The remaining 8 million shares have",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4692,7 +5280,10 @@
     "year": 1998,
     "questionNumber": 42,
     "question": "The Continental West African Conference is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4716,7 +5307,10 @@
     "year": 1998,
     "questionNumber": 43,
     "question": "The main function of thrift, credit and loans co-operative societies is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4740,7 +5334,10 @@
     "year": 1998,
     "questionNumber": 44,
     "question": "Management is described as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4764,7 +5361,10 @@
     "year": 1998,
     "questionNumber": 45,
     "question": "Under normal circumstance, a business enterprise can be ideally structured",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4788,7 +5388,10 @@
     "year": 1999,
     "questionNumber": 1,
     "question": "The conversion of raw materials into finished products creates",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4812,7 +5415,10 @@
     "year": 1999,
     "questionNumber": 2,
     "question": "Commerce makes it possible for man to live in a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4836,7 +5442,10 @@
     "year": 1999,
     "questionNumber": 3,
     "question": "After paying the debts of Aboki Plc, the balance goes to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4860,7 +5469,10 @@
     "year": 1999,
     "questionNumber": 4,
     "question": "Babalawee is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4884,7 +5496,10 @@
     "year": 1999,
     "questionNumber": 5,
     "question": "A common requirement for public and private limited companies in Nigeria is that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4905,7 +5520,10 @@
     "year": 1999,
     "questionNumber": 46,
     "question": "EXTERNAL INTERNAL EXTERNAL ENVIRONMENT ENVIRONMENT ENVIRONMENT Which of the following sequences can best fit into the structure above?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4929,7 +5547,10 @@
     "year": 1999,
     "questionNumber": 47,
     "question": "When a business enterprises provides free service to its environment, the services is said to be a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4953,7 +5574,10 @@
     "year": 1999,
     "questionNumber": 48,
     "question": "Inventory control is an aspect of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -4977,7 +5601,10 @@
     "year": 1999,
     "questionNumber": 49,
     "question": "The reduction of import duties among the member countries of ECOWAS is an example of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5001,7 +5628,10 @@
     "year": 1999,
     "questionNumber": 50,
     "question": "In a common market, member countries agree basically to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5025,7 +5655,10 @@
     "year": 1999,
     "questionNumber": 9,
     "question": "An abridged version of a company’s income statement for 1993 contains the following information: N(million) Turnover 286.5 Cost of goods sold 147.5 Overhead and other expenses 85.5 Taxes due for the year 26.9 What was the company’s profit before taxes for 1993?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5049,7 +5682,10 @@
     "year": 1999,
     "questionNumber": 10,
     "question": "A business whose owners enjoy loan facilities on the basis of personal goodwill is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5073,7 +5709,10 @@
     "year": 1999,
     "questionNumber": 11,
     "question": "Which of the following is not a veritable source of funds to a public limited liability company?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5097,7 +5736,10 @@
     "year": 1999,
     "questionNumber": 12,
     "question": "Okon Etim Esin is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5121,7 +5763,10 @@
     "year": 1999,
     "questionNumber": 13,
     "question": "The document represents a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5145,7 +5790,10 @@
     "year": 1999,
     "questionNumber": 14,
     "question": "The term 5 Net 7’ on an invoice means that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5169,7 +5817,10 @@
     "year": 1999,
     "questionNumber": 15,
     "question": "Kabir receives two quotations. Ade quotes N100 less 20% trade discount, while Benson quotes N100 less 30% trade discount and 10% cash discount. If Kabir wants to take advantage of trade and cash discount, then",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5193,7 +5844,10 @@
     "year": 1999,
     "questionNumber": 16,
     "question": "A company which issues a promissory note in lieu of payment for goods purchased",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5217,7 +5871,10 @@
     "year": 1999,
     "questionNumber": 17,
     "question": "Kamaldeen is a seller in a hire-purchase agreement with Emeka. By law, Kamaldeen cannot recover the hire purchased goods. This is an instance of a restriction on",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5241,7 +5898,10 @@
     "year": 1999,
     "questionNumber": 18,
     "question": "The main documents sent to an importer of goods by the exporter are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5265,7 +5925,10 @@
     "year": 1999,
     "questionNumber": 19,
     "question": "The document that indicates instant payment of cash for goods whenever they are delivered is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5289,7 +5952,10 @@
     "year": 1999,
     "questionNumber": 20,
     "question": "Which of the following documents permits an importer to inspect his goods before the arrival of the bill of lading?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5313,7 +5979,10 @@
     "year": 1999,
     "questionNumber": 21,
     "question": "The overriding advantage of home trade over foreign trade is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5337,7 +6006,10 @@
     "year": 1999,
     "questionNumber": 22,
     "question": "A distinction between Comprehensive Insurance and Third Party Insurance is that the latter covers damages",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5361,7 +6033,10 @@
     "year": 1999,
     "questionNumber": 23,
     "question": "The rate at which a central bank discounts first class bills is called the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5385,7 +6060,10 @@
     "year": 1999,
     "questionNumber": 24,
     "question": "The principle of subrogation states that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5409,7 +6087,10 @@
     "year": 1999,
     "questionNumber": 25,
     "question": "Tolu purchased goods from Yemisi and is to pay custom duties before collection. The goods are likely to be collected from",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5433,7 +6114,10 @@
     "year": 1999,
     "questionNumber": 26,
     "question": "The three major functional units which the modern computer has are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5457,7 +6141,10 @@
     "year": 1999,
     "questionNumber": 27,
     "question": "I foreign investment. II Long-term lending III. Short- term lending IV. Foreign exchange reserve V. Short-term borrowing. Which combination of the above include capital account in international trade?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5481,7 +6168,10 @@
     "year": 1999,
     "questionNumber": 28,
     "question": "The elimination of faults in a computer program is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5505,7 +6195,10 @@
     "year": 1999,
     "questionNumber": 29,
     "question": "Aliyu bought 100 share at the stock market through a stockbroker. He was told the price of each share was N3 cum. div . This means that Aliyu",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5529,7 +6222,10 @@
     "year": 1999,
     "questionNumber": 30,
     "question": "The forum for the selling and buying of securities of small and medium companies is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5553,7 +6249,10 @@
     "year": 1999,
     "questionNumber": 31,
     "question": "A wholesale dealer in securities is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5577,7 +6276,10 @@
     "year": 1999,
     "questionNumber": 32,
     "question": "Modern business philosophy emphasizes",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5601,7 +6303,10 @@
     "year": 1999,
     "questionNumber": 33,
     "question": "The main role of advertising is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5625,7 +6330,10 @@
     "year": 1999,
     "questionNumber": 34,
     "question": "The concept of limiting the types, sizes and other characteristics of a product line without sacrificing utility or durability is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5649,7 +6357,10 @@
     "year": 1999,
     "questionNumber": 35,
     "question": "The focal point of all marketing efforts is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5673,7 +6384,10 @@
     "year": 1999,
     "questionNumber": 36,
     "question": "Adigun displays goods of different makes on shelves in his supermarket. This is an exmple of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5697,7 +6411,10 @@
     "year": 1999,
     "questionNumber": 37,
     "question": "The process of bringing a company under exclusive state ownership and control is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5721,7 +6438,10 @@
     "year": 1999,
     "questionNumber": 38,
     "question": "Q acting as the agent of P, lawfully and reasonably incurs the amount of N350 as expenses. If Q comes to P for payment, this is an instance of P’s duty to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5745,7 +6465,10 @@
     "year": 1999,
     "questionNumber": 39,
     "question": "In a hire purchase agreement between Argungu Ltd and Maikudi, Argungun Ltd inserted the provision that it can enter Maikudi’s premises at any time and remove the hired vehicle for any breach.This provision is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5769,7 +6492,10 @@
     "year": 1999,
     "questionNumber": 40,
     "question": "In every simple contract, the price which is paid to purchase a promise is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5793,7 +6519,10 @@
     "year": 1999,
     "questionNumber": 41,
     "question": "One major disadvantage of a cartel is that it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5817,7 +6546,10 @@
     "year": 1999,
     "questionNumber": 42,
     "question": "Staff position in an organization borders on",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5841,7 +6573,10 @@
     "year": 1999,
     "questionNumber": 43,
     "question": "The line function in a typical manufacturing enterprise is normally performed by the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5865,7 +6600,10 @@
     "year": 1999,
     "questionNumber": 44,
     "question": "I Money and machine II. Materials and money. III Market and I Man IV. Materials and Man. Which combination of the above are basic requirements as business resources?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5889,7 +6627,10 @@
     "year": 1999,
     "questionNumber": 45,
     "question": "Under what management function would the motivation of employees fall?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5913,7 +6654,10 @@
     "year": 1999,
     "questionNumber": 46,
     "question": "The main thrust of government policy of evolving good business environment in Nigeria is the need",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5937,7 +6681,10 @@
     "year": 1999,
     "questionNumber": 47,
     "question": "Which of these sets of external environmental factors affect a business operation?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5961,7 +6708,10 @@
     "year": 1999,
     "questionNumber": 48,
     "question": "The right of the public to protection against question able products and marketing practices is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -5985,7 +6735,10 @@
     "year": 2000,
     "questionNumber": 1,
     "question": "Government policies relating to the establishment and operations of businessess are targeted at",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6009,7 +6762,10 @@
     "year": 2000,
     "questionNumber": 2,
     "question": "The share capital value that forms part of the balance sheet total is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6033,7 +6789,10 @@
     "year": 2000,
     "questionNumber": 3,
     "question": "Bank overdraft as a short term source of fund is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6057,7 +6816,10 @@
     "year": 2000,
     "questionNumber": 4,
     "question": "The measure of independence available to the individual buisness units that come together is the main difference between",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6081,7 +6843,10 @@
     "year": 2000,
     "questionNumber": 5,
     "question": "The major factors that facilitate merchadising are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6105,7 +6870,10 @@
     "year": 2000,
     "questionNumber": 6,
     "question": "What is the total fixed capital?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6129,7 +6897,10 @@
     "year": 2000,
     "questionNumber": 7,
     "question": "Determine the circulating capital",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6153,7 +6924,10 @@
     "year": 2000,
     "questionNumber": 8,
     "question": "The term PLC implies that the shares are availble",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6177,7 +6951,10 @@
     "year": 2000,
     "questionNumber": 9,
     "question": "The application of division of labour should generally bring about",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6201,7 +6978,10 @@
     "year": 2000,
     "questionNumber": 10,
     "question": "On liquidation of a public limited liability company, the residual owners are the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6225,7 +7005,10 @@
     "year": 2000,
     "questionNumber": 49,
     "question": "Which of the following group of countries are members of the Niger Basin Commission?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6249,7 +7032,10 @@
     "year": 2000,
     "questionNumber": 50,
     "question": "The proposed monetary integration within ECOWAS sub- region has the overriding benefit of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6273,7 +7059,10 @@
     "year": 2000,
     "questionNumber": 11,
     "question": "Prodcution involves",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6297,7 +7086,10 @@
     "year": 2000,
     "questionNumber": 12,
     "question": "Which of these is both merit and demerit in partnership?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6321,7 +7113,10 @@
     "year": 2000,
     "questionNumber": 13,
     "question": "A printer that burns the print images onto the photosensitive drum is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6345,7 +7140,10 @@
     "year": 2000,
     "questionNumber": 14,
     "question": "The insurance principle that requires full disclosure of information on the insured is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6369,7 +7167,10 @@
     "year": 2000,
     "questionNumber": 15,
     "question": "A bank form used to transfer money from personal to creditor’s account is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6393,7 +7194,10 @@
     "year": 2000,
     "questionNumber": 16,
     "question": "A console is a device used in",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6417,7 +7221,10 @@
     "year": 2000,
     "questionNumber": 17,
     "question": "The fucntion of a merchant wholesaler is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6441,7 +7248,10 @@
     "year": 2000,
     "questionNumber": 18,
     "question": "The computer using linear integrated circuit technology coupled with quantification of data in terms of length and distance is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6465,7 +7275,10 @@
     "year": 2000,
     "questionNumber": 19,
     "question": "Ocean liners are subdivided into",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6489,7 +7302,10 @@
     "year": 2000,
     "questionNumber": 20,
     "question": "The current trends in retailing competion in Nigeria are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6513,7 +7329,10 @@
     "year": 2000,
     "questionNumber": 21,
     "question": "The main factors militating against the rapid growth of trade in Nigeria are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6537,7 +7356,10 @@
     "year": 2000,
     "questionNumber": 22,
     "question": "Mr. Olatunde took up a fire insurance on a property valued at N1000 and the amount insured is N800. The property caught fire causing a loss of N400. If the insurance was taken with the clause “with average’ what is the amount to be paid by the insurance company",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6561,7 +7383,10 @@
     "year": 2000,
     "questionNumber": 23,
     "question": "The Central Bank differs from commercial banks becasue it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6585,7 +7410,10 @@
     "year": 2000,
     "questionNumber": 24,
     "question": "Tourists with no fixed address in a town may receive their letters from the post office through a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6609,7 +7437,10 @@
     "year": 2000,
     "questionNumber": 25,
     "question": "An invoice can be described as a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6633,7 +7464,10 @@
     "year": 2000,
     "questionNumber": 26,
     "question": "Product Price Customer Promotion Place The chart above represents the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6657,7 +7491,10 @@
     "year": 2000,
     "questionNumber": 27,
     "question": "The role of public relations is principally to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6681,7 +7518,10 @@
     "year": 2000,
     "questionNumber": 28,
     "question": "The pratice whereby soft drink manufacturers give away caps, bags and other items when consumers buy their product is a form of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6705,7 +7545,10 @@
     "year": 2000,
     "questionNumber": 29,
     "question": "A group of specialized functions of marketing is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6729,7 +7572,10 @@
     "year": 2000,
     "questionNumber": 30,
     "question": "The major condition for obtaining loan in thrift credit and loans cooperative societies is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6753,7 +7599,10 @@
     "year": 2000,
     "questionNumber": 31,
     "question": "The type of advertising that seeks to persuade consumers to buy a particular product is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6777,7 +7626,10 @@
     "year": 2000,
     "questionNumber": 32,
     "question": "The most important advantage of personal selling is that it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6801,7 +7653,10 @@
     "year": 2000,
     "questionNumber": 33,
     "question": "The stock exchange helps to provide capital for industrial projects becasue it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6825,7 +7680,10 @@
     "year": 2000,
     "questionNumber": 34,
     "question": "A form of money that has gone out of use is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6849,7 +7707,10 @@
     "year": 2000,
     "questionNumber": 35,
     "question": "A shortcoming of the second-tier foreign exchange market in Nigeria is that it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6873,7 +7734,10 @@
     "year": 2000,
     "questionNumber": 36,
     "question": "The instument establishing the Economic Community of West African state in 1975 is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6897,7 +7761,10 @@
     "year": 2000,
     "questionNumber": 37,
     "question": "The composite functions of management are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6921,7 +7788,10 @@
     "year": 2000,
     "questionNumber": 38,
     "question": "The three components of staffing are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6945,7 +7815,10 @@
     "year": 2000,
     "questionNumber": 39,
     "question": "The primary objective of a trade association is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6969,7 +7842,10 @@
     "year": 2000,
     "questionNumber": 40,
     "question": "One of the functions of the Niger Basin Commission is to",
-    "image": null,
+    "image": {
+      "localUrl": "/api/pq/images/commerce-jamb-past-questions/2000_40.png",
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -6993,7 +7869,10 @@
     "year": 2000,
     "questionNumber": 41,
     "question": "The legal aspect of business is designed to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7017,7 +7896,10 @@
     "year": 2000,
     "questionNumber": 42,
     "question": "General Manager The organisational structure above represents",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7041,7 +7923,10 @@
     "year": 2000,
     "questionNumber": 43,
     "question": "An aspect of the law which allows an exclusive right for a limited number of years is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7065,7 +7950,10 @@
     "year": 2000,
     "questionNumber": 44,
     "question": "The basis elements of a valid contract are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7089,7 +7977,10 @@
     "year": 2000,
     "questionNumber": 45,
     "question": "In an organisation, civic consideration arises from",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7113,7 +8004,10 @@
     "year": 2000,
     "questionNumber": 46,
     "question": "The main difference between nationalization and indigenization in terms of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7137,7 +8031,10 @@
     "year": 2000,
     "questionNumber": 47,
     "question": "After registration, a certificate of trading is usually issued to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7161,7 +8058,10 @@
     "year": 2000,
     "questionNumber": 48,
     "question": "A bus driver operating between Lagos and Jos pledged the owner’s credit in Benin in order to have the engine repaired and the bill sent to the owner. This is a case of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7185,7 +8085,10 @@
     "year": 2000,
     "questionNumber": 49,
     "question": "A chamber of commerce is any association made up of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7209,7 +8112,10 @@
     "year": 2000,
     "questionNumber": 50,
     "question": "The first known legislation to protect consumer right in Nigeria is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7233,7 +8139,10 @@
     "year": 2001,
     "questionNumber": 1,
     "question": "The pivot on which the wheel of commerce rotates is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7257,7 +8166,10 @@
     "year": 2001,
     "questionNumber": 2,
     "question": "A distinguishing characteristics of labour is that it is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7281,7 +8193,10 @@
     "year": 2001,
     "questionNumber": 3,
     "question": "Land as a factor of production does not vary in",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7305,7 +8220,10 @@
     "year": 2001,
     "questionNumber": 4,
     "question": "Whhich of the following services does a lawyer render?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7329,7 +8247,10 @@
     "year": 2001,
     "questionNumber": 5,
     "question": "The partner that only contributes part of the capital used in the formation and running of a business is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7353,7 +8274,10 @@
     "year": 2001,
     "questionNumber": 6,
     "question": "One major advantage of a credit and thrift cooperatives is that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7377,7 +8301,10 @@
     "year": 2001,
     "questionNumber": 7,
     "question": "A form of ownership which exploits the strengths of one partners to remedy the weaknesses of the other is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7401,7 +8328,10 @@
     "year": 2001,
     "questionNumber": 8,
     "question": "At the collapse of a business enterprises, the person appointed to dispose of the assets is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7425,7 +8355,10 @@
     "year": 2001,
     "questionNumber": 9,
     "question": "Entrusting the management of a comapny to the courts to enable the settlement of the company’s oblilgations is an indication of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7449,7 +8382,10 @@
     "year": 2001,
     "questionNumber": 10,
     "question": "The financial instrument for borrowing in which collateral is usually more than the amount borrowed is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7473,7 +8409,10 @@
     "year": 2001,
     "questionNumber": 11,
     "question": "I. Personal saving II. Retained Earnings III Acrued Taxes Which of the items above constitute internal sources of financing for companies",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7497,7 +8436,10 @@
     "year": 2001,
     "questionNumber": 12,
     "question": "The difference between total current assets and total current liabilities of a business is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7521,7 +8463,10 @@
     "year": 2001,
     "questionNumber": 13,
     "question": "The capital employed is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7545,7 +8490,10 @@
     "year": 2001,
     "questionNumber": 14,
     "question": "The capital owned is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7569,7 +8517,10 @@
     "year": 2001,
     "questionNumber": 15,
     "question": "One of the reasons why wholesaling must continue is that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7593,7 +8544,10 @@
     "year": 2001,
     "questionNumber": 16,
     "question": "A merchant wholesaler is referred to as:",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7617,7 +8571,10 @@
     "year": 2001,
     "questionNumber": 17,
     "question": "A proforma invoice is sent to inform a buyer about the :",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7641,7 +8598,10 @@
     "year": 2001,
     "questionNumber": 18,
     "question": "The balance of payments of countries is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7665,7 +8625,10 @@
     "year": 2001,
     "questionNumber": 19,
     "question": "The major procedures in the purchase and sale of goods are enquiry",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7689,7 +8652,10 @@
     "year": 2001,
     "questionNumber": 20,
     "question": "The trade discount receivebale by Mr. Bacus is:",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7713,7 +8679,10 @@
     "year": 2001,
     "questionNumber": 21,
     "question": "If Mr. Bacus fulfil his promise, he will be entitled to a cash discount of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7737,7 +8706,10 @@
     "year": 2001,
     "questionNumber": 22,
     "question": "Bank Giro is a method of settling debt from a:",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7761,7 +8733,10 @@
     "year": 2001,
     "questionNumber": 23,
     "question": "Warehousing is a productive function because it increases the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7785,7 +8760,10 @@
     "year": 2001,
     "questionNumber": 24,
     "question": "A factor neccessary for siting a warehouse is nearness nearness to:",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7809,7 +8787,10 @@
     "year": 2001,
     "questionNumber": 25,
     "question": "Pooling of risk in insurance means that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7833,7 +8814,10 @@
     "year": 2001,
     "questionNumber": 26,
     "question": "The indemnification of Ama by his insurance cecompany after a fire disaster means that he:",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7857,7 +8841,10 @@
     "year": 2001,
     "questionNumber": 27,
     "question": "The major difference between insurance and assurance is that while insurance",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7881,7 +8868,10 @@
     "year": 2001,
     "questionNumber": 28,
     "question": "A documenatry bill will normally be acompanied by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7905,7 +8895,10 @@
     "year": 2001,
     "questionNumber": 29,
     "question": "Which of the following best describes the classifi cation of computers",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7929,7 +8922,10 @@
     "year": 2001,
     "questionNumber": 30,
     "question": "The temporary working area of the central procession unit is called the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7953,7 +8949,10 @@
     "year": 2001,
     "questionNumber": 31,
     "question": "The significance of money to modern economic systems is that it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -7977,7 +8976,10 @@
     "year": 2001,
     "questionNumber": 32,
     "question": "One major charcteristic of credit unions and thrift societies is that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8001,7 +9003,10 @@
     "year": 2001,
     "questionNumber": 33,
     "question": "The Nigerian Stock Exchange publishes a daily official list that gives full information on the A method of transactions agreed to by members,",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8024,7 +9029,10 @@
     "year": 2001,
     "questionNumber": 34,
     "question": "The main factors that determines the value of a stock on the Stock exchangea re dividend and",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8048,7 +9056,10 @@
     "year": 2001,
     "questionNumber": 35,
     "question": "One of the main objectives of the second-tier securities market in Nigeria is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8072,7 +9083,10 @@
     "year": 2001,
     "questionNumber": 36,
     "question": "The activities aimed at finding out customers’ need and satisfaction can be described as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8096,7 +9110,10 @@
     "year": 2001,
     "questionNumber": 37,
     "question": "The most effective type of advertising for branded product is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8120,7 +9137,10 @@
     "year": 2001,
     "questionNumber": 38,
     "question": "Which of these companies are more engaged in public relations activities?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8144,7 +9164,10 @@
     "year": 2001,
     "questionNumber": 39,
     "question": "Which of these companies offer after sales services?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8168,7 +9191,10 @@
     "year": 2001,
     "questionNumber": 40,
     "question": "Who are parties to the contract of renting the room.",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8192,7 +9218,10 @@
     "year": 2001,
     "questionNumber": 41,
     "question": "Who is the offeree in this contract?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8216,7 +9245,10 @@
     "year": 2001,
     "questionNumber": 42,
     "question": "The maximum number of shareholders in a public liability comapny is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8240,7 +9272,10 @@
     "year": 2001,
     "questionNumber": 43,
     "question": "One way by which government reduces the repatriation of capital is through",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8264,7 +9299,10 @@
     "year": 2001,
     "questionNumber": 44,
     "question": "One of the major functions of a chamber of commerce is to:",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8288,7 +9326,10 @@
     "year": 2001,
     "questionNumber": 45,
     "question": "Departmentalization is an aspect of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8312,7 +9353,10 @@
     "year": 2001,
     "questionNumber": 46,
     "question": "A functional organisational structure is where:",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8334,7 +9378,10 @@
     "year": 2001,
     "questionNumber": 49,
     "question": "One of the obstacles to achieving the objectives of ECOWAS is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8358,7 +9405,10 @@
     "year": 2001,
     "questionNumber": 50,
     "question": "One of the main objectives of establishing theNiger River Basin Commission was to :",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8382,7 +9432,10 @@
     "year": 2001,
     "questionNumber": 11,
     "question": "Awarding scholarships and sponsoring sports by a business organization are example of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8401,7 +9454,10 @@
     "year": 2001,
     "questionNumber": 1,
     "question": "The most important factor that delayed the development of commerce in Nigeria was",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8425,7 +9481,10 @@
     "year": 2001,
     "questionNumber": 2,
     "question": "Secondary production has to do with changing the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8449,7 +9508,10 @@
     "year": 2001,
     "questionNumber": 3,
     "question": "The major responsibility of an entrepreneur is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8473,7 +9535,10 @@
     "year": 2001,
     "questionNumber": 4,
     "question": "Which of the following best describe the scope of commerce?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8497,7 +9562,10 @@
     "year": 2001,
     "questionNumber": 5,
     "question": "Capital as a factor of production can be used as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8521,7 +9589,10 @@
     "year": 2001,
     "questionNumber": 6,
     "question": "The agency that currently oversee the privatization and commercialization processes in Nigeria is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8545,7 +9616,10 @@
     "year": 2001,
     "questionNumber": 7,
     "question": "Okeze contracted to sell TV sets to Ojo, unknown to them, the sets were stolen in transit. This contract my be terminated on the grounds of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8569,7 +9643,10 @@
     "year": 2001,
     "questionNumber": 8,
     "question": "Which of the following countries are member of the lake Chad Basin Commission?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8593,7 +9670,10 @@
     "year": 2001,
     "questionNumber": 9,
     "question": "A core investor in the current phase of privatization in Nigeria is one who",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8617,7 +9697,10 @@
     "year": 2001,
     "questionNumber": 10,
     "question": "The agency in Nigeria which ensure that products conform to government quality specification is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8641,7 +9724,10 @@
     "year": 2001,
     "questionNumber": 47,
     "question": "In the line type of organizational structure",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8665,7 +9751,10 @@
     "year": 2001,
     "questionNumber": 48,
     "question": "Proper disposal of waste by business firms is one way of discharging their",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8689,7 +9778,10 @@
     "year": 2001,
     "questionNumber": 12,
     "question": "The commercialization of public enterprises is aimed at",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8713,7 +9805,10 @@
     "year": 2001,
     "questionNumber": 13,
     "question": "An author is exclusive right to his published and unpublished works is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8737,7 +9832,10 @@
     "year": 2001,
     "questionNumber": 14,
     "question": "Under an endowment policy, the money handed over to the insured at the expiration of the stipulated time or at death is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8761,7 +9859,10 @@
     "year": 2001,
     "questionNumber": 15,
     "question": "The machine used for sending telex message is known as a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8785,7 +9886,10 @@
     "year": 2001,
     "questionNumber": 16,
     "question": "Which of these insurance principles requires a close connection between the actual loss suffered and the risk insured?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8809,7 +9913,10 @@
     "year": 2001,
     "questionNumber": 17,
     "question": "The unit through which the results of a processed data are displayed is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8833,7 +9940,10 @@
     "year": 2001,
     "questionNumber": 18,
     "question": "Which of the following is used to inform the addressee that a registered parcel is ready for collection?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8857,7 +9967,10 @@
     "year": 2001,
     "questionNumber": 19,
     "question": "The type of computer commonly found in offices is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8881,7 +9994,10 @@
     "year": 2001,
     "questionNumber": 20,
     "question": "The mode of transporting crude oil to the ports for export purposes is by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8905,7 +10021,10 @@
     "year": 2001,
     "questionNumber": 21,
     "question": "The temporary insurance certificate issued to the insured before drawing up a policy is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8929,7 +10048,10 @@
     "year": 2001,
     "questionNumber": 22,
     "question": "The bulls and bears in the Stock Exchange market help to minimize",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8953,7 +10075,10 @@
     "year": 2001,
     "questionNumber": 23,
     "question": "Debentures differ from shares in that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -8977,7 +10102,10 @@
     "year": 2001,
     "questionNumber": 24,
     "question": "The Stock Exchange is a market where",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9001,7 +10129,10 @@
     "year": 2001,
     "questionNumber": 25,
     "question": "A retail cooperative society aims at",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9025,7 +10156,10 @@
     "year": 2001,
     "questionNumber": 26,
     "question": "A bill of exchange already accepted can be discounted by the holder in",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9049,7 +10183,10 @@
     "year": 2001,
     "questionNumber": 27,
     "question": "The document issued by the seller which gives details of the goods he sells is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9073,7 +10210,10 @@
     "year": 2001,
     "questionNumber": 28,
     "question": "Given: I Retail, II export, III Transport, IV import, V Insurance, VI banking and finance insurance VII wholesale VIII communication. Which of the above are aids to trade?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9097,7 +10237,10 @@
     "year": 2001,
     "questionNumber": 29,
     "question": "The organizational structure that relates the positions of specialists to the line managers is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9121,7 +10264,10 @@
     "year": 2001,
     "questionNumber": 30,
     "question": "A wholesaler who possesses the title to the goods he sell is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9145,7 +10291,10 @@
     "year": 2001,
     "questionNumber": 31,
     "question": "An important principle of a good organizational structure is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9169,7 +10318,10 @@
     "year": 2001,
     "questionNumber": 32,
     "question": "A company that is registered with the Corporate Affairs Commission only without being enlisted on the stock exchange is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9193,7 +10345,10 @@
     "year": 2001,
     "questionNumber": 33,
     "question": "A contract for the sale of goods involves the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9217,7 +10372,10 @@
     "year": 2001,
     "questionNumber": 34,
     "question": "The total of the share capital which a company would be allowed to issue is know as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9241,7 +10399,10 @@
     "year": 2001,
     "questionNumber": 35,
     "question": "The process of mobilizing, engaging and maintaining workers to work for an organization is referred to as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9265,7 +10426,10 @@
     "year": 2001,
     "questionNumber": 36,
     "question": "Recognized members of the Stock Exchange who buy and sell securities on their own behalf are known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9289,7 +10453,10 @@
     "year": 2001,
     "questionNumber": 37,
     "question": "Which of the following involves foreign trade?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9313,7 +10480,10 @@
     "year": 2001,
     "questionNumber": 38,
     "question": "Which of the following is a function of employers’ association?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9337,7 +10507,10 @@
     "year": 2001,
     "questionNumber": 39,
     "question": "Which of the following industries is normally located near the source of its raw materials?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9361,7 +10534,10 @@
     "year": 2001,
     "questionNumber": 40,
     "question": "One of the most important functions of marketing is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9385,7 +10561,10 @@
     "year": 2001,
     "questionNumber": 41,
     "question": "Securities on which the buyers are not issued with certificates are called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9409,7 +10588,10 @@
     "year": 2001,
     "questionNumber": 42,
     "question": "In product pricing, which of these elements needs more consideration that others?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9433,7 +10615,10 @@
     "year": 2001,
     "questionNumber": 43,
     "question": "The principal objectives of the Central Bank of Nigeria can be classified broadly into",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9457,7 +10642,10 @@
     "year": 2001,
     "questionNumber": 44,
     "question": "The letters E and OE stands for",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9481,7 +10669,10 @@
     "year": 2001,
     "questionNumber": 45,
     "question": "An important issue for consideration in the product element of the marketing mix is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9505,7 +10696,10 @@
     "year": 2001,
     "questionNumber": 46,
     "question": "A group of companies is a collection of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9529,7 +10723,10 @@
     "year": 2001,
     "questionNumber": 47,
     "question": "Which of the following is an example of trade associations?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9553,7 +10750,10 @@
     "year": 2001,
     "questionNumber": 48,
     "question": "Which of the following determines the quality of the goods that a retailer sells?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9577,7 +10777,10 @@
     "year": 2001,
     "questionNumber": 49,
     "question": "An advantage of hire purchase to the consumer is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9598,7 +10801,10 @@
     "year": 2001,
     "questionNumber": 7,
     "question": "What was the amount paid by Ojo?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9622,7 +10828,10 @@
     "year": 2001,
     "questionNumber": 8,
     "question": "How much was the trade discount?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9646,7 +10855,10 @@
     "year": 2001,
     "questionNumber": 9,
     "question": "The basic function of the Nigerian Ports Authority is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9670,7 +10882,10 @@
     "year": 2001,
     "questionNumber": 10,
     "question": "The concept that refers to the sale, transfer or exchange of goods and services is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9694,7 +10909,10 @@
     "year": 2001,
     "questionNumber": 11,
     "question": "A guarantee given by one person or party to another in which the integrity of the person is assured is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9718,7 +10936,10 @@
     "year": 2001,
     "questionNumber": 12,
     "question": "A firm that adapts itself to delivering the desired satisfaction more and effectively and efficiently than its competitors is said to be practicing.",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9744,7 +10965,10 @@
     "year": 2001,
     "questionNumber": 13,
     "question": "The payment made periodically in respect of an insurance policy entered into is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9768,7 +10992,10 @@
     "year": 2001,
     "questionNumber": 14,
     "question": "An example of service rendered by NIPOST is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9792,7 +11019,10 @@
     "year": 2001,
     "questionNumber": 15,
     "question": "The focal point of marketing is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9818,7 +11048,10 @@
     "year": 2001,
     "questionNumber": 50,
     "question": "The founders shares are usually referred to as deferred shares because the holders",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9842,7 +11075,10 @@
     "year": 2003,
     "questionNumber": 1,
     "question": "An example of service rendering trade association is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9866,7 +11102,10 @@
     "year": 2003,
     "questionNumber": 2,
     "question": "An obstacle to international trade is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9890,7 +11129,10 @@
     "year": 2003,
     "questionNumber": 3,
     "question": "The right of ownership with respect to goods or property is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9914,7 +11156,10 @@
     "year": 2003,
     "questionNumber": 4,
     "question": "The main motive of chambers of commerce and trade association is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9938,7 +11183,10 @@
     "year": 2003,
     "questionNumber": 5,
     "question": "A pattern that shows the kinds of participants involved in the production distribution and ultimate use of a product is referred to as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9962,7 +11210,10 @@
     "year": 2003,
     "questionNumber": 6,
     "question": "Goods that are manufactured or acquired by the seller after the contract of sale are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -9986,7 +11237,10 @@
     "year": 2003,
     "questionNumber": 16,
     "question": "The type of marine insurance which covers either damage or loss to the vessel and such as caused by it to other vessels is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10010,7 +11264,10 @@
     "year": 2003,
     "questionNumber": 17,
     "question": "The management function that makes the difference in intensity of behaviour is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10034,7 +11291,10 @@
     "year": 2003,
     "questionNumber": 18,
     "question": "One of the function of seaports is the provision of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10058,7 +11318,10 @@
     "year": 2003,
     "questionNumber": 19,
     "question": "The process of dividing task into jobs and departments and of delegating authority is know as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10082,7 +11345,10 @@
     "year": 2003,
     "questionNumber": 20,
     "question": "Communication process involves the transmission of a message over a selected channel to the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10106,7 +11372,10 @@
     "year": 2003,
     "questionNumber": 21,
     "question": "Stimulation of demand is a kind of communication in marketing which connotes",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10130,7 +11399,10 @@
     "year": 2003,
     "questionNumber": 22,
     "question": "A functional structure is an organizational structure in which",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10154,7 +11426,10 @@
     "year": 2003,
     "questionNumber": 23,
     "question": "Entrepreneurship mainly involves",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10178,7 +11453,10 @@
     "year": 2003,
     "questionNumber": 24,
     "question": "In the event of the liquidation of a company, the first to be settled are:",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10202,7 +11480,10 @@
     "year": 2003,
     "questionNumber": 25,
     "question": "The business organization established mainly for the purpose of carrying out specific assignments for a specific duration is a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10226,7 +11507,10 @@
     "year": 2003,
     "questionNumber": 26,
     "question": "Which of these factors of production is relatively fixed in supply?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10250,7 +11534,10 @@
     "year": 2003,
     "questionNumber": 27,
     "question": "The location of a business is mostly influenced by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10274,7 +11561,10 @@
     "year": 2003,
     "questionNumber": 28,
     "question": "The evolution of commerce in Nigeria is traceable to the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10298,7 +11588,10 @@
     "year": 2003,
     "questionNumber": 29,
     "question": "One of the requirements necessary for setting up a business is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10322,7 +11615,10 @@
     "year": 2003,
     "questionNumber": 30,
     "question": "The assembling of products into usable form is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10346,7 +11642,10 @@
     "year": 2003,
     "questionNumber": 31,
     "question": "The government’s policy thrust on the business environment is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10370,7 +11669,10 @@
     "year": 2003,
     "questionNumber": 32,
     "question": "Social responsibility is the ability of an organization to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10394,7 +11696,10 @@
     "year": 2003,
     "questionNumber": 33,
     "question": "The act of a person employing another to enter into a contract on his behalf is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10418,7 +11723,10 @@
     "year": 2003,
     "questionNumber": 34,
     "question": "The ECOBANK is the initiative of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10442,7 +11750,10 @@
     "year": 2003,
     "questionNumber": 35,
     "question": "Privatization is concerned with",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10466,7 +11777,10 @@
     "year": 2003,
     "questionNumber": 36,
     "question": "Electronic computers differ from human beings in that they process data and minimize errors in a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10490,7 +11804,10 @@
     "year": 2003,
     "questionNumber": 37,
     "question": "A major benefit derivable from the privatization and commercialization of public enterprises in Nigeria is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10514,7 +11831,10 @@
     "year": 2003,
     "questionNumber": 38,
     "question": "The device which interprets and carries out the instructions presented to it by the computer program is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10538,7 +11858,10 @@
     "year": 2003,
     "questionNumber": 39,
     "question": "The market structure, business conditions and financial systems in Nigeria constitute the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10562,7 +11885,10 @@
     "year": 2003,
     "questionNumber": 40,
     "question": "The protection of consumers against exploitation by manufacturers is to ensure",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10586,7 +11912,10 @@
     "year": 2003,
     "questionNumber": 41,
     "question": "The most widely used computer language that focuses on solving science-oriented problems is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10610,7 +11939,10 @@
     "year": 2003,
     "questionNumber": 42,
     "question": "Banks are engaged in the business of buying and selling of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10634,7 +11966,10 @@
     "year": 2003,
     "questionNumber": 43,
     "question": "A source of short-term finance to companies is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10658,7 +11993,10 @@
     "year": 2003,
     "questionNumber": 44,
     "question": "The body charged with the responsibility to register shares for subscription on the stock market in Nigeria is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10682,7 +12020,10 @@
     "year": 2003,
     "questionNumber": 45,
     "question": "An essential factor for evaluating the different sources of funds for a business is the.",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10706,7 +12047,10 @@
     "year": 2003,
     "questionNumber": 46,
     "question": "What is the owner’s equity?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10730,7 +12074,10 @@
     "year": 2003,
     "questionNumber": 47,
     "question": "Find the current ratio",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10754,7 +12101,10 @@
     "year": 2003,
     "questionNumber": 48,
     "question": "Money can simply be referred to as a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10778,7 +12128,10 @@
     "year": 2003,
     "questionNumber": 49,
     "question": "A type of long-term loan granted to companies with fixed interest as well as with redeemable and irredeemable features is referred to as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10802,7 +12155,10 @@
     "year": 2003,
     "questionNumber": 50,
     "question": "Public debt management is one of the function of a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10826,7 +12182,10 @@
     "year": 2004,
     "questionNumber": 1,
     "question": "Ships that sail across the ocean and operate on scheduled timetables are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10850,7 +12209,10 @@
     "year": 2004,
     "questionNumber": 2,
     "question": "Non-insurable risks include",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10874,7 +12236,10 @@
     "year": 2004,
     "questionNumber": 3,
     "question": "The program that makes up the operating system in a computer is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10898,7 +12263,10 @@
     "year": 2004,
     "questionNumber": 4,
     "question": "When an organization studies a market that is underserved by others and creates a product or service for the segment, it is engaged in",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10922,7 +12290,10 @@
     "year": 2004,
     "questionNumber": 5,
     "question": "Coverage against unexpected events is called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10946,7 +12317,10 @@
     "year": 2004,
     "questionNumber": 6,
     "question": "An insured risk which occurs accidentally as a result of defects in a ship is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10970,7 +12344,10 @@
     "year": 2004,
     "questionNumber": 7,
     "question": "Communication enhances business activities by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -10994,7 +12371,10 @@
     "year": 2004,
     "questionNumber": 8,
     "question": "In business, the computer is very important especially in",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11018,7 +12398,10 @@
     "year": 2004,
     "questionNumber": 9,
     "question": "What is the most important use of promotion in marketing?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11042,7 +12425,10 @@
     "year": 2004,
     "questionNumber": 10,
     "question": "The current highest decision-making body on privatization and commercialization of public enterprises in Nigeria is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11066,7 +12452,10 @@
     "year": 2004,
     "questionNumber": 11,
     "question": "The members of the Niger Basin Commission include",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11090,7 +12479,10 @@
     "year": 2004,
     "questionNumber": 12,
     "question": "Business environment refers to all elements that are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11114,7 +12506,10 @@
     "year": 2004,
     "questionNumber": 13,
     "question": "Consumer rights include the right to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11138,7 +12533,10 @@
     "year": 2004,
     "questionNumber": 14,
     "question": "One important requirement for the membership of the ECOWAS is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11162,7 +12560,10 @@
     "year": 2004,
     "questionNumber": 15,
     "question": "In Nigeria, the body that ensures that its members operate according to their professional ethics is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11186,7 +12587,10 @@
     "year": 2004,
     "questionNumber": 16,
     "question": "A transporter who had to sell some perishable goods without the prior authority of the owner becomes an agent by",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11210,7 +12614,10 @@
     "year": 2004,
     "questionNumber": 17,
     "question": "Poor sewage disposal, oil spill and indiscriminate refuse dumping all lead to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11234,7 +12641,10 @@
     "year": 2004,
     "questionNumber": 18,
     "question": "One of the advantages of commercialization is that it",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11258,7 +12668,10 @@
     "year": 2004,
     "questionNumber": 19,
     "question": "A common element in all contracts is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11282,7 +12695,10 @@
     "year": 2004,
     "questionNumber": 20,
     "question": "Sources of finance to a business include personal savings, shares, debentures and",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11306,7 +12722,10 @@
     "year": 2004,
     "questionNumber": 21,
     "question": "Charges for loans paid by commercial banks to the Central Bank of Nigeria are called",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11330,7 +12749,10 @@
     "year": 2004,
     "questionNumber": 22,
     "question": "In the primary market, new shares are issued through",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11354,7 +12776,10 @@
     "year": 2004,
     "questionNumber": 23,
     "question": "The instruments of credit include",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11378,7 +12803,10 @@
     "year": 2004,
     "questionNumber": 24,
     "question": "The shares of a company listed on the stock exchange for sale are referred to as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11402,7 +12830,10 @@
     "year": 2004,
     "questionNumber": 25,
     "question": "What is the role of the capital market in the privatization exercise in Nigeria?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11426,7 +12857,10 @@
     "year": 2004,
     "questionNumber": 26,
     "question": "In international trade, documentary credit is also known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11450,7 +12884,10 @@
     "year": 2004,
     "questionNumber": 27,
     "question": "A specialized institution in Nigeria that deals\"in capital investments in the form of stocks, shares, bonds and debentures is the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11474,7 +12911,10 @@
     "year": 2004,
     "questionNumber": 28,
     "question": "A group of assets which a business acquires with the intention of reselling them are referred to as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11498,7 +12938,10 @@
     "year": 2004,
     "questionNumber": 29,
     "question": "Authorized share capital is also known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11522,7 +12965,10 @@
     "year": 2004,
     "questionNumber": 30,
     "question": "An action taken by a company outside its object clause is regarded as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11546,7 +12992,10 @@
     "year": 2004,
     "questionNumber": 31,
     "question": "The strategy adopted by a flrIn that ceases to operate at one or more locations because of inactivity is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11570,7 +13019,10 @@
     "year": 2004,
     "questionNumber": 32,
     "question": "A written partnership contract is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11594,7 +13046,10 @@
     "year": 2004,
     "questionNumber": 33,
     "question": "The merger of a textile mill, a cement company and a tannery is referred to as",
-    "image": null,
+    "image": {
+      "localUrl": "/api/pq/images/commerce-jamb-past-questions/2004_33.png",
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11618,7 +13073,10 @@
     "year": 2004,
     "questionNumber": 34,
     "question": "As the branches indicate, iv is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11642,7 +13100,10 @@
     "year": 2004,
     "questionNumber": 35,
     "question": "What does v represent?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11666,7 +13127,10 @@
     "year": 2004,
     "questionNumber": 36,
     "question": "The most important of computer is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11690,7 +13154,10 @@
     "year": 2004,
     "questionNumber": 37,
     "question": "The acronym PLC is used to identify a",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11714,7 +13181,10 @@
     "year": 2004,
     "questionNumber": 38,
     "question": "Commerce includes all the occupations concerned with",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11738,7 +13208,10 @@
     "year": 2004,
     "questionNumber": 39,
     "question": "Factors of production can be described as the",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11762,7 +13235,10 @@
     "year": 2004,
     "questionNumber": 40,
     "question": "Flucntuations in the supply of goods may be eliminated if the distribution system maintains",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11786,7 +13262,10 @@
     "year": 2004,
     "questionNumber": 41,
     "question": "Loan schemes by thrift ocieties are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11810,7 +13289,10 @@
     "year": 2004,
     "questionNumber": 42,
     "question": "An internal demand for goods to be purchased or drawn from stock is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11834,7 +13316,10 @@
     "year": 2004,
     "questionNumber": 43,
     "question": "The term 4 net 7 on an invoice means that",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11858,7 +13343,10 @@
     "year": 2004,
     "questionNumber": 44,
     "question": "An order sent by an importer to an overseas supplier stating the details of goods reqired is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11882,7 +13370,10 @@
     "year": 2004,
     "questionNumber": 45,
     "question": "Organising trade fairs in Nigeria is the responsibility of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11906,7 +13397,10 @@
     "year": 2004,
     "questionNumber": 46,
     "question": "International trade takes place as a result of",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11930,7 +13424,10 @@
     "year": 2004,
     "questionNumber": 47,
     "question": "The use of vending machines in retailing is hindered in a developing economy owing to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11954,7 +13451,10 @@
     "year": 2004,
     "questionNumber": 48,
     "question": "Manufcturers’ Association of Nigeria contributes to development by advising the government on",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -11978,7 +13478,10 @@
     "year": 2004,
     "questionNumber": 49,
     "question": "Discounts offered by firms to midlemen for bulk purchases are",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12002,7 +13505,10 @@
     "year": 2004,
     "questionNumber": 50,
     "question": "Goods are of merchantable quality if they",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12026,7 +13532,10 @@
     "year": 2003,
     "questionNumber": 7,
     "question": "What was the amount paid by Ojo?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12050,7 +13559,10 @@
     "year": 2003,
     "questionNumber": 8,
     "question": "How much was the trade discount?",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12074,7 +13586,10 @@
     "year": 2003,
     "questionNumber": 9,
     "question": "The basic function of the Nigerian Ports Authority is to",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12098,7 +13613,10 @@
     "year": 2003,
     "questionNumber": 10,
     "question": "The concept that refers to the sale, transfer or exchange of goods and services is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12122,7 +13640,10 @@
     "year": 2003,
     "questionNumber": 11,
     "question": "A guarantee given by one person or party to another in which the integrity of the person is assured is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12146,7 +13667,10 @@
     "year": 2003,
     "questionNumber": 12,
     "question": "A firm that adapts itself to delivering the desired satisfaction more and effectively and efficiently than its competitors is said to be practicing.",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12172,7 +13696,10 @@
     "year": 2003,
     "questionNumber": 13,
     "question": "The payment made periodically in respect of an insurance policy entered into is known as",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12196,7 +13723,10 @@
     "year": 2003,
     "questionNumber": 14,
     "question": "An example of service rendered by NIPOST is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",
@@ -12220,7 +13750,10 @@
     "year": 2003,
     "questionNumber": 15,
     "question": "The focal point of marketing is",
-    "image": null,
+    "image": {
+      "localUrl": null,
+      "cloudinaryUrl": null
+    },
     "type": "jamb",
     "subject": "Commerce",
     "topic": "Commerce",

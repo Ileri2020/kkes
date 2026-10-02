@@ -250,6 +250,7 @@ model Question {
   passage       String?
   context       String?
   needsRescan    Boolean         @default(false)
+  image          Json?
   imageUrl       String?
   option1        String?
   option2        String?

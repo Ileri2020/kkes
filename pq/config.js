@@ -7,6 +7,7 @@ const PDF_DIR = path.join(PQ_DIR, "jamb");
 const PROJECT_ROOT = path.resolve(PQ_DIR, "..");
 const OUTPUT_FILE = path.join(PQ_DIR, "past_questions_db.json");
 const SUBJECT_JSON_DIR = path.join(PQ_DIR, "json");
+const QUESTION_IMAGE_DIR = path.join(SUBJECT_JSON_DIR, "images");
 
 // Load local credentials for optional Cloudinary uploads and -db imports.
 try {
@@ -177,6 +178,7 @@ module.exports = {
   PROJECT_ROOT,
   OUTPUT_FILE,
   SUBJECT_JSON_DIR,
+  QUESTION_IMAGE_DIR,
   QUESTION_START,
   MAX_QUESTION_NUMBER,
   MIN_QUESTION_NUMBER_FOR_YEAR_RESET,

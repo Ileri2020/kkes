@@ -31,7 +31,7 @@ function createQuestion(number, firstLine, context) {
     year: context.year ?? null,
     questionNumber: number,
     question: promptText,
-    image: null,
+    image: { localUrl: null, cloudinaryUrl: null },
     type: context.examType,
     subject: context.subject,
     topic: context.topic,

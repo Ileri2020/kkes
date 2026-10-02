@@ -10,8 +10,9 @@ import {AiOutlineSearch, AiOutlineHome, AiOutlineShop, AiOutlineMan, AiOutlineCo
 
 const Navbar = () : JSX.Element => {
   return (
-    <div className="w-[100vw] overflow-clip flex flex-col m-0 p-0 font-roboto_mono  shadow-lg shadow-accent">
-      <header className="w-[100%] py-1 bg-background sticky top-0 z-50">
+    <>
+    <div className="fixed inset-x-0 top-0 z-50 w-full overflow-clip font-roboto_mono shadow-lg shadow-accent">
+      <header className="w-full py-1 bg-background">
         <div className="container mx-auto flex justify-between items-center h-[50px] overflow-clip">
             <Link href="/" className="flex shrink-0 justify-center items-center py-1">
               <Image src="/logo.png" alt="Kith and Kin International College logo" width={42} height={42} className="h-[42px] w-[42px] object-contain" />
@@ -48,6 +49,8 @@ const Navbar = () : JSX.Element => {
       </header>
       
     </div>
+    <div aria-hidden="true" className="h-[58px]" />
+    </>
   )
 }
 
