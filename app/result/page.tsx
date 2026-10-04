@@ -76,7 +76,7 @@ export type Payment = {
   email: string
 }
 
-export const columns: ColumnDef<Payment>[] = [
+export const columns: ColumnDef<Payment>[] = [//needs to open first page
   {
     id: "select",
     header: ({ table }) => (
