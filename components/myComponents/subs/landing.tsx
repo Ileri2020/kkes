@@ -1,7 +1,9 @@
+"use client"
+
 import React from 'react'
 import Textview from "./textsview"
 import Imgview from './imgview'
-import Social from "@/components/social"
+import Social from "@/components/utility/social"
 
 const Landing = () => {
   const textList = ["Empowering Africa Through STEM", "Creating Africas Scientific Future", "Sparking Innovation in Young Minds", "Fueling Discovery and Driving Progress", "Igniting Imaginations and Shaping the Future", "Where Science Meets Oportunity"]
