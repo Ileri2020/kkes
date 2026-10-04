@@ -18,7 +18,7 @@ const Gallery = () => {
                   <Button className="relative max-w-[220px] text-4xl //text-accent border-2 font-semibold rounded-md px-20 hover:bg-accent/10 hover:border-2 hover:border-accent hover:text-accent"><CiShoppingCart className=""/></Button>
                 </div>
                 <div className="w-[350px] h-[350px] contain-content flex justify-center items-center">
-                  <img src={stock.img.src} alt="" className="h-full rounded-sm" />
+                  <img src={stock.img} alt="" className="h-full rounded-sm" />
                 </div>
               </div>
             )
@@ -27,7 +27,7 @@ const Gallery = () => {
             return (
               <div className="flex flex-row /bg-accent-secondary/5 w-full justify-between" key={index}>
                 <div className="w-[350px] h-[350px] contain-content flex justify-center items-center">
-                  <img src={stock.img.src} alt="" className="h-full rounded-sm" />
+                  <img src={stock.img} alt="" className="h-full rounded-sm" />
                 </div>
                 <div className="flex flex-col flex-1 /justify-between items-center text-center p-5">
                   <div className="flex flex-1 flex-col justify-center items-center">

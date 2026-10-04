@@ -1,12 +1,10 @@
-import gitexplore from "./../assets/bannerboy.png"
-import event from "./../assets/bannerboy.png"
-import mernchat from "./../assets/bannerboy.png"
-import nextchat from "./../assets/bannerboy.png"
-import scignite from "./../assets/bannerboy.png"
-import littlelemon from "./../assets/bannerboy.png"
-import djsocial from "./../assets/bannerboy.png"
-
-
+const gitexplore = "/bannerboy.png"
+const event = "/bannerboy.png"
+const mernchat = "/bannerboy.png"
+const nextchat = "/bannerboy.png"
+const scignite = "/bannerboy.png"
+const littlelemon = "/bannerboy.png"
+const djsocial = "/bannerboy.png"
 
 export default {
     title : "Projects",

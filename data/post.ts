@@ -1,12 +1,11 @@
-import img1 from "../assets/pic1.png"
-import img10 from "../assets/pic10.png"
-import img2 from "../assets/pic2.jpg"
-import img3 from "../assets/pic3.png"
-import img5 from "../assets/pic5.png"
-import img4 from "../assets/pic4.png"
-import img6 from "../assets/pic6.png"
-import img7 from "../assets/pic7.png"
-
+const img1 = "/pic1.png"
+const img10 = "/pic10.png"
+const img2 = "/pic2.jpg"
+const img3 = "/pic3.png"
+const img5 = "/pic5.png"
+const img4 = "/pic4.png"
+const img6 = "/pic6.png"
+const img7 = "/pic7.png"
 
 export default {
     post : [

@@ -1,12 +1,12 @@
 import React from 'react'
 import { BiLike, BiComment, BiDownload } from 'react-icons/bi'
-import placeholder from "../../assets/placeholderMale.jpg"
 
 import { Button } from '@/components/ui/button'
-import type { StaticImageData } from 'next/image'
+
+const placeholder = "/placeholderMale.jpg"
 
 type post = {
-    img: string | StaticImageData,
+    img: string,
     post: string,
     time: string,
     owner: string,
@@ -21,14 +21,14 @@ const Post = (props:post) => {
       </div>} */}
       <div className='w-full'>
         <div className='w-full flex flex-row'>
-          <img src={placeholder.src} alt="" className='w-10 h-10 rounded-full m-1'/>
+          <img src={placeholder} alt="" className='w-10 h-10 rounded-full m-1'/>
           <div className='flex flex-row w-full'>
             <div className=' flex-1 text-xl font-semibold px-3'>Posters name</div>
             <div className='text-sm w-14'>{props.time}</div>
           </div>
         </div>
         <div className='w-full'>
-            <img src={typeof props.img === "string" ? props.img : props.img.src} alt="" className='w-full rounded-sm' />
+            <img src={props.img} alt="" className='w-full rounded-sm' />
         </div>
         <div className="w-full bg-secondary pb-2">
           <div className='w-full flex flex-col px-2'>

@@ -25,7 +25,7 @@ const Stocks = () => {
           return(
             <div key={index} className="w-[100vw] md:w-[200px] h-[150px] md:h-[300px] mb-5 flex flex-row md:flex-col overflow-clip">
               <div className="h-full md:h-[60%] w-[30%] md:w-full mx-2 md:mx-0 flex justify-center items-center">
-                <img src={stock.img.src} alt="" className="h-full rounded-sm"/>
+                <img src={stock.img} alt="" className="h-full rounded-sm"/>
               </div>
               
               <div className="flex flex-1 flex-col text-start md:text-center mx-2 md:mx-0 justify-between md:items-center">

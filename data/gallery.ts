@@ -1,11 +1,10 @@
-import img1 from "./../assets/bannerboy.png"
-import img2 from "./../assets/bannerboy.png"
-import img3 from "./../assets/bannerboy.png"
-import img4 from "./../assets/bannerboy.png"
-import img5 from "./../assets/bannerboy.png"
-import img6 from "./../assets/bannerboy.png"
-import img7 from "./../assets/bannerboy.png"
-
+const img1 = "/bannerboy.png"
+const img2 = "/bannerboy.png"
+const img3 = "/bannerboy.png"
+const img4 = "/bannerboy.png"
+const img5 = "/bannerboy.png"
+const img6 = "/bannerboy.png"
+const img7 = "/bannerboy.png"
 
 export default {
     title : "stocks",

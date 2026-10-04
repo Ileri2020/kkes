@@ -9,7 +9,7 @@ export const ChatHeader = (props : {style : string,}) => {
       <div className="w-full flex flex-row justify-between">
         <div className="flex flex-row">
             <div className="relative w-14 h-14">
-                <div><img src="/legacy/assets/placeholderFemale.webp" alt="" className="w-12 h-12 rounded-full mx-2" /></div>
+                <div><img src="/placeholderFemale.webp" alt="" className="w-12 h-12 rounded-full mx-2" /></div>
                 <div className="w-4 h-4 rounded-full bg-green-500 animate-pulse absolute right-0 top-0"></div>
             </div>
             <div className="flex flex-col px-3 ">
@@ -29,7 +29,7 @@ export const ChatBubble = (props : {user: boolean, chats: string,}) => {
   const bubble =  (props.user ? "w-full flex-wrap bg-accent-tertiary/80 px-4 py-2 /mb-2 rounded-b-xl rounded-l-xl dark:text-background text-black": "w-full flex-wrap bg-accent-tertiary/80 px-4 py-2 /mb-2 rounded-b-xl rounded-r-xl text-black")
     return (
       <div className={align}>
-        <div className={order}><img src="/legacy/assets/placeholderFemale.webp" alt="" className="w-12 h-12 rounded-full mx-2" /></div>
+        <div className={order}><img src="/placeholderFemale.webp" alt="" className="w-12 h-12 rounded-full mx-2" /></div>
         <div className="flex flex-col items-center max-w-[60%]">
             <div className={bubble}>chats chats chats {props.chats}</div>
             <div className="text-sm w-full text-end text-foreground/70 my-1">time</div>
@@ -65,7 +65,7 @@ export const ChatAccount = () => {
 return (
         <div className="flex flex-row p-1 hover:bg-secondary w-[448px]">
             <div className="relative w-14 h-14">
-                <div><img src="/legacy/assets/placeholderFemale.webp" alt="" className="w-12 h-12 rounded-full mx-2" /></div>
+                <div><img src="/placeholderFemale.webp" alt="" className="w-12 h-12 rounded-full mx-2" /></div>
                 <div className="w-4 h-4 rounded-full bg-green-500 animate-pulse absolute right-0 top-0"></div>
             </div>
             <div className="flex flex-1 flex-col px-2">

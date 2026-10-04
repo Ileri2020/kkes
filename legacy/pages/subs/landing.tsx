@@ -1,12 +1,12 @@
 import React from 'react'
-import Textview from "./textsview"
-import Imgview from './imgview'
-import Social from "../../components/utility/social"
+import Social from "../../../components/utility/social"
+import {Textview} from '../../../components/myComponents/subs/index';
+import Imgview from '../../../components/myComponents/subs/imgview';
 
 const Landing = () => {
   const textList = ["Empowering Africa Through STEM", "Creating Africas Scientific Future", "Sparking Innovation in Young Minds", "Fueling Discovery and Driving Progress", "Igniting Imaginations and Shaping the Future", "Where Science Meets Oportunity"]
   const textStyle = 'text-xl md:text-2xl font-bold font-roboto /text-outline text-foreground/80 dark:text-white w-[100vw] md:w-[500px] text-center /font-dance flex items-center justify-center text-wrap my-auto /left-[70%] /top-[30%] /absolute'
-  const imguris = ["/legacy/assets/bannerboy.png", "/legacy/assets/bannergirl.png"]
+  const imguris = ["/bannerboy.png", "/bannergirl.png"]
   return (
     <div className='w-full h-[90vh] overflow-clip flex justify-center z-10'>
         <div className='flex flex-col md:flex-row'>
