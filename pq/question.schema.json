@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kkes.example/schemas/past-question.schema.json",
+  "title": "Past Question",
+  "description": "A JAMB, WAEC, or NECO past-question record emitted by the PQ scraper.",
+  "type": "object",
+  "properties": {
+    "year": {
+      "type": ["integer", "null"]
+    },
+    "questionNumber": {
+      "type": ["integer", "null"]
+    },
+    "pageNumber": {
+      "type": ["integer", "null"],
+      "description": "One-based page number in the source PDF."
+    },
+    "pdfName": {
+      "type": ["string", "null"],
+      "description": "Filename of the source PDF."
+    },
+    "question": {
+      "type": "string"
+    },
+    "image": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "properties": {
+            "localUrl": { "type": ["string", "null"] },
+            "cloudinaryUrl": { "type": ["string", "null"] }
+          },
+          "additionalProperties": true
+        }
+      ]
+    },
+    "type": {
+      "type": "string",
+      "enum": ["jamb", "waec", "neco"]
+    },
+    "subject": { "type": "string" },
+    "topic": { "type": ["string", "null"] },
+    "subtopic": { "type": ["string", "null"] },
+    "passage": { "type": ["string", "null"] },
+    "context": { "type": ["string", "null"] },
+    "option1": { "type": ["string", "null"] },
+    "option2": { "type": ["string", "null"] },
+    "option3": { "type": ["string", "null"] },
+    "option4": { "type": ["string", "null"] },
+    "option5": { "type": ["string", "null"] },
+    "options": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "answer": { "type": ["string", "null"] },
+    "note": { "type": ["string", "null"] },
+    "needsRescan": {
+      "type": "boolean",
+      "default": false
+    },
+    "aiReviewed": {
+      "type": "boolean",
+      "description": "Whether an AI review has been completed for this question.",
+      "default": false
+    },
+    "needsImage": {
+      "type": "boolean",
+      "description": "Whether the question still needs its referenced image or diagram attached.",
+      "default": false
+    }
+  },
+  "required": ["question"],
+  "additionalProperties": true
+}

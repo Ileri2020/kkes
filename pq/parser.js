@@ -30,6 +30,8 @@ function createQuestion(number, firstLine, context) {
   return {
     year: context.year ?? null,
     questionNumber: number,
+    pageNumber: Number.isInteger(context.page) ? context.page : null,
+    pdfName: context.pdfName ?? null,
     question: promptText,
     image: { localUrl: null, cloudinaryUrl: null },
     type: context.examType,
@@ -46,6 +48,8 @@ function createQuestion(number, firstLine, context) {
     answer: null,
     note: null,
     needsRescan: false,
+    aiReviewed: false,
+    needsImage: VISUAL_CUE.test(firstLine),
     _sourcePage: context.page,
     _needsImage: VISUAL_CUE.test(firstLine),
   };
@@ -202,6 +206,11 @@ function finalizeQuestion(question) {
   question.passage = question.passage ? question.passage.replace(/\s+/g, " ").trim() : null;
   question.context = question.context ? question.context.replace(/\s+/g, " ").trim() : null;
   question._needsImage ||= VISUAL_CUE.test(`${question.question} ${question.options.join(" ")}`);
+  const hasImage = typeof question.image === "string"
+    ? Boolean(question.image)
+    : Boolean(question.image?.localUrl || question.image?.cloudinaryUrl);
+  question.aiReviewed ??= false;
+  question.needsImage = Boolean(question._needsImage && !hasImage);
 
   const normalizedOptions = normalizeQuestionOptions(question);
   if (normalizedOptions.length >= MIN_MULTIPLE_CHOICE_OPTIONS) {
@@ -411,6 +420,7 @@ function parsePageText(text, context) {
         subject: context.subject,
         topic,
         page: context.page,
+        pdfName: context.pdfName,
         pendingPassage,
         pendingContext: pendingContext ?? pendingPassage,
       });

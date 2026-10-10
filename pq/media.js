@@ -2,7 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const sharp = require("sharp");
 
-const { OUTPUT_FILE, SUBJECT_JSON_DIR, QUESTION_IMAGE_DIR } = require("./config");
+const { SUBJECT_JSON_DIR, getExamPaths } = require("./config");
 
 function getCloudinary() {
   if (!process.env.CLOUDINARY_CLOUD_NAME || !process.env.CLOUDINARY_API_KEY || !process.env.CLOUDINARY_API_SECRET) return null;
@@ -199,7 +199,7 @@ async function generateQuestionImages(parser, questions, file, options = {}) {
     console.warn("   ⚠️ Cloudinary upload requested, but credentials are missing; local images will still be generated.");
   }
   const sourceSlug = safePathSegment(path.parse(file).name);
-  const imageDirectory = options.imageDirectory || QUESTION_IMAGE_DIR;
+  const imageDirectory = options.imageDirectory || getExamPaths(options.examType).questionImageDirectory;
   const sourceImageDirectory = path.join(imageDirectory, sourceSlug);
   const routePrefix = options.routePrefix || "/api/pq/images";
   let generated = 0;
@@ -210,7 +210,7 @@ async function generateQuestionImages(parser, questions, file, options = {}) {
     try {
       const pdfjs = await import("pdfjs-dist/legacy/build/pdf.mjs");
       const loadingTask = pdfjs.getDocument({
-        data: new Uint8Array(fs.readFileSync(options.pdfPath || path.join(__dirname, "jamb", file))),
+        data: new Uint8Array(fs.readFileSync(options.pdfPath || path.join(getExamPaths(options.examType).pdfDirectory, file))),
         isEvalSupported: false,
         useSystemFonts: true,
         verbosity: 0,
@@ -286,6 +286,7 @@ async function generateQuestionImages(parser, questions, file, options = {}) {
               }
             }
             question.image = image;
+            question.needsImage = false;
             console.log(`      Extracted PDF image asset(s) ${sourceImages.join(", ")} for ${question.year ?? "unknown"}#${question.questionNumber}`);
           }
           console.log(`   🖼️ Extracted embedded image regions on PDF page ${pageNumber}: ${cropRegions.length} question(s)`);

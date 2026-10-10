@@ -3,10 +3,31 @@ const path = require("node:path");
 const { PDFParse } = require("pdf-parse");
 
 const PQ_DIR = __dirname;
-const PDF_DIR = path.join(PQ_DIR, "jamb");
 const PROJECT_ROOT = path.resolve(PQ_DIR, "..");
-const OUTPUT_FILE = path.join(PQ_DIR, "past_questions_db.json");
-const SUBJECT_JSON_DIR = path.join(PQ_DIR, "json");
+const SUPPORTED_EXAM_TYPES = ["jamb", "waec", "neco"];
+const DEFAULT_EXAM_TYPE = "jamb";
+
+function getExamPaths(examType = DEFAULT_EXAM_TYPE) {
+  const normalizedExamType = String(examType).trim().toLowerCase();
+  if (!SUPPORTED_EXAM_TYPES.includes(normalizedExamType)) {
+    throw new Error(`Unsupported exam type "${examType}". Choose one of: ${SUPPORTED_EXAM_TYPES.join(", ")}.`);
+  }
+
+  const examDirectory = path.join(PQ_DIR, normalizedExamType);
+  const subjectJsonDirectory = path.join(examDirectory, "json");
+  return {
+    examType: normalizedExamType,
+    pdfDirectory: examDirectory,
+    outputFile: path.join(examDirectory, "past_questions_db.json"),
+    subjectJsonDirectory,
+    questionImageDirectory: path.join(subjectJsonDirectory, "images"),
+  };
+}
+
+const DEFAULT_EXAM_PATHS = getExamPaths();
+const PDF_DIR = DEFAULT_EXAM_PATHS.pdfDirectory;
+const OUTPUT_FILE = DEFAULT_EXAM_PATHS.outputFile;
+const SUBJECT_JSON_DIR = DEFAULT_EXAM_PATHS.subjectJsonDirectory;
 const QUESTION_IMAGE_DIR = path.join(SUBJECT_JSON_DIR, "images");
 
 // Load local credentials for optional Cloudinary uploads and -db imports.
@@ -174,6 +195,9 @@ function yearFromHeader(line, subject, previousLine) {
 
 module.exports = {
   PQ_DIR,
+  SUPPORTED_EXAM_TYPES,
+  DEFAULT_EXAM_TYPE,
+  getExamPaths,
   PDF_DIR,
   PROJECT_ROOT,
   OUTPUT_FILE,

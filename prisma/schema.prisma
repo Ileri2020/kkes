@@ -7,7 +7,27 @@ datasource db {
   url      = env("MONGODB_URL")
 }
 
+type JambRecommendedTopic {
+  topic     String?
+  subtopics String[]
+}
+
+type JambRecommendedTextbook {
+  title       String
+  author      String?
+  authors     String[]
+  editors     String[]
+  edition     String?
+  year        Int?
+  publisher   String?
+  location    String?
+  volume      String?
+  description String?
+  category    String?
+}
+
 enum UserRole {
+  VISITOR
   STUDENT
   PARENT
   TEACHER
@@ -91,6 +111,7 @@ model User {
   role                  UserRole               @default(STUDENT)
   status                UserStatus             @default(ACTIVE)
   schoolMemberships     SchoolUser[]
+  homeroomClasses       SchoolClass[]          @relation("ClassTeacher")
   createdMedia          Media[]                @relation("UploadedMedia")
   sentMessages          ChatMessage[]          @relation("SentMessages")
   receivedMessages      ChatMessage[]          @relation("ReceivedMessages")
@@ -101,6 +122,8 @@ model User {
   rankingSnapshots      RankingSnapshot[]
   dailyProgresses       DailyProgress[]
   alumniProfiles        AlumniProfile[]
+  jambResults           JambResult[]           @relation("UserJambResults")
+  seenQuestions         QuestionSeen[]         @relation("UserSeenQuestions")
   createdAt             DateTime               @default(now())
   updatedAt             DateTime               @updatedAt
 }
@@ -115,6 +138,8 @@ model School {
   members            SchoolUser[]
   classes            SchoolClass[]
   subjects           Subject[]
+  departments        Department[]
+  subjectOfferings   SubjectOffering[]
   media              Media[]
   tests              Test[]
   assignments        Assignment[]
@@ -126,22 +151,33 @@ model School {
   alumni             AlumniProfile[]
   studyGroups        StudyGroup[]
   chatThreads        ChatThread[]
+  topicCoverages     TopicCoverage[]
+  studentSets        StudentSet[]
+  academicSessions   AcademicSession[]
   createdAt          DateTime            @default(now())
   updatedAt          DateTime            @updatedAt
 }
 
 model SchoolClass {
-  id          String       @id @default(auto()) @map("_id") @db.ObjectId
-  school      School       @relation(fields: [schoolId], references: [id])
-  schoolId    String       @db.ObjectId
-  name        String
-  level       String?
-  students    SchoolUser[] @relation("ClassMembers")
-  tests       Test[]
-  assignments Assignment[]
-  createdAt   DateTime     @default(now())
-  updatedAt   DateTime     @updatedAt
+  id              String            @id @default(auto()) @map("_id") @db.ObjectId
+  school          School            @relation(fields: [schoolId], references: [id])
+  schoolId        String            @db.ObjectId
+  sessionId       String?           @db.ObjectId
+  session         AcademicSession?  @relation("SessionClasses", fields: [sessionId], references: [id])
+  name            String
+  level           String?
+  year            String?
+  department      String?
+  classTeacher    User?             @relation("ClassTeacher", fields: [classTeacherId], references: [id])
+  classTeacherId  String?           @db.ObjectId
+  students        SchoolUser[]      @relation("ClassMembers")
+  subjectOfferings SubjectOffering[]
+  tests           Test[]
+  assignments     Assignment[]
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
 
+  @@unique([schoolId, name, year])
   @@index([schoolId, name])
 }
 
@@ -155,9 +191,16 @@ model SchoolUser {
   status       UserStatus         @default(ACTIVE)
   classId      String?            @db.ObjectId
   class        SchoolClass?       @relation("ClassMembers", fields: [classId], references: [id])
+  setId        String?            @db.ObjectId
+  set          StudentSet?        @relation("SetStudents", fields: [setId], references: [id])
+  entryLevel   String?            // e.g. "JSS1", "JSS3", "SS1" (level student joined the school)
+  entryYear    Int?               // e.g. 2014, 2016 (year student joined)
   parentLinks  ParentStudentLink[] @relation("ParentLink")
   studentLinks ParentStudentLink[] @relation("StudentLink")
   attempts     AssessmentAttempt[] @relation("StudentAttempts")
+  termResults  TermResult[]
+  promotions   StudentPromotion[]
+  subjectEnrollments StudentSubjectEnrollment[]
   createdAt    DateTime           @default(now())
   updatedAt    DateTime           @updatedAt
 
@@ -177,31 +220,118 @@ model ParentStudentLink {
 }
 
 model Subject {
-  id        String    @id @default(auto()) @map("_id") @db.ObjectId
-  school    School    @relation(fields: [schoolId], references: [id])
-  schoolId  String    @db.ObjectId
-  name      String
-  code      String?
-  topics    Topic[]
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
+  id                   String                 @id @default(auto()) @map("_id") @db.ObjectId
+  school               School                 @relation(fields: [schoolId], references: [id])
+  schoolId             String                 @db.ObjectId
+  name                 String
+  code                 String?
+  departmentIds        String[]               @db.ObjectId
+  departments          Department[]           @relation(fields: [departmentIds], references: [id])
+  parentSubjectId      String?                @db.ObjectId
+  parentSubject        Subject?               @relation("SubSubjects", fields: [parentSubjectId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  subSubjects          Subject[]              @relation("SubSubjects")
+  topics               Topic[]
+  media                Media[]
+  offerings            SubjectOffering[]
+  topicCoverages       TopicCoverage[]
+  recommendedTextbooks RecommendedTextbook[]
+  studentEnrollments   StudentSubjectEnrollment[]
+  createdAt            DateTime               @default(now())
+  updatedAt            DateTime               @updatedAt
 
   @@unique([schoolId, name])
 }
 
-model Topic {
-  id          String    @id @default(auto()) @map("_id") @db.ObjectId
-  subject     Subject   @relation(fields: [subjectId], references: [id])
-  subjectId   String    @db.ObjectId
-  name        String
+model TopicCoverage {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  school      School   @relation(fields: [schoolId], references: [id])
+  schoolId    String   @db.ObjectId
+  subject     Subject  @relation(fields: [subjectId], references: [id])
+  subjectId   String   @db.ObjectId
+  week        Int
+  topic       String
+  subtopic    String?
+  covered     Boolean  @default(false)
   description String?
-  questions   Question[]
-  tests       Test[]
-  media       Media[]
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([subjectId, week])
+  @@index([schoolId, subjectId])
+}
+
+model Department {
+  id         String    @id @default(auto()) @map("_id") @db.ObjectId
+  school     School    @relation(fields: [schoolId], references: [id])
+  schoolId   String    @db.ObjectId
+  name       String
+  subjectIds String[]  @db.ObjectId
+  subjects   Subject[] @relation(fields: [subjectIds], references: [id])
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  @@unique([schoolId, name])
+}
+
+model SubjectOffering {
+  id        String      @id @default(auto()) @map("_id") @db.ObjectId
+  school    School      @relation(fields: [schoolId], references: [id])
+  schoolId  String      @db.ObjectId
+  subject   Subject     @relation(fields: [subjectId], references: [id])
+  subjectId String      @db.ObjectId
+  class     SchoolClass @relation(fields: [classId], references: [id])
+  classId   String      @db.ObjectId
+  createdAt DateTime    @default(now())
+
+  @@unique([classId, subjectId])
+  @@index([schoolId, subjectId])
+}
+
+model Topic {
+  id           String     @id @default(auto()) @map("_id") @db.ObjectId
+  subject      Subject    @relation(fields: [subjectId], references: [id])
+  subjectId    String     @db.ObjectId
+  // sectionLabel groups topics into sections (e.g. "Section I: Physical Chemistry"). null = uncategorised.
+  sectionLabel String?
+  name         String
+  description  String?
+  sortOrder    Int        @default(0)
+  subtopics    SubTopic[]
+  questions    Question[]
+  tests        Test[]
+  media        Media[]
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
 
   @@unique([subjectId, name])
+}
+
+model SubTopic {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  topic       Topic    @relation(fields: [topicId], references: [id])
+  topicId     String   @db.ObjectId
+  name        String
+  description String?
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([topicId, name])
+  @@index([topicId])
+}
+
+model RecommendedTextbook {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  subject   Subject  @relation(fields: [subjectId], references: [id])
+  subjectId String   @db.ObjectId
+  title     String
+  authors   String[]   // one or more author strings
+  edition   String?
+  year      Int?
+  publisher String?
+  createdAt DateTime @default(now())
+
+  @@index([subjectId])
 }
 
 model MediaType {
@@ -224,6 +354,8 @@ model Media {
   mediaTypeId  String     @db.ObjectId
   fileUrl      String
   thumbnailUrl String?
+  subject      Subject?   @relation(fields: [subjectId], references: [id])
+  subjectId    String?     @db.ObjectId
   topic        Topic?     @relation(fields: [topicId], references: [id])
   topicId      String?    @db.ObjectId
   uploadedBy   User       @relation("UploadedMedia", fields: [uploadedById], references: [id])
@@ -231,15 +363,20 @@ model Media {
   isPublic     Boolean    @default(true)
   createdAt    DateTime   @default(now())
   updatedAt    DateTime   @updatedAt
+
+  @@index([schoolId, subjectId, kind])
 }
 
 model Question {
   id             String          @id @default(auto()) @map("_id") @db.ObjectId
   year           Int?
   questionNumber Int?
+  pageNumber     Int?
+  pdfName        String?
   examType       String?         // "jamb", "waec", "neco", etc.
   subject        String?
   topicName      String?
+  subtopicName   String?
   topic          Topic?          @relation(fields: [topicId], references: [id])
   topicId        String?         @db.ObjectId
   type           QuestionType    @default(MULTIPLE_CHOICE)
@@ -250,6 +387,8 @@ model Question {
   passage       String?
   context       String?
   needsRescan    Boolean         @default(false)
+  aiReviewed     Boolean         @default(false)
+  needsImage     Boolean         @default(false)
   image          Json?
   imageUrl       String?
   option1        String?
@@ -261,6 +400,8 @@ model Question {
   options        QuestionOption[]
   testLinks      TestQuestion[]
   answers        AttemptAnswer[]
+  seenBy         QuestionSeen[]         @relation("QuestionSeenBy")
+  jambResultAnswers JambResultAnswer[]
   createdAt      DateTime        @default(now())
   updatedAt      DateTime        @updatedAt
 }
@@ -347,6 +488,58 @@ model AttemptAnswer {
   updatedAt      DateTime          @updatedAt
 
   @@unique([attemptId, questionId])
+}
+
+model QuestionSeen {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  user       User     @relation("UserSeenQuestions", fields: [userId], references: [id])
+  userId     String   @db.ObjectId
+  question   Question @relation("QuestionSeenBy", fields: [questionId], references: [id])
+  questionId String   @db.ObjectId
+  seenAt     DateTime @default(now())
+  seenCount  Int      @default(1)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([userId, questionId])
+  @@index([userId, seenAt])
+}
+
+// One record represents one submitted JAMB practice/exam attempt. Individual
+// question outcomes are kept separately so every attempted question is auditable.
+model JambResult {
+  id              String             @id @default(auto()) @map("_id") @db.ObjectId
+  user            User               @relation("UserJambResults", fields: [userId], references: [id])
+  userId          String             @db.ObjectId
+  submissionKey   String?            @unique
+  subject         String?
+  examYear        Int?
+  score           Int                @default(0)
+  totalQuestions  Int                @default(0)
+  correctCount    Int                @default(0)
+  incorrectCount  Int                @default(0)
+  submittedAt     DateTime           @default(now())
+  questionResults JambResultAnswer[]
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+
+  @@index([userId, submittedAt])
+}
+
+model JambResultAnswer {
+  id              String     @id @default(auto()) @map("_id") @db.ObjectId
+  result          JambResult @relation(fields: [resultId], references: [id])
+  resultId        String     @db.ObjectId
+  question        Question   @relation(fields: [questionId], references: [id])
+  questionId      String     @db.ObjectId
+  selectedAnswer  String?
+  correctAnswer   String?
+  isCorrect       Boolean
+  pointsAwarded   Int        @default(0)
+  createdAt       DateTime   @default(now())
+
+  @@unique([resultId, questionId])
+  @@index([questionId])
 }
 
 model Assignment {
@@ -533,3 +726,143 @@ model AuditLog {
   @@index([userId, timestamp])
   @@index([timestamp])
 }
+
+// ==============================================================================
+// STUDENT SET / COHORT & PROMOTION MANAGEMENT
+// ==============================================================================
+
+enum SetStatus {
+  ACTIVE
+  GRADUATED
+  ARCHIVED
+}
+
+enum TermName {
+  FIRST_TERM
+  SECOND_TERM
+  THIRD_TERM
+}
+
+enum TermStatus {
+  UPCOMING
+  ACTIVE
+  COMPLETED
+}
+
+enum ResultStatus {
+  PASS
+  FAIL
+  PENDING
+}
+
+enum PromotionDecision {
+  PROMOTED
+  REPEAT
+  GRADUATED
+  PENDING
+}
+
+model StudentSet {
+  id                     String             @id @default(auto()) @map("_id") @db.ObjectId
+  school                 School             @relation(fields: [schoolId], references: [id])
+  schoolId               String             @db.ObjectId
+  name                   String             // e.g. "Class of 2020" or "Set of 2020"
+  entryYear              Int                // e.g. 2014
+  expectedGraduationYear Int                // e.g. 2020
+  currentLevel           String             @default("JSS1") // e.g. "JSS1", "JSS2", "JSS3", "SS1", "SS2", "SS3", "GRADUATED"
+  status                 SetStatus          @default(ACTIVE)
+  students               SchoolUser[]       @relation("SetStudents")
+  promotions             StudentPromotion[]
+  createdAt              DateTime           @default(now())
+  updatedAt              DateTime           @updatedAt
+
+  @@unique([schoolId, name])
+  @@index([schoolId, entryYear])
+}
+
+model AcademicSession {
+  id          String             @id @default(auto()) @map("_id") @db.ObjectId
+  school      School             @relation(fields: [schoolId], references: [id])
+  schoolId    String             @db.ObjectId
+  name        String             // e.g. "2014/2015", "2019/2020"
+  startDate   DateTime?
+  endDate     DateTime?
+  isCurrent   Boolean            @default(false)
+  terms       AcademicTerm[]
+  classes     SchoolClass[]      @relation("SessionClasses")
+  promotions  StudentPromotion[]
+  studentEnrollments StudentSubjectEnrollment[]
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  @@unique([schoolId, name])
+}
+
+model AcademicTerm {
+  id          String          @id @default(auto()) @map("_id") @db.ObjectId
+  session     AcademicSession @relation(fields: [sessionId], references: [id])
+  sessionId   String          @db.ObjectId
+  name        TermName        // FIRST_TERM, SECOND_TERM
+  status      TermStatus      @default(UPCOMING)
+  startDate   DateTime?
+  endDate     DateTime?
+  termResults TermResult[]
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  @@unique([sessionId, name])
+}
+
+model TermResult {
+  id         String       @id @default(auto()) @map("_id") @db.ObjectId
+  term       AcademicTerm @relation(fields: [termId], references: [id])
+  termId     String       @db.ObjectId
+  student    SchoolUser   @relation(fields: [studentId], references: [id])
+  studentId  String       @db.ObjectId
+  status     ResultStatus @default(PENDING) // PASS or FAIL
+  totalScore Float?
+  average    Float?
+  remarks    String?
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  @@unique([termId, studentId])
+}
+
+model StudentPromotion {
+  id             String            @id @default(auto()) @map("_id") @db.ObjectId
+  student        SchoolUser        @relation(fields: [studentId], references: [id])
+  studentId      String            @db.ObjectId
+  set            StudentSet        @relation(fields: [setId], references: [id])
+  setId          String            @db.ObjectId
+  session        AcademicSession   @relation(fields: [sessionId], references: [id])
+  sessionId      String            @db.ObjectId
+  fromLevel      String            // e.g. "JSS1"
+  toLevel        String            // e.g. "JSS2" or "GRADUATED"
+  firstTermPass  Boolean           @default(false)
+  secondTermPass Boolean           @default(false)
+  thirdTermPass  Boolean           @default(false)
+  decision       PromotionDecision @default(PENDING) // PROMOTED, REPEAT, GRADUATED
+  promotedAt     DateTime?
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  @@unique([studentId, sessionId])
+}
+
+model StudentSubjectEnrollment {
+  id          String           @id @default(auto()) @map("_id") @db.ObjectId
+  student     SchoolUser       @relation(fields: [studentId], references: [id])
+  studentId   String           @db.ObjectId
+  session     AcademicSession? @relation(fields: [sessionId], references: [id])
+  sessionId   String?          @db.ObjectId
+  subject     Subject          @relation(fields: [subjectId], references: [id])
+  subjectId   String           @db.ObjectId
+  isBorrowed  Boolean          @default(false)
+  createdAt   DateTime         @default(now())
+
+  @@unique([studentId, subjectId, sessionId])
+  @@index([studentId, sessionId])
+}
+
+

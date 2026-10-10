@@ -4,12 +4,28 @@ const os = require("node:os");
 const { PDFParse } = require("pdf-parse");
 const sharp = require("sharp");
 const { extractSubjectOptions } = require("./parser");
+const { getExamPaths } = require("./config");
 const { findYearRange, namedYearFromHeader, yearFromHeader, splitStoredOptions, rescanIncompleteQuestions, reloadSubjectQuestions, rescanIncompleteQuestionsAcrossPages, rescanMissingQuestionNumbers, getIncompleteOptionSamples, getQuestionGapSamples, isAnswerKeyLine, parsePageText, detectFileMetadata, validateQuestionNumberCoverage, formatPageNumbers, getIncompleteOptionPageSummary, getQuestionNumberPageSummary, parseArgs, writeSubjectJsonFiles } = require("./scrape_pq");
 const { generateQuestionImages, normalizeQuestionImage, questionImageFilename, findQuestionStarts, buildQuestionCropRegions, findPdfImageRegions, matchQuestionImages } = require("./media");
 
 async function testScraper() {
   console.log("=== PQ scraper verification ===");
   const defaults = parseArgs([]);
+  if (getExamPaths("jamb").subjectJsonDirectory !== path.join(__dirname, "jamb", "json")
+    || getExamPaths("waec").subjectJsonDirectory !== path.join(__dirname, "waec", "json")
+    || getExamPaths("neco").subjectJsonDirectory !== path.join(__dirname, "neco", "json")
+    || parseArgs(["--exam=WAEC"]).examType !== "waec"
+    || detectFileMetadata("Biology-past-questions.pdf", "neco").examType !== "neco") {
+    throw new Error("Exam-specific JSON paths or --exam normalization are incorrect.");
+  }
+  const visualCueQuestion = parsePageText("1. Refer to Fig. 1 and answer the following", {
+    subject: "Physics", examType: "jamb", topic: "Physics", page: 1, pdfName: "physics-sample.pdf",
+    year: 2024, yearRange: null, lastQuestionNumber: 0,
+  }).questions[0];
+  if (visualCueQuestion?.aiReviewed !== false || visualCueQuestion?.needsImage !== true
+    || visualCueQuestion?.pageNumber !== 1 || visualCueQuestion?.pdfName !== "physics-sample.pdf") {
+    throw new Error(`Parsed questions should retain review/image flags and source PDF metadata: ${JSON.stringify(visualCueQuestion)}`);
+  }
   for (const subject of ["Biology", "Economics", "Mathematics", "Physics", "Accounts"]) {
     const groupedFragment = parsePageText("2. and 3.\n4. A normal subsequent question with enough prompt text", {
       subject, examType: "jamb", topic: subject, page: 1,
@@ -119,6 +135,7 @@ async function testScraper() {
       getScreenshot: async () => ({ pages: [{ data: pageImage }] }),
     }, imageQuestions, "Biology-2024.pdf", {
       imageDirectory: imageOutputDir,
+      routePrefix: "/api/pq/images/jamb",
       pdfDocument: {
         getPage: async () => ({
           rotate: 0,
@@ -139,7 +156,8 @@ async function testScraper() {
       || !fs.existsSync(path.join(imageOutputDir, "biology-2024", "2024_8.png"))
       || croppedMetadata.height >= 100
       || croppedMetadata.width >= 600
-      || imageQuestions[0].image.localUrl !== "/api/pq/images/biology-2024/2024_8.png"
+      || imageQuestions[0].image.localUrl !== "/api/pq/images/jamb/biology-2024/2024_8.png"
+      || imageQuestions[0].needsImage !== false
       || imageQuestions[0].image.cloudinaryUrl !== null) {
       throw new Error(`Per-question local crop generation or image URL metadata failed: ${JSON.stringify({ imageResult, croppedMetadata, image: imageQuestions[0].image })}`);
     }
@@ -150,18 +168,27 @@ async function testScraper() {
   try {
     const writtenSubjectFiles = writeSubjectJsonFiles([
       { subject: "English", question: "One" },
-      { subject: "English", question: "Two" },
-      { subject: "Crk", question: "Three" },
+      { subject: "English", question: "Two", aiReviewed: false, needsImage: true },
+      { subject: "Crk", question: "Three", aiReviewed: false, needsImage: false },
     ], subjectOutputDir);
     const englishFile = path.join(subjectOutputDir, "english.json");
     if (writtenSubjectFiles.length !== 2
       || !fs.existsSync(englishFile)
       || JSON.parse(fs.readFileSync(englishFile, "utf8")).length !== 2
+      || JSON.parse(fs.readFileSync(englishFile, "utf8"))[1].needsImage !== true
       || !fs.existsSync(path.join(subjectOutputDir, "crk.json"))) {
       throw new Error(`Per-subject JSON output was not grouped and named correctly: ${JSON.stringify(writtenSubjectFiles)}`);
     }
   } finally {
     fs.rmSync(subjectOutputDir, { recursive: true, force: true });
+  }
+  const questionSchema = JSON.parse(fs.readFileSync(path.join(__dirname, "question.schema.json"), "utf8"));
+  if (questionSchema.properties?.aiReviewed?.type !== "boolean"
+    || questionSchema.properties?.needsImage?.type !== "boolean"
+    || !questionSchema.properties?.pageNumber?.type?.includes("integer")
+    || !questionSchema.properties?.pdfName?.type?.includes("string")
+    || !questionSchema.properties?.pdfName?.type?.includes("null")) {
+    throw new Error("The PQ question JSON Schema must define aiReviewed, needsImage, pageNumber, and pdfName.");
   }
   const filteredRescan = parseArgs(["--rescan-subject=english,mathematics", "--rescan-subject=Physics"]);
   if (filteredRescan.rescanSubjects.join(",") !== "English,Mathematics,Physics") throw new Error(`Subject rescan filter did not normalize requested subjects: ${JSON.stringify(filteredRescan.rescanSubjects)}`);

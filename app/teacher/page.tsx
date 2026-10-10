@@ -1,2 +1,6 @@
 import { PortalRoute } from "@/components/portal-route";
-export default function TeacherDashboard() { return <PortalRoute portal="teacher" section="Dashboard" />; }
+import { TeacherDashboardActions } from "@/components/teacher/dashboard-actions";
+
+export default function TeacherDashboard() {
+	return <PortalRoute portal="teacher" section="Dashboard"><TeacherDashboardActions /></PortalRoute>;
+}

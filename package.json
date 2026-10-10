@@ -5,9 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "npx prisma generate && next build",
+    "ai:pq:enrich": "node ai/enrich_pq.js",
+    "ai:pq:test": "node ai/test_enrich_pq.js",
     "consolidate": "node consolidate.js",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed:session": "node -r dotenv/config scripts/seed-session.js",
+    "import:jamb:questions": "node -r dotenv/config scripts/import-jamb-questions.js"
   },
   "engines": {
     "node": "24.x"

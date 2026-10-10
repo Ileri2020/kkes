@@ -2,7 +2,13 @@ const fs = require("node:fs");
 const path = require("node:path");
 const { splitStoredOptions, normalizeQuestionOptions } = require("./scrape_pq");
 
-const DATA_DIR = path.join(__dirname, "json");
+const { DEFAULT_EXAM_TYPE, SUPPORTED_EXAM_TYPES, getExamPaths } = require("./config");
+const requestedExamType = process.argv.find((arg) => arg.startsWith("--exam="))?.slice("--exam=".length) || DEFAULT_EXAM_TYPE;
+const examType = requestedExamType.toLowerCase();
+if (!SUPPORTED_EXAM_TYPES.includes(examType)) {
+  throw new Error(`Unknown --exam value "${requestedExamType}". Valid exam types: ${SUPPORTED_EXAM_TYPES.join(", ")}.`);
+}
+const DATA_DIR = getExamPaths(examType).subjectJsonDirectory;
 const writeChanges = process.argv.includes("--write");
 const files = fs.readdirSync(DATA_DIR).filter((name) => name.endsWith(".json")).sort();
 let changedRecords = 0;

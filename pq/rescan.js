@@ -305,9 +305,9 @@ function parseQuestionsFromText(text, subject, examType) {
   return all;
 }
 
-function detectFileMetadata(file) {
+function detectFileMetadata(file, defaultExamType = "jamb") {
   const normalized = file.toLowerCase();
-  const examType = normalized.includes("waec") ? "waec" : normalized.includes("neco") ? "neco" : "jamb";
+  const detectedExamType = normalized.includes("waec") ? "waec" : normalized.includes("neco") ? "neco" : normalized.includes("jamb") || normalized.includes("utme") ? "jamb" : defaultExamType;
   const fileBase = file.replace(/[-_]/g, " ").toUpperCase();
   const subjects = [
     ["USE OF ENGLISH", "English"], ["LITERATURE", "Literature"], ["ENGLISH", "English"],
@@ -316,7 +316,7 @@ function detectFileMetadata(file) {
     ["COMMERCE", "Commerce"], ["GOVERNMENT", "Government"], ["ECONOMICS", "Economics"], ["CRK", "Crk"],
   ];
   const subject = subjects.find(([label]) => fileBase.includes(label))?.[1] ?? "General";
-  return { examType, subject };
+  return { examType: detectedExamType, subject };
 }
 
 function normalizeSubjectFilters(subjects) {
